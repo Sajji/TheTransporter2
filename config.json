@@ -1,0 +1,18 @@
+{
+    "sourceSystem": {
+      "baseURL": "https://federal.collibra.com/rest/2.0/",
+      "username": "SysAdmin",
+      "password": "woffles",
+      "communities": [
+        "OPM"
+      ],
+      "useGraphQl": true,
+      "baseGraphql": "https://federal.collibra.com/graphql/knowledgeGraph/v1"
+    },
+    "targetSystem": {
+      "baseURL": "https://fedworld.collibra.com/rest/2.0/",
+      "username": "SysAdmin",
+      "password": "woffles"
+    }
+}
+  
