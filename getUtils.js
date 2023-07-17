@@ -3,13 +3,15 @@ const path = require('path');
 const axios = require('axios');
 
 // Function to issue GET request and return response as JSON
-async function fetchData(endpoint, config) {
+
+async function fetchData(endpoint, configFile, sys) {
+  const config = JSON.parse(fs.readFileSync(configFile, 'utf8'));
   try {
-    const sourceSystemConfig = config.sourceSystem;
-    const baseURL = sourceSystemConfig.baseURL;
+    const systemConfig = config[sys]; // Access the appropriate system configuration using the `sys` parameter
+    const baseURL = systemConfig.baseURL;
     const auth = {
-      username: sourceSystemConfig.username,
-      password: sourceSystemConfig.password
+      username: systemConfig.username,
+      password: systemConfig.password
     };
 
     let results = [];
@@ -31,27 +33,11 @@ async function fetchData(endpoint, config) {
         endpoint: endpoint,
         count: results.length
       };
-      pushToLogs(logsObject);
     } while (nextCursor);
 
     return results;
   } catch (error) {
     console.error(`Error while fetching ${endpoint}:`, error.message);
-    throw error;
-  }
-}
-
-// Function to push object to exportLog.json file
-function pushToLogs(logsObject) {
-  const logsFilePath = path.join(__dirname, 'sourceBackups', 'exportLog.json');
-
-  try {
-    const logsData = JSON.parse(fs.readFileSync(logsFilePath, 'utf8'));
-    logsData.push(logsObject);
-    fs.writeFileSync(logsFilePath, JSON.stringify(logsData, null, 2));
-    //console.log(`Pushed object to exportLog.json`);
-  } catch (error) {
-    console.error(`Error while pushing object to exportLog.json:`, error.message);
     throw error;
   }
 }

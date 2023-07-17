@@ -9,7 +9,7 @@ function writeToFile(data, fileName) {
   }
 
   const filePath = path.join(directoryPath, fileName);
-  fs.writeFileSync(filePath, JSON.stringify(data));
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
   console.log(`Saved data to ${filePath}`);
 }
 

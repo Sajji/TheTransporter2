@@ -3,7 +3,7 @@ const path = require('path');
 
 async function setupDirectories() {
   const sourceBackupsDir = path.join(__dirname, 'sourceBackups');
-  const logsFilePath = path.join(__dirname, 'exportData', 'exportLog.json');
+  const logsFilePath = path.join(__dirname, 'sourceBackups', 'exportLog.json');
 
   // Create the sourceBackups directory if it doesn't exist
   if (!fs.existsSync(sourceBackupsDir)) {
@@ -17,7 +17,7 @@ async function setupDirectories() {
     }
   }
 
-  // Create the exportData directory if it doesn't exist
+  // Create the sourceBackups directory if it doesn't exist
   const logsDirPath = path.dirname(logsFilePath);
   if (!fs.existsSync(logsDirPath)) {
     fs.mkdirSync(logsDirPath);
@@ -33,4 +33,24 @@ async function setupDirectories() {
   }
 }
 
-module.exports = { setupDirectories };
+async function createFolder(folderName) {
+  try {
+    const folderPath = path.resolve(folderName); // Resolve the folder path
+
+    // Check if the folder already exists
+    const folderExists = await fs.stat(folderPath).then(stats => stats.isDirectory()).catch(() => false);
+
+    if (!folderExists) {
+      // Create the folder if it doesn't exist
+      await fs.mkdir(folderPath, { recursive: true });
+      console.log(`Folder '${folderPath}' created successfully.`);
+    } else {
+      console.log(`Folder '${folderPath}' already exists.`);
+    }
+  } catch (error) {
+    console.error(`Error creating folder '${folderName}':`, error);
+  }
+}
+
+
+module.exports = { setupDirectories, createFolder };

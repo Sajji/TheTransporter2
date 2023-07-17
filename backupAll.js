@@ -1,41 +1,70 @@
 const fs = require('fs');
 const path = require('path');
+const createFolder = require('./makeFoldersUtils');
+const doesItExist = require('./doesItExist.js');
+
 
 const comSource = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 const { setupDirectories } = require('./folderUtils.js');
-const fetchDataAndSave = require('./sourceExportFunctions/xgetCommunities.js');
-const fetchDomains = require('./sourceExportFunctions/xgetDomains.js');
-const fetchAssets = require('./sourceExportFunctions/xgetAssets.js');
-const fetchAttributes = require('./sourceExportFunctions/xgetAttributes.js');   
-const fetchRelations = require('./sourceExportFunctions/xgetRelations.js');
-const fetchHousekeeping = require('./sourceExportFunctions/fetchHousekeeping.js');
-const createSummary = require('./sourceExportFunctions/summary.js');
-const combineFiles = require('./sourceExportFunctions/combineFiles.js');
-const processDomains = require('./sourceExportFunctions/xgetGraphQL.js');
+const { createExportLogFile } = require('./sourceFunctions/makeFoldersUtils');
+const fetchBackupCommunities = require('./sourceFunctions/1-Communities.js');
+const updateCommunities = require('./sourceFunctions/2-Communities.js');
+const fetchDomains = require('./sourceFunctions/3-Domains.js');
+const fetchHousekeeping = require('./sourceFunctions/4-Housekeeping.js');
+const getGraphQLData = require('./sourceFunctions/5-GraphData.js');
 
-async function restAPIbackup() {
-  await setupDirectories();
-  await fetchDataAndSave('communities', 'communities.json', comSource.sourceSystem.communities);
-  await fetchDomains('domains', 'domains.json');
-  await fetchAssets('assets', 'assets.json', comSource.sourceSystem.communities);
-  await fetchAttributes('attributes.json');
-  await fetchRelations('relations.json');
-  await fetchHousekeeping();
-  await createSummary();
-  await combineFiles();
-}
+
+
 async function graphQLbackup() {
-  await setupDirectories();
-  await fetchDataAndSave('communities', 'communities.json', comSource.sourceSystem.communities);
+  const sourceDirectory = './sourceBackups/gqlData';
+  const outputFile = './sourceBackups/consolidatedData.json';
+  await createFolder('./sourceBackups/');
+  await createFolder('./sourceBackups/');
+  await createFolder('./sourceBackups/');
+  await createFolder('./sourceBackups/gqlData/');
+  await createExportLogFile();
+  await fetchBackupCommunities();
+  await updateCommunities('communities', 'communities.json', comSource.sourceSystem.communities);
   await fetchDomains('domains', 'domains.json');
-  await processDomains();
   await fetchHousekeeping();
-  await createSummary();
-  await combineFiles();
+  await getGraphQLData('./sourceBackups/gqlData');
+  const consolidateJSONData = require('./sourceFunctions/oneFileToRuleThemAll.js');
+  await consolidateJSONData(sourceDirectory, outputFile);
+  await createCopyOfConfig();
 }
 
-if (comSource.sourceSystem.useGraphQl === true) {
-  graphQLbackup();
-} else {
-  restAPIbackup();
+async function backupAll() {
+  const communities = comSource.sourceSystem.communities;
+  let allCommunitiesExist = true; // Flag variable
+
+  for (const communityName of communities) {
+    const community = await doesItExist('sourceSystem', 'communities', communityName, './config.json');
+    if (community === 0) {
+      console.log(`Community ${communityName} does not exist in the source system.`);
+      allCommunitiesExist = false; // Set flag variable to false
+      break;
+    } else {
+      console.log(`Community ${communityName} exists in the source system.`);
+    }
+  }
+
+  if (!allCommunitiesExist) {
+    console.log('Not all communities exist. Stopping the process.');
+    return; // Stop the execution of the function
+  }
+
+  graphQLbackup(); // Execute the backup function if all communities exist
 }
+
+async function createCopyOfConfig() {
+  const configFilePath = './config.json';
+  const backupFolderPath = './sourceBackups';
+
+  const configData = fs.readFileSync(configFilePath, 'utf8');
+  const backupFilePath = path.join(backupFolderPath, 'restoreConfig.json');
+
+  fs.writeFileSync(backupFilePath, configData);
+  console.log(`Copy of config.json created at ${backupFilePath}`);
+}
+
+backupAll();
