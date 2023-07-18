@@ -1,0 +1,154 @@
+[
+  {
+    "id": "04bbed4a-6711-49f2-8a0e-891e17f4969b",
+    "name": "Analytics Model Catalog"
+  },
+  {
+    "id": "c8fe2d97-c9e2-438d-b4f4-809f2834f11b",
+    "name": "Assessment Register"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030032",
+    "name": "Assessment Review Register"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000015000",
+    "name": "BI Catalog"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030002",
+    "name": "Business Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030012",
+    "name": "Business Dimensions"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000020001",
+    "name": "Codelist"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030001",
+    "name": "Data Asset Domain"
+  },
+  {
+    "id": "07a608a3-a725-4ef7-adab-98a2595cd701",
+    "name": "Data Breach Register"
+  },
+  {
+    "id": "00914c02-455f-46f7-b7ae-2a3fb45b00d7",
+    "name": "Data Services Catalog"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030031",
+    "name": "Data Usage Registry"
+  },
+  {
+    "id": "d5fa0fb7-c60e-42c3-acd8-bbb149f6f768",
+    "name": "GIS Catalog"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000010001",
+    "name": "Glossary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030003",
+    "name": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000020011",
+    "name": "Hierarchies"
+  },
+  {
+    "id": "a31962ad-a915-4bd0-8b47-50918b434f45",
+    "name": "HierarchiesZZZ"
+  },
+  {
+    "id": "f29921d2-b228-4144-a1cd-41858cdc1014",
+    "name": "Ikea Domain"
+  },
+  {
+    "id": "ad6a1d58-4fbb-4826-974f-bb45d0715a52",
+    "name": "Ikea Furniture Accessories"
+  },
+  {
+    "id": "ecc794ae-bd92-45f8-b599-278edd6689b9",
+    "name": "Ikea Furniture`"
+  },
+  {
+    "id": "3fdba92d-c9ce-4bc7-8f28-f05af2affe49",
+    "name": "Ikea Sub Domain"
+  },
+  {
+    "id": "a21e100c-9d68-45e8-adc6-c8b6497247bd",
+    "name": "Ikea Sub Domain Jr"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030021",
+    "name": "Logical Data Dictionary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030007",
+    "name": "Mapping Domain"
+  },
+  {
+    "id": "65b6b076-c0f5-481c-8e40-5407cffd2032",
+    "name": "Metric Catalog"
+  },
+  {
+    "id": "791e48be-3eac-4536-8d39-8cc4354c8c50",
+    "name": "New Domain Type"
+  },
+  {
+    "id": "17b3f1e5-2867-4e97-bc49-8c07d84962f6",
+    "name": "Operating Model Dictionary"
+  },
+  {
+    "id": "4e7a5256-634d-418c-b475-c7d4221ca889",
+    "name": "Organization"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030011",
+    "name": "Physical Data Dictionary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030013",
+    "name": "Policy Domain"
+  },
+  {
+    "id": "4746f509-b4ca-4c7a-8203-e38cdc1472a4",
+    "name": "Process Register"
+  },
+  {
+    "id": "26f329d9-d0f3-4122-af13-7f32eb89aed4",
+    "name": "Remediation Register"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030022",
+    "name": "Report Catalog"
+  },
+  {
+    "id": "366c25db-76c0-4451-9da0-bbf35aa3f597",
+    "name": "Risk and Control Register"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030023",
+    "name": "Rulebook"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002200000000",
+    "name": "Storage Catalog"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030004",
+    "name": "Technology Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030008",
+    "name": "Validation Rule Domain"
+  },
+  {
+    "id": "6434556b-7bfa-4082-ab64-a2d4f00c115e",
+    "name": "woffles"
+  }
+]

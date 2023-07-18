@@ -1,49 +1,69 @@
 const fs = require('fs');
 const path = require('path');
-const JSONStream = require('JSONstream');
+const JSONStream = require('JSONStream');
 
-async function consolidateJSONData(sourceDirectory, outputFile) {
+async function consolidateJSONData() {
+  const sourceDirectory = './sourceBackups/gqlData';
+  const outputFile = './sourceBackups/consolidatedData.json';
+
   try {
-    // Read all the file names in the source directory
-    const files = await fs.promises.readdir(sourceDirectory);
+    if (!fs.existsSync(sourceDirectory)) {
+      console.error('Source directory does not exist:', sourceDirectory);
+      return;
+    }
 
-    // Array to store all objects from the JSON files
-    let allObjects = [];
+    const outputDir = path.dirname(outputFile);
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+      console.log('Output directory created:', outputDir);
+    }
+
+    // Create a writable stream to the output file
+    const outputStream = fs.createWriteStream(outputFile);
 
     // Iterate through each file
+    const files = await fs.promises.readdir(sourceDirectory);
     for (const file of files) {
-      // Read the contents of each JSON file
+      // Read the contents of each JSON file as a readable stream
       const filePath = path.join(sourceDirectory, file);
-      const fileContents = await fs.promises.readFile(filePath, 'utf8');
+      const fileStream = fs.createReadStream(filePath, { encoding: 'utf8' });
 
       try {
-        // Parse the JSON content
-        const data = JSON.parse(fileContents);
+        // Create a JSON parser stream
+        const jsonStream = JSONStream.parse('*');
 
-        // Ensure the data is an array
-        if (Array.isArray(data)) {
-          // Concatenate the array to the allObjects array
-          allObjects = allObjects.concat(data);
-        } else {
-          console.warn(`Skipping file '${file}' - Invalid JSON format: Expected an array.`);
-        }
+        // Pipe the readable stream through the JSON parser to extract objects
+        fileStream.pipe(jsonStream);
+
+        // Pipe the extracted objects to the writable stream
+        jsonStream.on('data', data => {
+          const jsonData = JSON.stringify(data); // Convert object to string
+          outputStream.write(jsonData);
+        });
+
+        // Wait for the stream to finish processing
+        await new Promise((resolve, reject) => {
+          jsonStream.on('end', resolve);
+          jsonStream.on('error', reject);
+        });
       } catch (error) {
         console.error(`Error parsing file '${file}':`, error);
       }
     }
 
-    // Write the consolidated objects to a single JSON file
-    const outputData = JSON.stringify(allObjects, null, 2);
-    await fs.promises.writeFile(outputFile, outputData);
+    // Close the output stream
+    outputStream.end();
 
-    console.log(`Consolidated data saved to '${outputFile}'. Total objects: ${allObjects.length}`);
+    console.log(`Consolidated data saved to '${outputFile}'.`);
   } catch (error) {
     console.error('Error consolidating JSON data:', error);
   }
 }
 
 // Example usage:
-const sourceDirectory = '../sourceBackups/gqlData';
-const outputFile = '../sourceBackups/consolidatedData.json';
+consolidateJSONData()
+  .catch(error => {
+    console.error('Error in example usage:', error);
+  });
 
 module.exports = consolidateJSONData;

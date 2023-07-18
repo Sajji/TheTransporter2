@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const postData = require('./postData'); // Assuming you have the postData function implemented
+const postData = require('../../postUtils'); // Assuming you have the postData function implemented
 const assetErrors = []; // Assuming you have the assetErrors array defined globally
 
 async function postAssets() {
@@ -52,4 +52,5 @@ async function postAssets() {
   }
 }
 
-module.exports = postAssets;
+//module.exports = postAssets;
+postAssets();

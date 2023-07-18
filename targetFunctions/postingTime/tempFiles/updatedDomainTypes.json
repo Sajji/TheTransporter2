@@ -1,0 +1,135 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000030032",
+    "name": "Assessment Review Register",
+    "description": "Domain type for Assessment Review assets, which are created when an assessment is conducted on an asset and submitted for review.",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000015000",
+    "name": "BI Catalog",
+    "description": "Domain that collects assets of BI systems",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030002",
+    "name": "Business Asset Domain",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030012",
+    "name": "Business Dimensions",
+    "description": "A set of Business Dimensions that categorize and describe Business Terms",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000020001",
+    "name": "Codelist",
+    "description": "Any kind of data that is used solely to categorize other data found in a database, or solely for relating data in a database to information beyond the boundaries of the enterprise.",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030001",
+    "name": "Data Asset Domain",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030031",
+    "name": "Data Usage Registry",
+    "description": "A Collection of Data usage agreements and related Data structures",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000010001",
+    "name": "Glossary",
+    "description": "A prioritized list of Business Terms, Acronyms and their meanings",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030003",
+    "name": "Governance Asset Domain",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000020011",
+    "name": "Hierarchies",
+    "description": "A Code list with a hierarchical structure in its Code Values",
+    "parentId": "00000000-0000-0000-0000-000000020001",
+    "parentName": "Codelist"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030021",
+    "name": "Logical Data Dictionary",
+    "description": "Represents details of organizational data, independent of any particular technology and uses vocabulary of a business area to communicate with non-technical stakeholders",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030007",
+    "name": "Mapping Domain",
+    "description": "Groups Data Assets of the type Crosswalk (to map between Code Sets) and Mapping Specification (used to map between Data Structures).",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030011",
+    "name": "Physical Data Dictionary",
+    "description": "A collection of physical objects like Table, Column, file field, Views, APIs to describe how data is stored, arranged and related to each other in a data storage technology/location",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030013",
+    "name": "Policy Domain",
+    "description": "A set of policies and standards related to an organization",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030022",
+    "name": "Report Catalog",
+    "description": "A collection of reports and their definitions with the list of related Report attributes",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030023",
+    "name": "Rulebook",
+    "description": "A set of rules on the basis of which decisions are made and programs or policies are governed",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002200000000",
+    "name": "Storage Catalog",
+    "description": "Storage Catalog",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030004",
+    "name": "Technology Asset Domain",
+    "description": "An inventory of all Technology assets and their business benefits.",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030008",
+    "name": "Validation Rule Domain",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  }
+]

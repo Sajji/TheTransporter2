@@ -29,77 +29,171 @@ async function postDomains() {
         }
     }
 }
-async function postAssets() {
-    
-    const assetsFilePath = '../readyToPOST/post-allAssets.json';
-    const payload = require(assetsFilePath);  
-    console.log(`Posting ${payload.length} assets...`)
-    const endpoint = `assets/bulk`;
-    try {
-        await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', payload);
+
+
+ // Assuming you have the assetErrors array defined globally
+
+ async function postAssets() {
+  const assetErrors = [];
+  const sourceDirectory = '../readyToPOST/assetFiles';
+  const endpoint = 'assets/bulk';
+  const batchSize = 1000; // Number of assets in each batch
+  let counter = 0;
+
+  try {
+    // Read all the file names in the source directory
+    const files = await fs.promises.readdir(sourceDirectory);
+
+    // Iterate through each file
+    for (const file of files) {
+      // Skip files that are not JSON
+      if (!file.endsWith('.json')) {
+        continue;
+      }
+
+      // Read the contents of each JSON file
+      const filePath = path.join(sourceDirectory, file);
+      const payload = require(filePath);
+
+      console.log(`Posting ${payload.length} assets from ${file}...`);
+
+      // Split the assets into batches
+      const batches = [];
+      for (let i = 0; i < payload.length; i += batchSize) {
+        const batch = payload.slice(i, i + batchSize);
+        batches.push(batch);
+      }
+
+      for (const batch of batches) {
+        counter += batch.length;
+        console.log(`Posting assets ${counter - batch.length + 1} to ${counter}`);
+
+        try {
+          await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', batch);
         } catch (error) {
-          console.error(`POST request failed for asset`, error.response.status);
+          console.error('POST request failed for assets:', error.response.status);
           assetErrors.push(error.response.data);
         }
+      }
+    }
 
+    console.log('All assets posted successfully.');
+  } catch (error) {
+    console.error('Error posting assets:', error);
+  }
 }
 
+
+
+
 async function postAttributes() {
-  console.log('Posting attributes...')
-  const attributesFilePath = '../readyToPOST/post-allAttributes.json';
-  const attributes = require(attributesFilePath);
+  const attributeErrors = [];
+  const sourceDirectory = '../readyToPOST/attributeFiles';
+  const endpoint = 'attributes/bulk';
   const batchSize = 1000; // Number of objects in each batch
   let counter = 0;
 
-  // Split the attributes into batches
-  const batches = [];
-  for (let i = 0; i < attributes.length; i += batchSize) {
-    const batch = attributes.slice(i, i + batchSize);
-    batches.push(batch);
-  }
+  try {
+    // Read all the file names in the source directory
+    const files = await fs.promises.readdir(sourceDirectory);
 
-  for (const batch of batches) {
-    counter += batch.length;
-    console.log(`Posting attributes ${counter - batch.length + 1} to ${counter}`);
+    // Iterate through each file
+    for (const file of files) {
+      // Skip files that are not JSON
+      if (!file.endsWith('.json')) {
+        continue;
+      }
 
-    const endpoint = 'attributes/bulk';
-    const payload = batch.map(attribute => ({
-      id: attribute.id,
-      assetId: attribute.assetId,
-      typeId: attribute.typeId,
-      value: attribute.value
-    }));
+      // Read the contents of each JSON file
+      const filePath = path.join(sourceDirectory, file);
+      const payload = require(filePath);
 
-    try {
-      await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', payload);
-    } catch (error) {
-      attributeErrors.push(error.response.data);
+      console.log(`Posting ${payload.length} attributes from ${file}...`);
+
+      // Split the attributes into batches
+      const batches = [];
+      for (let i = 0; i < payload.length; i += batchSize) {
+        const batch = payload.slice(i, i + batchSize);
+        batches.push(batch);
+      }
+
+      for (const batch of batches) {
+        counter += batch.length;
+        console.log(`Posting attributes ${counter - batch.length + 1} to ${counter}`);
+
+        const attributePayload = batch.map(attribute => ({
+          id: attribute.id,
+          assetId: attribute.assetId,
+          typeId: attribute.typeId,
+          value: attribute.value
+        }));
+
+        try {
+          await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', attributePayload);
+        } catch (error) {
+          console.error('POST request failed for attributes:', error.response.status);
+          attributeErrors.push(error.response.data);
+        }
+      }
     }
+
+    console.log('All attributes posted successfully.');
+  } catch (error) {
+    console.error('Error posting attributes:', error);
   }
 }
+
 
 
 async function postRelations() {
-    console.log('Posting relations...')
-    const relationsFilePath = '../readyToPOST/post-allRelations.json';
-    const relationsData = require(relationsFilePath);
-    
-    for (const relation of relationsData) {
-        const endpoint = `relations`;
-        const payload = {
-            id: relation.id,
-            sourceId: relation.sourceId,
-            targetId: relation.targetId,
-            typeId: relation.typeId
-        }; 
+  const relationErrors = [];
+  const sourceDirectory = '../readyToPOST/relationFiles';
+  const endpoint = 'relations';
+  let counter = 0;
+
+  try {
+    // Read all the file names in the source directory
+    const files = await fs.promises.readdir(sourceDirectory);
+
+    // Iterate through each file
+    for (const file of files) {
+      // Skip files that are not JSON
+      if (!file.endsWith('.json')) {
+        continue;
+      }
+
+      // Read the contents of each JSON file
+      const filePath = path.join(sourceDirectory, file);
+      const payload = require(filePath);
+
+      console.log(`Posting ${payload.length} relations from ${file}...`);
+
+      for (const relation of payload) {
+        counter++;
+        console.log(`Posting relation ${counter}`);
+
+        const relationPayload = {
+          id: relation.id,
+          sourceId: relation.sourceId,
+          targetId: relation.targetId,
+          typeId: relation.typeId
+        };
+
         try {
-        await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', payload);
+          await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', relationPayload);
         } catch (error) {
-    console.error(`POST request failed for relation ':`, error.response.data);
-    relationErrors.push(error.response.data);
+          console.error('POST request failed for relation:', error.response.data);
+          relationErrors.push(error.response.data);
         }
       }
+    }
+
+    console.log('All relations posted successfully.');
+  } catch (error) {
+    console.error('Error posting relations:', error);
+  }
 }
+
 
 async function postTags() {
   const tagsFilePath = '../readyToPOST/post-allTags.json';

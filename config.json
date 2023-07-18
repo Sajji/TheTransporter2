@@ -1,14 +1,13 @@
 {
     "sourceSystem": {
-      "baseURL": "https://federal.collibra.com/rest/2.0/",
-      "username": "admin",
-      "password": "admin",
+      "baseURL": "https://rockcreek.collibra.com/rest/2.0/",
+      "username": "bbailine",
+      "password": "collibradatacitizens",
       "communities": [
-        "OPM Office of Personnel Management",
-        "HHS"
+        "GIS Community"
       ],
       "useGraphQl": true,
-      "baseGraphql": "https://federal.collibra.com/graphql/knowledgeGraph/v1"
+      "baseGraphql": "https://rockcreek.collibra.com/graphql/knowledgeGraph/v1"
     },
     "targetSystem": {
       "baseURL": "http://192.168.1.144:4400/rest/2.0/",

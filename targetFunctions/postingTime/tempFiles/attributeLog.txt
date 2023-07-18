@@ -1,0 +1,404 @@
+400
+An attribute type with name '1st Decile' already exists.
+400
+An attribute type with name '1st Percentile' already exists.
+400
+An attribute type with name '1st Quartile' already exists.
+400
+An attribute type with name '3rd Quartile' already exists.
+400
+An attribute type with name '5th Percentile' already exists.
+400
+An attribute type with name '95th Percentile' already exists.
+400
+An attribute type with name '99th Percentile' already exists.
+400
+An attribute type with name '9th Decile' already exists.
+400
+An attribute type with name 'Abbreviation' already exists.
+400
+An attribute type with name 'Alias' already exists.
+400
+An attribute type with name 'Analysis' already exists.
+400
+An attribute type with name 'Answer' already exists.
+400
+An attribute type with name 'Application Regulation' already exists.
+400
+An attribute type with name 'Application Standards' already exists.
+400
+An attribute type with name 'Approval date' already exists.
+400
+An attribute type with name 'Approving Authority' already exists.
+400
+An attribute type with name 'Assessment link' already exists.
+400
+An attribute type with name 'Background' already exists.
+400
+An attribute type with name 'Calculation Rule' already exists.
+400
+An attribute type with name 'Categorical Data' already exists.
+400
+An attribute type with name 'Category' already exists.
+400
+An attribute type with name 'Certified' already exists.
+400
+An attribute type with name 'Char octet Length' already exists.
+400
+An attribute type with name 'Coded Values' already exists.
+400
+An attribute type with name 'Column Position' already exists.
+400
+An attribute type with name 'Conformity Score' already exists.
+400
+An attribute type with name 'Co-role' already exists.
+400
+An attribute type with name 'Criticality Indicator' already exists.
+400
+An attribute type with name 'Current Commander' already exists.
+400
+An attribute type with name 'Data Quality Job Score' already exists.
+400
+An attribute type with name 'Data Source' already exists.
+400
+An attribute type with name 'Data Source Type' already exists.
+400
+An attribute type with name 'Data Type' already exists.
+400
+An attribute type with name 'Data Type Precision' already exists.
+400
+An attribute type with name 'Date and/or Time Pattern' already exists.
+400
+An attribute type with name 'DefaultValue' already exists.
+400
+An attribute type with name 'Default Value' already exists.
+400
+An attribute type with name 'Definition' already exists.
+400
+An attribute type with name 'Department' already exists.
+400
+An attribute type with name 'Description' already exists.
+400
+An attribute type with name 'Description from source system' already exists.
+400
+An attribute type with name 'Descriptive Example' already exists.
+400
+An attribute type with name 'Display Field' already exists.
+400
+An attribute type with name 'Document Citation' already exists.
+400
+An attribute type with name 'Document creation date' already exists.
+400
+An attribute type with name 'Document Info' already exists.
+400
+An attribute type with name 'Document last accessed date' already exists.
+400
+An attribute type with name 'Document last view date' already exists.
+400
+An attribute type with name 'Document modification date' already exists.
+400
+An attribute type with name 'Document Number' already exists.
+400
+An attribute type with name 'Document size' already exists.
+400
+An attribute type with name 'Editable' already exists.
+400
+An attribute type with name 'Effective End Date' already exists.
+400
+An attribute type with name 'Effective Start Date' already exists.
+400
+An attribute type with name 'Empty Values Count' already exists.
+400
+An attribute type with name 'Empty values definition override' already exists.
+400
+An attribute type with name 'End Page' already exists.
+400
+An attribute type with name 'Entity Load Date' already exists.
+400
+An attribute type with name 'Exception Scenario' already exists.
+400
+An attribute type with name 'Extent' already exists.
+400
+An attribute type with name 'External System Label' already exists.
+400
+An attribute type with name 'Favorites count' already exists.
+400
+An attribute type with name 'File Location' already exists.
+400
+An attribute type with name 'File Type' already exists.
+400
+An attribute type with name 'Finding Type' already exists.
+400
+An attribute type with name 'Foreign Key Delete Rule' already exists.
+400
+An attribute type with name 'Foreign Key Evaluation Deferrability' already exists.
+400
+An attribute type with name 'Foreign Key Update Rule' already exists.
+400
+An attribute type with name 'Frequency' already exists.
+400
+An attribute type with name 'Full Extent' already exists.
+400
+An attribute type with name 'Geometry Type' already exists.
+400
+An attribute type with name 'Geometry Type-migration-20220928_152048' already exists.
+400
+An attribute type with name 'Global Score' already exists.
+400
+An attribute type with name 'Glue database name' already exists.
+400
+An attribute type with name 'Glue table name' already exists.
+400
+An attribute type with name 'Has Versioned Data' already exists.
+400
+An attribute type with name 'Headquarters' already exists.
+400
+An attribute type with name 'Identifier' already exists.
+400
+An attribute type with name 'Inclusion Scenario' already exists.
+400
+An attribute type with name 'Inferred Data Type' already exists.
+400
+An attribute type with name 'Initial Extent' already exists.
+400
+An attribute type with name 'Is Auto Incremented' already exists.
+400
+An attribute type with name 'Is Generated' already exists.
+400
+An attribute type with name 'Is Mandatory' already exists.
+400
+An attribute type with name 'Is Nullable' already exists.
+400
+An attribute type with name 'Is Primary Key' already exists.
+400
+An attribute type with name 'Is Unique' already exists.
+400
+An attribute type with name 'IT Requirements' already exists.
+400
+An attribute type with name 'Job Filter' already exists.
+400
+An attribute type with name 'Job Row Filter' already exists.
+400
+An attribute type with name 'Key sequence' already exists.
+400
+An attribute type with name 'Label' already exists.
+400
+An attribute type with name 'Labels' already exists.
+400
+An attribute type with name 'Lake Id' already exists.
+400
+An attribute type with name 'Lake Status' already exists.
+400
+An attribute type with name 'Last Job Run' already exists.
+400
+An attribute type with name 'Last Review Date' already exists.
+400
+An attribute type with name 'Last Run Status' already exists.
+400
+An attribute type with name 'Last Successful Job Run' already exists.
+400
+An attribute type with name 'Last Sync Date' already exists.
+400
+An attribute type with name 'Length' already exists.
+400
+An attribute type with name 'License' already exists.
+400
+An attribute type with name 'Link to Data Quality Result Page' already exists.
+400
+An attribute type with name 'Loaded Rows' already exists.
+400
+An attribute type with name 'Loaded Values' already exists.
+400
+An attribute type with name 'Load Sample' already exists.
+400
+An attribute type with name 'Location' already exists.
+400
+An attribute type with name 'Map Name' already exists.
+400
+An attribute type with name 'Materiality' already exists.
+400
+An attribute type with name 'MaxImageHeight' already exists.
+400
+An attribute type with name 'MaxImageWidth' already exists.
+400
+An attribute type with name 'Maximum Text Length' already exists.
+400
+An attribute type with name 'Maximum Value' already exists.
+400
+An attribute type with name 'Max Length' already exists.
+400
+An attribute type with name 'MaxRecordsCount' already exists.
+400
+An attribute type with name 'Mean' already exists.
+400
+An attribute type with name 'Measurement' already exists.
+400
+An attribute type with name 'Median' already exists.
+400
+An attribute type with name 'Minimum Text Length' already exists.
+400
+An attribute type with name 'Minimum Value' already exists.
+400
+An attribute type with name 'Min Length' already exists.
+400
+An attribute type with name 'Mission' already exists.
+400
+An attribute type with name 'Mode' already exists.
+400
+An attribute type with name 'ModelName' already exists.
+400
+An attribute type with name 'Name' already exists.
+400
+An attribute type with name 'NIBRS Code' already exists.
+400
+An attribute type with name 'Non Conformity Score' already exists.
+400
+An attribute type with name 'Note' already exists.
+400
+An attribute type with name 'Nullable' already exists.
+400
+An attribute type with name 'Null Count' already exists.
+400
+An attribute type with name 'Number of Attributes' already exists.
+400
+An attribute type with name 'Number of distinct values' already exists.
+400
+An attribute type with name 'Number of Files' already exists.
+400
+An attribute type with name 'Number Of Fractional Digits' already exists.
+400
+An attribute type with name 'Number of Values' already exists.
+400
+An attribute type with name 'Original Name' already exists.
+400
+An attribute type with name 'Owner in Source' already exists.
+400
+An attribute type with name 'Passing Fraction' already exists.
+400
+An attribute type with name 'PDF URL' already exists.
+400
+An attribute type with name 'Personally Identifiable Information' already exists.
+400
+An attribute type with name 'Predicate' already exists.
+400
+An attribute type with name 'Primary Key Name' already exists.
+400
+An attribute type with name 'Priority' already exists.
+400
+An attribute type with name 'Profiled Row Count' already exists.
+400
+An attribute type with name 'Profiling Information' already exists.
+400
+An attribute type with name 'Project Id' already exists.
+400
+An attribute type with name 'Project Number' already exists.
+400
+An attribute type with name 'Publication Date' already exists.
+400
+An attribute type with name 'Purpose' already exists.
+400
+An attribute type with name 'Rating' already exists.
+400
+An attribute type with name 'Refresh Conflict' already exists.
+400
+An attribute type with name 'Refresh Frequency' already exists.
+400
+An attribute type with name 'Report Image' already exists.
+400
+An attribute type with name 'Resolution' already exists.
+400
+An attribute type with name 'Result' already exists.
+400
+An attribute type with name 'Role' already exists.
+400
+An attribute type with name 'Role in Report' already exists.
+400
+An attribute type with name 'Row Count' already exists.
+400
+An attribute type with name 'Rows Failed' already exists.
+400
+An attribute type with name 'Rows Passed' already exists.
+400
+An attribute type with name 'Rule' already exists.
+400
+An attribute type with name 'Rule Status' already exists.
+400
+An attribute type with name 'Rule Type' already exists.
+400
+An attribute type with name 'Rule Weight' already exists.
+400
+An attribute type with name 'Schema Name' already exists.
+400
+An attribute type with name 'Scope' already exists.
+400
+An attribute type with name 'Score Details' already exists.
+400
+An attribute type with name 'Score Status' already exists.
+400
+An attribute type with name 'Security Classification' already exists.
+400
+An attribute type with name 'Sequence Number' already exists.
+400
+An attribute type with name 'Service Description' already exists.
+400
+An attribute type with name 'Signing Date' already exists.
+400
+An attribute type with name 'Size' already exists.
+400
+An attribute type with name 'Source Tags' already exists.
+400
+An attribute type with name 'Source Type' already exists.
+400
+An attribute type with name 'Spatial Reference' already exists.
+400
+An attribute type with name 'Standard Deviation' already exists.
+400
+An attribute type with name 'Start date' already exists.
+400
+An attribute type with name 'Start Page' already exists.
+400
+An attribute type with name 'State' already exists.
+400
+An attribute type with name 'State Changed By' already exists.
+400
+An attribute type with name 'State Changed Date' already exists.
+400
+An attribute type with name 'Submission  Date' already exists.
+400
+An attribute type with name 'Supported Query Formats' already exists.
+400
+An attribute type with name 'Supports Dynamic Layers' already exists.
+400
+An attribute type with name 'Synchronization Status' already exists.
+400
+An attribute type with name 'Table Type' already exists.
+400
+An attribute type with name 'Technical Data Type' already exists.
+400
+An attribute type with name 'Threshold' already exists.
+400
+An attribute type with name 'Transformation Logic' already exists.
+400
+An attribute type with name 'Type' already exists.
+400
+An attribute type with name 'Units' already exists.
+400
+An attribute type with name 'URL' already exists.
+400
+An attribute type with name 'Validation Result' already exists.
+400
+An attribute type with name 'Validation Script' already exists.
+400
+An attribute type with name 'Value Distribution' already exists.
+400
+An attribute type with name 'Variance' already exists.
+400
+An attribute type with name 'Visible on server' already exists.
+400
+An attribute type with name 'Visits count' already exists.
+400
+An attribute type with name 'Weapon' already exists.
+400
+An attribute type with name 'Weighting Factor' already exists.
+400
+An attribute type with name 'Zone Name' already exists.
