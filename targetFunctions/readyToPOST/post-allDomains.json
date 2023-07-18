@@ -1,0 +1,146 @@
+[
+  {
+    "id": "feb4fbe3-fe58-4254-a743-d21cbdcedc01",
+    "name": "ESRI",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI GIS Community"
+  },
+  {
+    "id": "51857d48-73fe-4b0c-99a0-d373d150af51",
+    "name": "ESRI Baltimore City",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Baltimore City GIS Community"
+  },
+  {
+    "id": "e2e8817b-7ae4-46d7-a010-83a470317bec",
+    "name": "ESRI Chesapeake",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Chesapeake GIS Community"
+  },
+  {
+    "id": "ccdda03f-4a93-4a05-85aa-6dbe0b628a71",
+    "name": "ESRI Denver",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Denver GIS Community"
+  },
+  {
+    "id": "f21b9823-b74d-48a0-bb1d-34921d28f34d",
+    "name": "ESRI Glendale",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Glendale GIS Community"
+  },
+  {
+    "id": "5a352c59-0090-40f0-91b5-d33a242637ec",
+    "name": "ESRI Loudon County",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Loudon County GIS Community"
+  },
+  {
+    "id": "9c8159d1-4af9-4239-8326-89081b89d4f1",
+    "name": "ESRI Maryland",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Maryland GIS Community"
+  },
+  {
+    "id": "7543b8eb-3b79-487a-b5b1-633b2b4db3e3",
+    "name": "ESRI Pierce County",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Pierce County GIS Community"
+  },
+  {
+    "id": "1974d60b-f614-4baa-b7d5-17666ee572e0",
+    "name": "ESRI Reference Codes",
+    "typeId": "00000000-0000-0000-0000-000000020001",
+    "typeName": "Codelist",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Reference Codes GIS Community"
+  },
+  {
+    "id": "d7456839-332b-4e94-a4aa-86ce8ba5bd34",
+    "name": "ESRI Washington DC",
+    "typeId": "00000000-0000-0000-0000-000000030004",
+    "typeName": "Technology Asset Domain",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "ESRI Washington DC GIS Community"
+  },
+  {
+    "id": "de61540c-e7cc-4e53-8d52-349aada422d7",
+    "name": "GIS Data Sets",
+    "typeId": "00000000-0000-0000-0000-000000030031",
+    "typeName": "Data Usage Registry",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "GIS Data Sets GIS Community"
+  },
+  {
+    "id": "733f8241-b7e6-4e3e-80f3-366c400d5c03",
+    "name": "GIS Glossary",
+    "typeId": "00000000-0000-0000-0000-000000010001",
+    "typeName": "Glossary",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "GIS Glossary GIS Community"
+  },
+  {
+    "id": "9ce7f1c4-2001-404a-aced-bb2c09ded4c5",
+    "name": "GIS Logical Data",
+    "typeId": "00000000-0000-0000-0000-000000030021",
+    "typeName": "Logical Data Dictionary",
+    "communityId": "0908cdd7-da06-48cf-9926-215d62dc7e83",
+    "communityName": "GIS Community",
+    "uniqueName": "GIS Logical Data GIS Community"
+  },
+  {
+    "id": "b3eb1444-d6bc-4887-a0aa-3575a544e472",
+    "name": "Maryland Imagery Acquisition Flight Information - 6 Inch Imagery Tile Grid",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "typeName": "Physical Data Dictionary",
+    "communityId": "e93a95b5-40e7-4c08-af23-16bece6507f4",
+    "communityName": "GIS Schemas",
+    "uniqueName": "Maryland Imagery Acquisition Flight Information - 6 Inch Imagery Tile Grid GIS Schemas"
+  },
+  {
+    "id": "df098d70-737a-479b-8993-5378a5dc0d94",
+    "name": "Maryland Police - University Police Stations",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "typeName": "Physical Data Dictionary",
+    "communityId": "e93a95b5-40e7-4c08-af23-16bece6507f4",
+    "communityName": "GIS Schemas",
+    "uniqueName": "Maryland Police - University Police Stations GIS Schemas"
+  },
+  {
+    "id": "1534329a-6de1-404c-a569-90fc07767ec9",
+    "name": "Six Inch Imagery Flight Information - Control Points 2013",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "typeName": "Physical Data Dictionary",
+    "communityId": "e93a95b5-40e7-4c08-af23-16bece6507f4",
+    "communityName": "GIS Schemas",
+    "uniqueName": "Six Inch Imagery Flight Information - Control Points 2013 GIS Schemas"
+  }
+]

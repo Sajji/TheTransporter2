@@ -1,5 +1,7 @@
 const postData = require('../../postUtils.js');
 const putData = require('../../putUtils.js');
+const fs = require('fs');
+const path = require('path');
 
 const domainErrors = [];
 const assetErrors = [];
@@ -148,8 +150,8 @@ async function postAttributes() {
 async function postRelations() {
   const relationErrors = [];
   const sourceDirectory = '../readyToPOST/relationFiles';
-  const endpoint = 'relations';
-  let counter = 0;
+  const endpoint = 'relations/bulk';
+  const batchSize = 1000; // Number of objects in each batch
 
   try {
     // Read all the file names in the source directory
@@ -168,21 +170,29 @@ async function postRelations() {
 
       console.log(`Posting ${payload.length} relations from ${file}...`);
 
-      for (const relation of payload) {
-        counter++;
-        console.log(`Posting relation ${counter}`);
+      // Split the relations into batches
+      const batches = [];
+      for (let i = 0; i < payload.length; i += batchSize) {
+        const batch = payload.slice(i, i + batchSize);
+        batches.push(batch);
+      }
 
-        const relationPayload = {
+      // Process each batch
+      for (let j = 0; j < batches.length; j++) {
+        const batch = batches[j];
+        console.log(`Posting batch ${j + 1} of ${batches.length}`);
+
+        const relationPayload = batch.map(relation => ({
           id: relation.id,
           sourceId: relation.sourceId,
           targetId: relation.targetId,
           typeId: relation.typeId
-        };
+        }));
 
         try {
           await postData(endpoint, '../../sourceBackups/restoreConfig.json', 'targetSystem', relationPayload);
         } catch (error) {
-          console.error('POST request failed for relation:', error.response.data);
+          console.error('POST request failed for relations:', error.response.data);
           relationErrors.push(error.response.data);
         }
       }
@@ -193,6 +203,7 @@ async function postRelations() {
     console.error('Error posting relations:', error);
   }
 }
+
 
 
 async function postTags() {

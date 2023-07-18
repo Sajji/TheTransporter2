@@ -12,7 +12,7 @@
     "targetDescription": "An abbreviation that is used as a word. It is formed from the initial letters of a Business Term.\nExamples: ERP, EDW, EAD"
   },
   {
-    "id": "322c8251-d430-4460-96d5-3a84648e1d12",
+    "id": "4a390d5e-ffe7-4af2-bb9e-9e3c5ea2111d",
     "name": "Adaptive Rule Score",
     "description": "Score of an adaptive rule executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -24,7 +24,7 @@
     "targetDescription": "Score of an adaptive rule executed in CDQ."
   },
   {
-    "id": "920dcc41-899d-454e-8cbd-3e7db568048d",
+    "id": "639f4e79-7e1d-49bd-8822-8aa63305aea7",
     "name": "ADLS Container",
     "description": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects.",
     "parentId": "00000000-0000-0000-0001-002900000002",
@@ -36,7 +36,7 @@
     "targetDescription": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects."
   },
   {
-    "id": "88fc6a98-d46e-4c92-80a0-b964933fb5fa",
+    "id": "3180da46-0b69-4158-9e23-504281fa9228",
     "name": "ADLS File System",
     "description": "An asset type that represents Azure Data Lake Storage file system.",
     "parentId": "00000000-0000-0000-0001-002900000001",
@@ -48,7 +48,7 @@
     "targetDescription": "An asset type that represents Azure Data Lake Storage file system."
   },
   {
-    "id": "50271000-d9cd-40bd-86ad-77f2972d5c92",
+    "id": "9f5bb2a2-a864-486d-8002-51535973b0fb",
     "name": "ADLS Storage Account",
     "description": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects.",
     "parentId": "00000000-0000-0000-0001-002900000002",
@@ -60,10 +60,10 @@
     "targetDescription": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects."
   },
   {
-    "id": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "id": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "name": "API",
     "description": "",
-    "parentId": "5c503949-124a-49ab-b644-3caae4f3fe13",
+    "parentId": "2e80b691-8ba7-481e-bc3b-f8c492b27e4b",
     "parentName": "Application",
     "sourceId": "4e042233-bee8-4c2d-8846-63c4cf7ef1dc",
     "sourceName": "API",
@@ -72,7 +72,7 @@
     "targetDescription": ""
   },
   {
-    "id": "5c503949-124a-49ab-b644-3caae4f3fe13",
+    "id": "2e80b691-8ba7-481e-bc3b-f8c492b27e4b",
     "name": "Application",
     "description": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -213,7 +213,7 @@
     "sourceName": "Business Asset",
     "sourceDescription": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.",
     "targetName": "Business Asset",
-    "targetDescription": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.<div><br></div><div>Part of BG</div>"
+    "targetDescription": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application."
   },
   {
     "id": "00000000-0000-0000-0000-000000031105",
@@ -456,7 +456,7 @@
     "targetDescription": "A diagram that organizes data elements and standardizes how the data elements relate to one another. The Data Model is often used as a communication aid between business and technology.\n\nExamples: Customer Subject area model, Event Subject area model"
   },
   {
-    "id": "328ee55e-8c55-4d6c-af41-9f529ec21c6b",
+    "id": "4f48ca12-cd67-4488-81f0-53ff91ebf2e3",
     "name": "Dataplex Lake",
     "description": "A lake ifs a centralized repository for managing enterprise data across the organization.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -468,7 +468,7 @@
     "targetDescription": "A lake ifs a centralized repository for managing enterprise data across the organization."
   },
   {
-    "id": "ecd61a66-2c74-4a14-b883-e2c0215c6edd",
+    "id": "38ee95d2-bc65-4ba0-a3c6-7d4a607e6b9c",
     "name": "Dataplex Zone",
     "description": "A zone represents a logical group of related assets within a lake.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -492,7 +492,7 @@
     "targetDescription": "Represents a criterion relevant for assessing quality and categorizes different aspects of how data quality is measured.\n\nExamples: Accuracy, Completeness, Consistency"
   },
   {
-    "id": "b4af5d9b-4e14-4446-b6ae-b96770d1bffa",
+    "id": "bea75639-0f32-482d-9ebe-f6e8f1efc1b5",
     "name": "Data Quality Job",
     "description": "Representation of a job executed within CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -588,7 +588,7 @@
     "targetDescription": "An organizational structure that contains files and/or other directories.\n\nExamples: C:/Collibra, D:/Collibra/DGC"
   },
   {
-    "id": "cc7a8a86-0176-47af-959b-5790ef6c1137",
+    "id": "244606b5-da2f-4550-ba47-8b3ed7a1806f",
     "name": "Duplicate Score",
     "description": "Score of the duplicate analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -600,10 +600,10 @@
     "targetDescription": "Score of the duplicate analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "2e06c83b-59fd-4bbb-a453-52fe53181327",
+    "id": "0257600f-706c-42ca-87fb-7eec0768af3b",
     "name": "ESRI ArcGIS Endpoint",
     "description": "<p>A URL for an ArcGIS <abbr aria-expanded=\"true\" aria-controls=\"calcite-popover-f46b5e68-b412-ebbb-7f42-0348022b5e9d\">location service</abbr></p>",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "8581c35d-a343-4e0d-9e26-d2b66fc30411",
     "sourceName": "ESRI ArcGIS Endpoint",
@@ -612,10 +612,10 @@
     "targetDescription": "<p>A URL for an ArcGIS <abbr aria-expanded=\"true\" aria-controls=\"calcite-popover-f46b5e68-b412-ebbb-7f42-0348022b5e9d\">location service</abbr></p>"
   },
   {
-    "id": "ae35068f-4c71-4c4f-86ab-7c0f305b85ec",
+    "id": "fe2d32b1-1326-4ecc-bb09-91312a05f8e4",
     "name": "ESRI Code Set",
     "description": "",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "44a76734-abd2-4227-864b-0848ecefc97c",
     "sourceName": "ESRI Code Set",
@@ -624,10 +624,10 @@
     "targetDescription": ""
   },
   {
-    "id": "c8c2c0e9-8ac3-4c37-8d6b-7b174d531da1",
+    "id": "bb02dd4f-0361-4538-bce1-0a8916a06d14",
     "name": "ESRI Code Value",
     "description": "",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "f55f9092-29e3-4329-bb43-103a17301e31",
     "sourceName": "ESRI Code Value",
@@ -636,10 +636,10 @@
     "targetDescription": ""
   },
   {
-    "id": "c6349890-b3b8-4d57-9688-c665c63e234c",
+    "id": "23e69209-6965-4fc5-9a03-3e5c418a3428",
     "name": "ESRI Database",
     "description": "A source database for ArcGIS data.",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "689673b7-5e52-4e1d-8978-126dbd46925b",
     "sourceName": "ESRI Database",
@@ -648,10 +648,10 @@
     "targetDescription": "A source database for ArcGIS data."
   },
   {
-    "id": "468a1ba3-c775-4900-a2dd-ee63dc880f68",
+    "id": "b5e83901-88ee-4e5b-aac7-cb5a26aef2b8",
     "name": "ESRI Field",
     "description": "",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "f92ecdbe-e3fc-4817-b8bc-0da37b1df3ac",
     "sourceName": "ESRI Field",
@@ -660,10 +660,10 @@
     "targetDescription": ""
   },
   {
-    "id": "86189e92-40c1-48a4-abb2-3700465b9ec4",
+    "id": "7f4f13b5-027f-4e3c-9480-bfc9e9eb7bbe",
     "name": "ESRI Folder",
     "description": "",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "18f4271b-6b51-4ed0-83f2-09473027e690",
     "sourceName": "ESRI Folder",
@@ -672,10 +672,10 @@
     "targetDescription": ""
   },
   {
-    "id": "7f8245fd-207b-41ec-8ad9-de67a8bb0c03",
+    "id": "d10cdde2-4c06-4656-8af7-c4268f5cd7e7",
     "name": "ESRI Layer",
     "description": "<p>A reference to a collection of geographic data that can be accessed and displayed in a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-0babd854-366c-a281-c8c6-8cdc9c12b476\">map</abbr> or a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-955f52ad-91b6-8869-aff2-9d7a5d0ef7bc\">scene</abbr></p>",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "a1ebfd80-bfa5-43d0-a2f1-936664d6d437",
     "sourceName": "ESRI Layer",
@@ -684,10 +684,10 @@
     "targetDescription": "<p>A reference to a collection of geographic data that can be accessed and displayed in a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-0babd854-366c-a281-c8c6-8cdc9c12b476\">map</abbr> or a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-955f52ad-91b6-8869-aff2-9d7a5d0ef7bc\">scene</abbr></p>"
   },
   {
-    "id": "befc097c-9b33-44a7-8d27-75b3826d4a69",
+    "id": "7bb42bcc-7772-4619-a0ae-bab8eba806e4",
     "name": "ESRI Service",
     "description": "",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "069c2330-f126-47e9-bca5-d25dc17c1998",
     "sourceName": "ESRI Service",
@@ -696,10 +696,10 @@
     "targetDescription": ""
   },
   {
-    "id": "d52dc7f1-1a36-4842-acb6-e8d34f3084f0",
+    "id": "d7f724d8-35fe-431f-bc6b-840e2b53caac",
     "name": "ESRI Spatial Reference",
     "description": "A WKID, that defines the coordinate system and spatial properties for geographic data.",
-    "parentId": "fe97e4ca-9f31-4ed0-9afc-71146d586704",
+    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
     "parentName": "API",
     "sourceId": "97e3d582-cb4d-472b-a25f-bff32a37e27b",
     "sourceName": "ESRI Spatial Reference",
@@ -708,7 +708,7 @@
     "targetDescription": "A WKID, that defines the coordinate system and spatial properties for geographic data."
   },
   {
-    "id": "04a799be-9f84-45de-8811-37c856dfd65c",
+    "id": "f2bbb077-ac82-48ce-90d8-857fa0d41497",
     "name": "FAQ",
     "description": "Frequently asked questions area to identify common questions and their answers.&nbsp;",
     "parentId": "00000000-0000-0000-0000-000000011001",
@@ -792,7 +792,7 @@
     "targetDescription": "Asset type used to model the Primary key - Foreign key relations in relational databases."
   },
   {
-    "id": "b7f43d37-0aa0-4cbd-9ba5-5ee93179cea1",
+    "id": "15e85293-3c08-4b0a-9ed4-32fd11eae1b4",
     "name": "GCP Project",
     "description": "An asset type representing a GCP Project.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -1019,7 +1019,7 @@
     "targetDescription": "An asset type on which calculations (e.g. sum, count, average, minimum, maximum) can be made.\n\nExamples: Net Sales, Top Customers, On-hand Inventory"
   },
   {
-    "id": "aa4ad390-9f90-4e6a-88af-f7ee2a2f5e83",
+    "id": "fe7cb7bc-f73d-4ced-9767-a4f6735b5307",
     "name": "MicroStrategy Data Attribute",
     "description": "A column in a MicroStrategy data model.",
     "parentId": "00000000-0000-0000-0000-090000000006",
@@ -1031,7 +1031,7 @@
     "targetDescription": "A column in a MicroStrategy data model."
   },
   {
-    "id": "fdf11a40-5b1f-4c44-ae2a-a8bcaa6372b0",
+    "id": "4c9c2014-32e1-4494-9e8f-d5ed29d04980",
     "name": "MicroStrategy Data Entity",
     "description": "A unit of data in MicroStrategy that can be classified and can have a stated relationship to other units of data.",
     "parentId": "00000000-0000-0000-0000-090000000007",
@@ -1055,7 +1055,7 @@
     "targetDescription": "A collection of data that is used to create MicroStrategy reports."
   },
   {
-    "id": "b8c91916-0bd0-4355-8bae-1d772ea32261",
+    "id": "5b9e3702-fd5e-4a9c-9e5b-ff1c11e72bb5",
     "name": "MicroStrategy Document",
     "description": "A detailed view of a MicroStrategy data model, with visualisations of findings and insights.",
     "parentId": "00000000-0000-0000-0000-090000000003",
@@ -1139,7 +1139,7 @@
     "targetDescription": "A visual analytics platform for creating and storing MicroStrategy reports and data models."
   },
   {
-    "id": "41f72d25-0ff2-438e-9a5a-0ac586a2af32",
+    "id": "889b26c7-c351-4c2d-be77-51e83cf688ba",
     "name": "MicroStrategy Visualisation",
     "description": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map.",
     "parentId": "00000000-0000-0000-0000-090000000004",
@@ -1151,7 +1151,7 @@
     "targetDescription": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map."
   },
   {
-    "id": "e0d3c079-7d33-41a4-96b9-bd18ebbd020d",
+    "id": "de8a8faa-4fc8-4bd7-b022-d6fa26225d30",
     "name": "Outlier Score",
     "description": "Score of the outlier analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1163,7 +1163,7 @@
     "targetDescription": "Score of the outlier analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "3d6f1a28-057a-4482-822f-f86860e6e083",
+    "id": "df6ff6c5-a28b-41fe-a294-b9b60e47b0a8",
     "name": "Pattern Score",
     "description": "Score of the pattern analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1343,7 +1343,7 @@
     "targetDescription": "A collection of Power BI Dashboards, Reports and Data Models."
   },
   {
-    "id": "70e4ecec-fbd8-479f-a4bb-106cd4c565c8",
+    "id": "e196b2f8-9d6d-40e1-85b6-cf455c9e847a",
     "name": "Presidential Documents",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -1355,7 +1355,7 @@
     "targetDescription": ""
   },
   {
-    "id": "c90f8816-f128-47d2-a844-2ecaa48e2f85",
+    "id": "dfa352de-7b9e-478c-8b6f-18b37362b7d8",
     "name": "Record Score",
     "description": "Score of the record analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1439,7 +1439,7 @@
     "targetDescription": "An organized structure described in a formal language supported by implementing technology that defines the objects in the technology assets (Table and columns in a relational database, fields in a file).\n\nE.g. CRM_001_PRD, HDP_CNT_CLD"
   },
   {
-    "id": "ca410dde-d878-4ca8-9ab4-398e67e58952",
+    "id": "35d967ed-96f2-4b26-90cc-e941599cc8bb",
     "name": "Schema Score",
     "description": "Score of the schema analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1463,7 +1463,7 @@
     "targetDescription": "A computer program or device that supports other computer programs and their users"
   },
   {
-    "id": "c8c77951-db6b-4012-b5fd-d67723fd56ad",
+    "id": "6786b0ae-c68c-4de5-a0e8-b67113f4e715",
     "name": "Shape Score",
     "description": "Score of the shape analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1475,7 +1475,7 @@
     "targetDescription": "Score of the shape analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "769eaaa0-6319-4568-9b65-cb8ef00dea00",
+    "id": "7ab62e8d-ab35-4857-839a-eabb3c693a2c",
     "name": "Source Score",
     "description": "Score of the source analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1787,7 +1787,7 @@
     "targetDescription": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File"
   },
   {
-    "id": "1bcd4e0b-6fc4-45d6-9588-51dc419d6b4a",
+    "id": "1a4a29ea-8b3f-450d-b78b-be12cd6fa298",
     "name": "User Defined Rule Score",
     "description": "Score of a custom rule defined by the user, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",

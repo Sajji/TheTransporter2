@@ -45,6 +45,10 @@ async function createAllAttributesFiles() {
             attributeType.value = attribute.numericValue;
           }
 
+          if (attributeType.value === undefined && attribute.booleanValue !== undefined) {
+            attributeType.value = attribute.booleanValue;
+          }
+
           allAttributes.push(attributeType);
         }
       }
