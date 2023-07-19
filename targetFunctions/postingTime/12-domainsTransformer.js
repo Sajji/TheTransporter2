@@ -10,7 +10,7 @@ const mappingArrayFile = '../../operatingModelMappings/domainTypeMappings.json';
 const mappingArray = JSON.parse(fs.readFileSync(mappingArrayFile, 'utf8'));
 
 const updatedArray = await lookupNewId(sourceArray, 'typeId', mappingArray, 'targetId');
-console.log(updatedArray);
+console.log('Domains Updated and saved.', updatedArray.length);
 await fs.promises.writeFile('../readyToPOST/post-allDomains.json', JSON.stringify(updatedArray, null, 2) );
 }
 

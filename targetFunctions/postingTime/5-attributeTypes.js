@@ -33,7 +33,7 @@ async function postAttributeTypes() {
           },
         });
 
-        console.log(`Attribute type created:`, response.data);
+        console.log(`Attribute type created: ${name}`, response.status);
       } catch (error) {
         //console.error(`Error creating attribute type:${payload.name}`, error.response.status, error.response.data.userMessage);
         attributeLog.push(error.response.status, error.response.data.userMessage); // Add the error message to the error log array

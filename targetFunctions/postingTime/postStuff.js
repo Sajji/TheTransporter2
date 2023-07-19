@@ -40,7 +40,7 @@ async function postDomains() {
   const sourceDirectory = '../readyToPOST/assetFiles';
   const endpoint = 'assets/bulk';
   const batchSize = 1000; // Number of assets in each batch
-  let counter = 0;
+  
 
   try {
     // Read all the file names in the source directory
@@ -52,7 +52,7 @@ async function postDomains() {
       if (!file.endsWith('.json')) {
         continue;
       }
-
+      let counter = 0;
       // Read the contents of each JSON file
       const filePath = path.join(sourceDirectory, file);
       const payload = require(filePath);
@@ -80,6 +80,7 @@ async function postDomains() {
     }
 
     console.log('All assets posted successfully.');
+    fs.writeFileSync('./errorFiles/assetErrors.json', JSON.stringify(assetErrors, null, 2));
   } catch (error) {
     console.error('Error posting assets:', error);
   }
@@ -93,7 +94,7 @@ async function postAttributes() {
   const sourceDirectory = '../readyToPOST/attributeFiles';
   const endpoint = 'attributes/bulk';
   const batchSize = 1000; // Number of objects in each batch
-  let counter = 0;
+  
 
   try {
     // Read all the file names in the source directory
@@ -105,7 +106,7 @@ async function postAttributes() {
       if (!file.endsWith('.json')) {
         continue;
       }
-
+      let counter = 0;
       // Read the contents of each JSON file
       const filePath = path.join(sourceDirectory, file);
       const payload = require(filePath);
@@ -140,6 +141,7 @@ async function postAttributes() {
     }
 
     console.log('All attributes posted successfully.');
+    fs.writeFileSync('./errorFiles/attributeErrors.json', JSON.stringify(attributeErrors, null, 2));
   } catch (error) {
     console.error('Error posting attributes:', error);
   }
@@ -163,7 +165,7 @@ async function postRelations() {
       if (!file.endsWith('.json')) {
         continue;
       }
-
+      
       // Read the contents of each JSON file
       const filePath = path.join(sourceDirectory, file);
       const payload = require(filePath);
@@ -180,7 +182,7 @@ async function postRelations() {
       // Process each batch
       for (let j = 0; j < batches.length; j++) {
         const batch = batches[j];
-        console.log(`Posting batch ${j + 1} of ${batches.length}`);
+        console.log(`Posting relations batch ${j + 1} of ${batches.length}`);
 
         const relationPayload = batch.map(relation => ({
           id: relation.id,
@@ -199,6 +201,7 @@ async function postRelations() {
     }
 
     console.log('All relations posted successfully.');
+    fs.writeFileSync('./errorFiles/relationErrors.json', JSON.stringify(relationErrors, null, 2));
   } catch (error) {
     console.error('Error posting relations:', error);
   }

@@ -31,7 +31,7 @@ async function patchAssetTypes() {
           },
         });
 
-        console.log(`Asset type updated:`, patchResponse.data);
+        console.log(`Asset type updated: ${name}`, patchResponse.status);
       } catch (error) {
         console.error(`Error updating asset type:`, error.message);
       }

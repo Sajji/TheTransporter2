@@ -6,7 +6,7 @@ async function getSourceAttributeTypes() {
     const config = JSON.parse(fs.readFileSync('../../sourceBackups/restoreConfig.json', 'utf8'));
     const sourceSystemConfig = config.sourceSystem;
     const sourceURL = `${sourceSystemConfig.baseURL}attributeTypes`;
-console.log(sourceURL);
+    //console.log(sourceURL);
     const sourceResponse = await axios.get(sourceURL, {
       auth: {
         username: sourceSystemConfig.username,
@@ -30,7 +30,7 @@ async function getTargetAttributeTypes() {
     const config = JSON.parse(fs.readFileSync('../../sourceBackups/restoreConfig.json', 'utf8'));
     const targetSystemConfig = config.targetSystem;
     const targetURL = `${targetSystemConfig.baseURL}attributeTypes`;
-console.log(targetURL);
+    //console.log(targetURL);
     const targetResponse = await axios.get(targetURL, {
       auth: {
         username: targetSystemConfig.username,

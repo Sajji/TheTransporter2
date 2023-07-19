@@ -59,7 +59,7 @@ async function postRelationTypes() {
     };
     try {
       const resp = await postData(endpoint, configFile, sys, payload);
-      console.log(`POST request successful for ${endpoint}:`, resp.data);
+      console.log(`POST request successful for ${endpoint}:`, resp.status);
     } catch (error) {
       console.error(`Error while performing POST request for ${endpoint}:`, error.message);
     }

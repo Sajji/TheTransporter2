@@ -45,7 +45,7 @@ async function compareAssetTypes() {
     }
 
     console.log('Matching Asset Types:', matchingAssetTypes.length);
-    console.log('Matching Asset Types:', matchingAssetTypes);
+    //console.log('Matching Asset Types:', matchingAssetTypes);
 
     // Create the directory structure if it doesn't exist
     const outputDir = '../../operatingModelMappings';

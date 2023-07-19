@@ -30,7 +30,7 @@ async function postAssetTypes() {
           },
         });
 
-        console.log(`Asset type created:`, postResponse.data);
+        console.log(`Asset type created: ${name}`, postResponse.status);
       } catch (error) {
         console.error(`Error creating asset type:`, error.message);
       }

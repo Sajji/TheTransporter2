@@ -31,7 +31,7 @@ async function postDomainTypes() {
           },
         });
 
-        console.log(`Domain type created:`, postResponse.data);
+        console.log(`Domain type created: ${name}`, postResponse.status);
       } catch (error) {
         console.error(`Error creating domain type:`, error.message);
       }
@@ -110,7 +110,7 @@ async function updateDomainTypes() {
               },
             });
   
-            console.log(`Domain type patched:`, patchResponse.data);
+            console.log(`Domain type patched: ${domainType.name}`, patchResponse.status);
           } catch (error) {
             console.error(`Error patching domain type:`, error.message);
           }
