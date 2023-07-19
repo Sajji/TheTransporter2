@@ -52,5 +52,4 @@ async function postAssets() {
   }
 }
 
-//module.exports = postAssets;
-postAssets();
+module.exports = postAssets;

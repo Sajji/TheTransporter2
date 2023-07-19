@@ -218,7 +218,7 @@ async function postTags() {
       const { assetId, tagNames } = tag;
       const payload = { tagNames };
       const response = await postData(endpoint.replace('{assetId}', assetId), configFile, sys, payload);
-      console.log(`POST request successful for asset ${assetId}:`, response);
+      console.log(`POST request successful for asset ${assetId}:`);
     }
   } catch (error) {
     console.error('Error while posting tags:', error);
@@ -237,7 +237,7 @@ async function putTags() {
       const { assetId, tagNames } = tag;
       const payload = { tagNames };
       const response = await putData(endpoint.replace('{assetId}', assetId), configFile, sys, payload);
-      console.log(`PUT request successful for asset ${assetId}:`, response);
+      console.log(`PUT request successful for asset ${assetId}:`);
     }
   } catch (error) {
     console.error('Error while posting tags:', error);

@@ -18,18 +18,16 @@ const getGraphQLData = require('./sourceFunctions/5-GraphData.js');
 async function graphQLbackup() {
   const sourceDirectory = './sourceBackups/gqlData';
   const outputFile = './sourceBackups/consolidatedData.json';
-  // await createFolder('./sourceBackups/');
-  // await createFolder('./sourceBackups/');
-  // await createFolder('./sourceBackups/');
-  // await createFolder('./sourceBackups/gqlData/');
-  // await createExportLogFile();
-  // await fetchBackupCommunities();
-  // await updateCommunities('communities', 'communities.json', comSource.sourceSystem.communities);
-  // await fetchDomains('domains', 'domains.json');
-  // await fetchHousekeeping();
-  // await getGraphQLData('./sourceBackups/gqlData');
-  const consolidateJSONData = require('./sourceFunctions/oneFileToRuleThemAll.js');
-  await consolidateJSONData();
+  await createFolder('./sourceBackups/');
+  await createFolder('./sourceBackups/');
+  await createFolder('./sourceBackups/');
+  await createFolder('./sourceBackups/gqlData/');
+  await createExportLogFile();
+  await fetchBackupCommunities();
+  await updateCommunities('communities', 'communities.json', comSource.sourceSystem.communities);
+  await fetchDomains('domains', 'domains.json');
+  await fetchHousekeeping();
+  await getGraphQLData('./sourceBackups/gqlData');
   await createCopyOfConfig();
 }
 

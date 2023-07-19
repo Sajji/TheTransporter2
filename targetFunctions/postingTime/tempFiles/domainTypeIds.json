@@ -1,5 +1,13 @@
 [
   {
+    "id": "a41f2668-aaba-4ee9-82e9-eee1111ca753",
+    "name": "Analytics Model Catalog"
+  },
+  {
+    "id": "31a3a18f-73e3-44cd-b793-7481ff606fe9",
+    "name": "Assessment Register"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030032",
     "name": "Assessment Review Register"
   },
@@ -24,8 +32,20 @@
     "name": "Data Asset Domain"
   },
   {
+    "id": "b67327a3-11d8-4b43-9754-d187e2116d6b",
+    "name": "Data Breach Register"
+  },
+  {
+    "id": "18fc7ea2-6c3b-4806-bbcc-11be9ac62ace",
+    "name": "Data Services Catalog"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030031",
     "name": "Data Usage Registry"
+  },
+  {
+    "id": "2f118da9-68c5-44ac-8429-ab65d078e20c",
+    "name": "GIS Catalog"
   },
   {
     "id": "00000000-0000-0000-0000-000000010001",
@@ -40,12 +60,52 @@
     "name": "Hierarchies"
   },
   {
+    "id": "31c5f24d-9f13-4261-833f-a5b1f3a04e30",
+    "name": "HierarchiesZZZ"
+  },
+  {
+    "id": "1b11a2d7-9a4d-409f-8197-782e9bc64fed",
+    "name": "Ikea Domain"
+  },
+  {
+    "id": "8651f8fd-061f-4509-9588-5277f2b26823",
+    "name": "Ikea Furniture Accessories"
+  },
+  {
+    "id": "b52f45b3-caf2-43c9-8d65-dbdba0500967",
+    "name": "Ikea Furniture`"
+  },
+  {
+    "id": "fbf7adb9-284b-4271-9cc5-98fa08544531",
+    "name": "Ikea Sub Domain"
+  },
+  {
+    "id": "d62e2287-ed95-4da3-a49a-e66940358e18",
+    "name": "Ikea Sub Domain Jr"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030021",
     "name": "Logical Data Dictionary"
   },
   {
     "id": "00000000-0000-0000-0000-000000030007",
     "name": "Mapping Domain"
+  },
+  {
+    "id": "a40f4070-dd73-4eb8-a887-cff14d848a16",
+    "name": "Metric Catalog"
+  },
+  {
+    "id": "e826895c-c86d-4b8a-a089-ce900892eca3",
+    "name": "New Domain Type"
+  },
+  {
+    "id": "983e4b3a-f32d-4c08-af24-c00cab4ef02d",
+    "name": "Operating Model Dictionary"
+  },
+  {
+    "id": "a6fff711-42c3-4847-bed3-fdab49b9fa4a",
+    "name": "Organization"
   },
   {
     "id": "00000000-0000-0000-0000-000000030011",
@@ -56,8 +116,20 @@
     "name": "Policy Domain"
   },
   {
+    "id": "db19f1a8-0e1e-40cc-92e2-d87d343893ee",
+    "name": "Process Register"
+  },
+  {
+    "id": "b144d9df-9983-437b-816e-fa20f0246fec",
+    "name": "Remediation Register"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030022",
     "name": "Report Catalog"
+  },
+  {
+    "id": "8cc6f621-f12d-4671-be65-5e19e1e5f06f",
+    "name": "Risk and Control Register"
   },
   {
     "id": "00000000-0000-0000-0000-000000030023",
@@ -74,5 +146,9 @@
   {
     "id": "00000000-0000-0000-0000-000000030008",
     "name": "Validation Rule Domain"
+  },
+  {
+    "id": "e78bdb17-5063-41f3-94d6-873f72d223d2",
+    "name": "woffles"
   }
 ]

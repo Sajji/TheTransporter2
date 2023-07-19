@@ -1,5 +1,19 @@
 [
   {
+    "id": "a41f2668-aaba-4ee9-82e9-eee1111ca753",
+    "name": "Analytics Model Catalog",
+    "description": "A collection of Predictive Models&nbsp;",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "31a3a18f-73e3-44cd-b793-7481ff606fe9",
+    "name": "Assessment Register",
+    "description": "A set of assessments",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030032",
     "name": "Assessment Review Register",
     "description": "Domain type for Assessment Review assets, which are created when an assessment is conducted on an asset and submitted for review.",
@@ -42,9 +56,30 @@
     "parentName": "Vocabulary"
   },
   {
+    "id": "b67327a3-11d8-4b43-9754-d187e2116d6b",
+    "name": "Data Breach Register",
+    "description": "A domain that contains assets of the asset type 'Security Issue'.",
+    "parentId": "00000000-0000-0000-0000-000000030004",
+    "parentName": "Technology Asset Domain"
+  },
+  {
+    "id": "18fc7ea2-6c3b-4806-bbcc-11be9ac62ace",
+    "name": "Data Services Catalog",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030031",
     "name": "Data Usage Registry",
     "description": "A Collection of Data usage agreements and related Data structures",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "2f118da9-68c5-44ac-8429-ab65d078e20c",
+    "name": "GIS Catalog",
+    "description": "",
     "parentId": "00000000-0000-0000-0000-000000030001",
     "parentName": "Data Asset Domain"
   },
@@ -70,6 +105,55 @@
     "parentName": "Codelist"
   },
   {
+    "id": "31c5f24d-9f13-4261-833f-a5b1f3a04e30",
+    "name": "HierarchiesZZZ",
+    "description": "A Code list with a hierarchical structure in its Code Values",
+    "parentId": "00000000-0000-0000-0000-000000020001",
+    "parentName": "Codelist"
+  },
+  {
+    "id": "1b11a2d7-9a4d-409f-8197-782e9bc64fed",
+    "name": "Ikea Domain",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "b52f45b3-caf2-43c9-8d65-dbdba0500967",
+    "name": "Ikea Furniture`",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "8651f8fd-061f-4509-9588-5277f2b26823",
+    "name": "Ikea Furniture Accessories",
+    "description": "",
+    "parentId": "b52f45b3-caf2-43c9-8d65-dbdba0500967",
+    "parentName": "Ikea Furniture`"
+  },
+  {
+    "id": "fbf7adb9-284b-4271-9cc5-98fa08544531",
+    "name": "Ikea Sub Domain",
+    "description": "",
+    "parentId": "1b11a2d7-9a4d-409f-8197-782e9bc64fed",
+    "parentName": "Ikea Domain"
+  },
+  {
+    "id": "d62e2287-ed95-4da3-a49a-e66940358e18",
+    "name": "Ikea Sub Domain Jr",
+    "description": "",
+    "parentId": "fbf7adb9-284b-4271-9cc5-98fa08544531",
+    "parentName": "Ikea Sub Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030006",
+    "name": "Issue Classification",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030021",
     "name": "Logical Data Dictionary",
     "description": "Represents details of organizational data, independent of any particular technology and uses vocabulary of a business area to communicate with non-technical stakeholders",
@@ -82,6 +166,34 @@
     "description": "Groups Data Assets of the type Crosswalk (to map between Code Sets) and Mapping Specification (used to map between Data Structures).",
     "parentId": "00000000-0000-0000-0000-000000030001",
     "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "a40f4070-dd73-4eb8-a887-cff14d848a16",
+    "name": "Metric Catalog",
+    "description": "A collection of Measures and KPIs",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "e826895c-c86d-4b8a-a089-ce900892eca3",
+    "name": "New Domain Type",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000030013",
+    "parentName": "Policy Domain"
+  },
+  {
+    "id": "983e4b3a-f32d-4c08-af24-c00cab4ef02d",
+    "name": "Operating Model Dictionary",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "a6fff711-42c3-4847-bed3-fdab49b9fa4a",
+    "name": "Organization",
+    "description": "A domain that defines how business dimensions, such as Line of Business and Business functions, are structured to determine how the roles and responsibilities are assigned, controlled and coordinated, and how information flows between the different levels of management, depending on the organization's objectives and strategies.",
+    "parentId": "00000000-0000-0000-0000-000000030012",
+    "parentName": "Business Dimensions"
   },
   {
     "id": "00000000-0000-0000-0000-000000030011",
@@ -98,11 +210,32 @@
     "parentName": "Governance Asset Domain"
   },
   {
+    "id": "db19f1a8-0e1e-40cc-92e2-d87d343893ee",
+    "name": "Process Register",
+    "description": "<p>A collection of Business Processes</p>",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "b144d9df-9983-437b-816e-fa20f0246fec",
+    "name": "Remediation Register",
+    "description": "An inventory of Remediation Plans and Actions to remediate risks within the organisation",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000030022",
     "name": "Report Catalog",
     "description": "A collection of reports and their definitions with the list of related Report attributes",
     "parentId": "00000000-0000-0000-0000-000000030002",
     "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "8cc6f621-f12d-4671-be65-5e19e1e5f06f",
+    "name": "Risk and Control Register",
+    "description": "A domain that contains assets of the asset types 'Risk Category', 'Risk', 'Risk Source', 'Threat', 'Consequences', 'Control' and/or 'Control Assurance'.",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
   },
   {
     "id": "00000000-0000-0000-0000-000000030023",
@@ -131,5 +264,12 @@
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000003007",
     "parentName": "Vocabulary"
+  },
+  {
+    "id": "e78bdb17-5063-41f3-94d6-873f72d223d2",
+    "name": "woffles",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000015000",
+    "parentName": "BI Catalog"
   }
 ]

@@ -1,38 +1,44 @@
 const fs = require('fs');
 
 async function gqlRestore() {
-  // const createLandingZone = require('./landingZone.js');
-  // await createLandingZone();
 
-  // const updateCommunities = require('./updateCommunities.js');
-  // await updateCommunities();
+  const createFolder = require('../../makeFoldersUtils');
+  await createFolder('../readyToPOST/assetFiles');
+  await createFolder('../readyToPOST/attributeFiles');
+  await createFolder('../readyToPOST/relationFiles');
 
-  // const postAndPatchAllCommunities = require('./a-communitiesPost.js');
-  // await postAndPatchAllCommunities();
+  const createLandingZone = require('./landingZone.js');
+  await createLandingZone();
 
-  // const operatingModel = require('./operatingModel.js');
-  // await operatingModel();
+  const updateCommunities = require('./updateCommunities.js');
+  await updateCommunities();
 
-  // const createAllAssetsFiles = require('./9-5assetSeparates.js');
-  // await createAllAssetsFiles();
+  const postAndPatchAllCommunities = require('./a-communitiesPost.js');
+  await postAndPatchAllCommunities();
 
-  //const createAllAttributesFiles = require('./10-attributeSeparates.js');
-  //await createAllAttributesFiles();
+  const operatingModel = require('./operatingModel.js');
+  await operatingModel();
 
-  // const domainTransformer = require('./12-domainsTransformer.js');
-  // await domainTransformer();
+  const createAllAssetsFiles = require('./9-5assetSeparates.js');
+  await createAllAssetsFiles();
 
-  // const createAllRelationsFiles = require('./13-relationSeparates.js');
-  // await createAllRelationsFiles();
+  const createAllAttributesFiles = require('./10-attributeSeparates.js');
+  await createAllAttributesFiles();
 
-  // const createallTagsFile = require('./14-tags.js');
-  // await createallTagsFile();
+  const domainTransformer = require('./12-domainsTransformer.js');
+  await domainTransformer();
+
+  const createAllRelationsFiles = require('./13-relationSeparates.js');
+  await createAllRelationsFiles();
+
+  const createallTagsFile = require('./14-tags.js');
+  await createallTagsFile();
 
   const postAll = require('./postStuff.js'); // Replace './your-module' with the actual path to your module file
   await postAll();
 
-  // const postAssets = require('./postAssets'); // Replace './your-module' with the actual path to your module file  
-  // await postAssets();
+  const postAssets = require('./postAssets'); // Replace './your-module' with the actual path to your module file  
+  await postAssets();
 }
 
 gqlRestore();

@@ -17,7 +17,21 @@ An attribute type with name '9th Decile' already exists.
 400
 An attribute type with name 'Abbreviation' already exists.
 400
+An attribute type with name 'All risks and controls assessed' already exists.
+400
+An attribute type with name 'All risks and controls assessed - Justification' already exists.
+400
+An attribute type with name 'All risks and controls assessed - justification (wrong one)' already exists.
+400
 An attribute type with name 'Analysis' already exists.
+400
+An attribute type with name 'Anonymisation' already exists.
+400
+An attribute type with name 'Anonymisation - Justification' already exists.
+400
+An attribute type with name 'Anti-discrimination' already exists.
+400
+An attribute type with name 'Anti-discrimination - Justification' already exists.
 400
 An attribute type with name 'Application Regulation' already exists.
 400
@@ -25,9 +39,21 @@ An attribute type with name 'Application Standards' already exists.
 400
 An attribute type with name 'Approval date' already exists.
 400
+An attribute type with name 'Argumentation of assessment acceptance decision' already exists.
+400
 An attribute type with name 'Assessment link' already exists.
 400
+An attribute type with name 'Asset type - Provide UUID of the Asset Type to 'hop' to' already exists.
+400
+An attribute type with name 'Attribute or Relation Type UUID' already exists.
+400
+An attribute type with name 'Attribute value to filter on' already exists.
+400
+An attribute type with name 'Automated decision based on profiling' already exists.
+400
 An attribute type with name 'Background' already exists.
+400
+An attribute type with name 'Business Criticality' already exists.
 400
 An attribute type with name 'Calculation Rule' already exists.
 400
@@ -35,31 +61,391 @@ An attribute type with name 'Categorical Data' already exists.
 400
 An attribute type with name 'Category' already exists.
 400
+An attribute type with name 'CCTV Checklist - Answered questions' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV impact on privacy' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV impact on privacy - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV policy' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV policy - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV quality' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV quality - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV retention' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV retention - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV training' already exists.
+400
+An attribute type with name 'CCTV Checklist - CCTV training - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - Data protection fee' already exists.
+400
+An attribute type with name 'CCTV Checklist - Data protection fee - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - Informed CCTV' already exists.
+400
+An attribute type with name 'CCTV Checklist - Informed CCTV - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - Max questions' already exists.
+400
+An attribute type with name 'CCTV Checklist - Process copies CCTV' already exists.
+400
+An attribute type with name 'CCTV Checklist - Process copies CCTV - justification' already exists.
+400
+An attribute type with name 'CCTV Checklist - Secure CCTV' already exists.
+400
+An attribute type with name 'CCTV Checklist - Secure CCTV - justification' already exists.
+400
+An attribute type with name 'Certificates' already exists.
+400
 An attribute type with name 'Certified' already exists.
 400
 An attribute type with name 'Char octet Length' already exists.
+400
+An attribute type with name 'Children and minor's rights' already exists.
+400
+An attribute type with name 'Children and minor's rights - Justification' already exists.
+400
+An attribute type with name 'clearly articulated interest' already exists.
+400
+An attribute type with name 'clearly articulated interest - justification' already exists.
+400
+An attribute type with name 'Code MultiValue' already exists.
+400
+An attribute type with name 'Code MultiValueZZZ' already exists.
 400
 An attribute type with name 'Column Position' already exists.
 400
 An attribute type with name 'Conformity Score' already exists.
 400
+An attribute type with name 'Consent control check' already exists.
+400
+An attribute type with name 'Consent control check - Justification' already exists.
+400
+An attribute type with name 'Contact Person Address' already exists.
+400
+An attribute type with name 'Contact Person Email' already exists.
+400
+An attribute type with name 'Contact Person Name' already exists.
+400
+An attribute type with name 'Contact Person Telephone' already exists.
+400
+An attribute type with name 'Context' already exists.
+400
+An attribute type with name 'Contract End Handling' already exists.
+400
+An attribute type with name 'Contract End Handling List' already exists.
+400
+An attribute type with name 'Contract Status' already exists.
+400
+An attribute type with name 'controller is public authority' already exists.
+400
+An attribute type with name 'Controllers assigned' already exists.
+400
+An attribute type with name 'Controllers assigned - Justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Answered questions' already exists.
+400
+An attribute type with name 'Controllers Checklist - Appropriate risk management' already exists.
+400
+An attribute type with name 'Controllers Checklist - Appropriate risk management - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Awareness training' already exists.
+400
+An attribute type with name 'Controllers Checklist - Awareness training - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Consent reviewed' already exists.
+400
+An attribute type with name 'Controllers Checklist - Consent reviewed - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Data flows documented' already exists.
+400
+An attribute type with name 'Controllers Checklist - Data flows documented - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Data protection by design' already exists.
+400
+An attribute type with name 'Controllers Checklist - Data protection by design - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Data protection policy' already exists.
+400
+An attribute type with name 'Controllers Checklist - Data protection policy - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Identified automated decision making' already exists.
+400
+An attribute type with name 'Controllers Checklist - Identified automated decision making - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Individuals informed' already exists.
+400
+An attribute type with name 'Controllers Checklist - Individuals informed - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Information audit performed' already exists.
+400
+An attribute type with name 'Controllers Checklist - Information audit performed - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Integrated DPIA framework' already exists.
+400
+An attribute type with name 'Controllers Checklist - Integrated DPIA framework - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Involved senior management' already exists.
+400
+An attribute type with name 'Controllers Checklist - Involved senior management - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Lawful basis identified' already exists.
+400
+An attribute type with name 'Controllers Checklist - Lawful basis identified - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Legitimate interest assessment done' already exists.
+400
+An attribute type with name 'Controllers Checklist - Legitimate interest assessment done - justification' already exists.
+400
+An attribute type with name 'Controllers checklist - Manage consent' already exists.
+400
+An attribute type with name 'Controllers checklist - Manage consent justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Max questions' already exists.
+400
+An attribute type with name 'Controllers Checklist - Nominated DPO' already exists.
+400
+An attribute type with name 'Controllers Checklist - Nominated DPO - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Privacy information for children' already exists.
+400
+An attribute type with name 'Controllers Checklist - Privacy information for children - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for accurate data' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for accurate data - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for data portability' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for data portability - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for disposal of data' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for disposal of data - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for DPIA' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for DPIA - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for restriction of processing' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for restriction of processing - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for right to object' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes for right to object - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes to manage data breaches' already exists.
+400
+An attribute type with name 'Controllers Checklist - Processes to manage data breaches - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Process for access requests' already exists.
+400
+An attribute type with name 'Controllers Checklist - Process for access requests - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Protection for data flows outside EEA' already exists.
+400
+An attribute type with name 'Controllers Checklist - Protection for data flows outside EEA - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Registered with DPA' already exists.
+400
+An attribute type with name 'Controllers Checklist - Registered with DPA - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Regular compliance self assessments' already exists.
+400
+An attribute type with name 'Controllers Checklist - Regular compliance self assessments - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Supported information security policy' already exists.
+400
+An attribute type with name 'Controllers Checklist - Supported information security policy - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Systems for consent children' already exists.
+400
+An attribute type with name 'Controllers Checklist - Systems for consent children - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Vital interests documented' already exists.
+400
+An attribute type with name 'Controllers Checklist - Vital interests documented - justification' already exists.
+400
+An attribute type with name 'Controllers Checklist - Written contracts' already exists.
+400
+An attribute type with name 'Controllers Checklist - Written contracts - justification' already exists.
+400
 An attribute type with name 'Co-role' already exists.
 400
+An attribute type with name 'Cost' already exists.
+400
 An attribute type with name 'Criticality Indicator' already exists.
+400
+An attribute type with name 'Cross Border Transfers' already exists.
+400
+An attribute type with name 'Data categories specified' already exists.
+400
+An attribute type with name 'Data categories specified - Justification' already exists.
+400
+An attribute type with name 'Data Quality Job Score' already exists.
+400
+An attribute type with name 'Data sharing agreements' already exists.
+400
+An attribute type with name 'Data sharing agreements - Justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Accountability data sharing' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Accountability data sharing - justification' already exists.
+400
+An attribute type with name 'Data sharing and subject access Checklist - Answered questions' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Compliance data subject requests' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Compliance data subject requests - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Data sharing agreements' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Data sharing agreements - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Data sharing policies' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Data sharing policies - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Information data sharing' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Information data sharing - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Log of data sharing decisions' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Log of data sharing decisions - justification' already exists.
+400
+An attribute type with name 'Data sharing and subject access Checklist - Max questions' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Process data subject requests' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Process data subject requests - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Secure data sharing' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Secure data sharing - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Training data sharing' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Training data sharing - justification' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Training data subject requests' already exists.
+400
+An attribute type with name 'Data Sharing and Subject Access Checklist - Training data subject requests - justification' already exists.
 400
 An attribute type with name 'Data Source' already exists.
 400
 An attribute type with name 'Data Source Type' already exists.
 400
+An attribute type with name 'Data subject categories specified' already exists.
+400
+An attribute type with name 'Data subject categories specified - Justification' already exists.
+400
+An attribute type with name 'Data subjects consulted' already exists.
+400
+An attribute type with name 'Data subjects consulted - Justification' already exists.
+400
 An attribute type with name 'Data Type' already exists.
 400
 An attribute type with name 'Data Type Precision' already exists.
 400
+An attribute type with name 'Data Volume' already exists.
+400
+An attribute type with name 'Date accepted' already exists.
+400
+An attribute type with name 'Date analysis done' already exists.
+400
 An attribute type with name 'Date and/or Time Pattern' already exists.
+400
+An attribute type with name 'Date approved' already exists.
+400
+An attribute type with name 'Date implemented' already exists.
+400
+An attribute type with name 'Date investigator assigned' already exists.
+400
+An attribute type with name 'Date issue discovered' already exists.
+400
+An attribute type with name 'Date issue logged' already exists.
+400
+An attribute type with name 'Date reporting done' already exists.
+400
+An attribute type with name 'Date started' already exists.
+400
+An attribute type with name 'Date ticket closed' already exists.
+400
+An attribute type with name 'DCAT:accessLevel' already exists.
+400
+An attribute type with name 'DCAT:accrualPeriodicity' already exists.
+400
+An attribute type with name 'DCAT:bureauCode' already exists.
+400
+An attribute type with name 'DCAT:conformsTo' already exists.
+400
+An attribute type with name 'DCAT:contactPointEmail' already exists.
+400
+An attribute type with name 'DCAT:contactPointFullName' already exists.
+400
+An attribute type with name 'DCAT:dataQuality' already exists.
+400
+An attribute type with name 'DCAT:describedBy' already exists.
+400
+An attribute type with name 'DCAT:describedByType' already exists.
+400
+An attribute type with name 'DCAT:description' already exists.
+400
+An attribute type with name 'DCAT:distributionURL' already exists.
+400
+An attribute type with name 'DCAT:identifier' already exists.
+400
+An attribute type with name 'DCAT:isPartOf' already exists.
+400
+An attribute type with name 'DCAT:issued' already exists.
+400
+An attribute type with name 'DCAT:keyword' already exists.
+400
+An attribute type with name 'DCAT:landingPage' already exists.
+400
+An attribute type with name 'DCAT:language' already exists.
+400
+An attribute type with name 'DCAT:license' already exists.
+400
+An attribute type with name 'DCAT:modified' already exists.
+400
+An attribute type with name 'DCAT:primaryITInvestmentUII' already exists.
+400
+An attribute type with name 'DCAT:programCode' already exists.
+400
+An attribute type with name 'DCAT:publisher' already exists.
+400
+An attribute type with name 'DCAT:references' already exists.
+400
+An attribute type with name 'DCAT:rights' already exists.
+400
+An attribute type with name 'DCAT:spatial' already exists.
+400
+An attribute type with name 'DCAT:systemOfRecords' already exists.
+400
+An attribute type with name 'DCAT:temporal' already exists.
+400
+An attribute type with name 'DCAT:theme' already exists.
+400
+An attribute type with name 'DCAT:title' already exists.
+400
+An attribute type with name 'DCAT:@type' already exists.
 400
 An attribute type with name 'Default Value' already exists.
 400
 An attribute type with name 'Definition' already exists.
+400
+An attribute type with name 'Deletion of personal information' already exists.
+400
+An attribute type with name 'Deletion of personal information - Justification' already exists.
 400
 An attribute type with name 'Description' already exists.
 400
@@ -67,15 +453,103 @@ An attribute type with name 'Description from source system' already exists.
 400
 An attribute type with name 'Descriptive Example' already exists.
 400
+An attribute type with name 'Deviations from  Global Data Security Policies and Standards?' already exists.
+400
+An attribute type with name 'Deviations from Standard Data Retention Policy?' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Accountability for compliance with Data Protection' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Accountability for compliance with Data Protection - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Answered questions' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing calls' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing calls - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing faxes' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing faxes - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing lists (bought)' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing lists (bought) - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing lists (sold)' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing lists (sold) - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing messages' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Compliant marketing messages - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing consent' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing consent - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing legitimate interest assessment' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing legitimate interest assessment - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing policies' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing policies - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing training' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Direct marketing training - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Marketing mail no objection' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Marketing mail no objection - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Max questions' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Processes to opt out from direct marketing' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Processes to opt out from direct marketing - justification' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Retention policies direct marketing' already exists.
+400
+An attribute type with name 'Direct Marketing Checklist - Retention policies direct marketing - justification' already exists.
+400
 An attribute type with name 'Document creation date' already exists.
 400
-An attribute type with name 'Document last accessed date' already exists.
+An attribute type with name 'Document last accessed dateV5_7' already exists.
 400
 An attribute type with name 'Document last view date' already exists.
 400
 An attribute type with name 'Document modification date' already exists.
 400
 An attribute type with name 'Document size' already exists.
+400
+An attribute type with name 'DPA approval received' already exists.
+400
+An attribute type with name 'DPA approval received - Justification' already exists.
+400
+An attribute type with name 'DPA approval requested' already exists.
+400
+An attribute type with name 'DPA approval requested - Justification' already exists.
+400
+An attribute type with name 'DPIA Assessment - DPIA Required?' already exists.
+400
+An attribute type with name 'DPO' already exists.
+400
+An attribute type with name 'DPO Address' already exists.
+400
+An attribute type with name 'DPO Email' already exists.
+400
+An attribute type with name 'DPO Name' already exists.
+400
+An attribute type with name 'DPO Telephone' already exists.
+400
+An attribute type with name 'due date' already exists.
+400
+An attribute type with name 'Due Date Justification' already exists.
+400
+An attribute type with name 'Due Diligence' already exists.
+400
+An attribute type with name 'Ease of Identification of Data Subjects' already exists.
 400
 An attribute type with name 'Effective End Date' already exists.
 400
@@ -85,9 +559,19 @@ An attribute type with name 'Empty Values Count' already exists.
 400
 An attribute type with name 'Empty values definition override' already exists.
 400
+An attribute type with name 'Encryption' already exists.
+400
+An attribute type with name 'Encryption - Justification' already exists.
+400
 An attribute type with name 'Entity Load Date' already exists.
 400
+An attribute type with name 'Event Asset Type - Provide UUID of Asset Type where the event happens' already exists.
+400
 An attribute type with name 'Exception Scenario' already exists.
+400
+An attribute type with name 'exercise of data subject rights possible' already exists.
+400
+An attribute type with name 'exercise of data subject rights possible - justification' already exists.
 400
 An attribute type with name 'External System Label' already exists.
 400
@@ -97,21 +581,155 @@ An attribute type with name 'File Location' already exists.
 400
 An attribute type with name 'File Type' already exists.
 400
+An attribute type with name 'Filter assets of Review Asset Type based on an attribute value' already exists.
+400
+An attribute type with name 'Final decision' already exists.
+400
+An attribute type with name 'Finding Type' already exists.
+400
 An attribute type with name 'Foreign Key Delete Rule' already exists.
 400
 An attribute type with name 'Foreign Key Evaluation Deferrability' already exists.
 400
 An attribute type with name 'Foreign Key Update Rule' already exists.
 400
+An attribute type with name 'For Relation Type, Is Target Asset Type Head or Tail of the relation?' already exists.
+400
+An attribute type with name 'For Relation Type, Target Asset Type UUID of the relation type' already exists.
+400
+An attribute type with name 'Framework' already exists.
+400
 An attribute type with name 'Frequency' already exists.
+400
+An attribute type with name 'General Description' already exists.
+400
+An attribute type with name 'Global Score' already exists.
 400
 An attribute type with name 'Glue database name' already exists.
 400
 An attribute type with name 'Glue table name' already exists.
 400
+An attribute type with name 'HairColor' already exists.
+400
+An attribute type with name 'Handling of the data at the end of the contract' already exists.
+400
+An attribute type with name 'Head of Business-Email' already exists.
+400
+An attribute type with name 'Head of Business-Name' already exists.
+400
+An attribute type with name 'Head of Business-Telephone' already exists.
+400
+An attribute type with name 'Head or Tail: Is the Asset to hop to the Head or Tail of the relation?' already exists.
+400
+An attribute type with name 'Hosted' already exists.
+400
+An attribute type with name 'Identified Date' already exists.
+400
+An attribute type with name 'If yes, provide attribute type UUID' already exists.
+400
+An attribute type with name 'IkeaColor' already exists.
+400
 An attribute type with name 'Inclusion Scenario' already exists.
 400
 An attribute type with name 'Inferred Data Type' already exists.
+400
+An attribute type with name 'Information Security Checklist - Activity logs' already exists.
+400
+An attribute type with name 'Information Security Checklist - Activity logs - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Answered questions' already exists.
+400
+An attribute type with name 'Information Security Checklist - Anti-malware defences' already exists.
+400
+An attribute type with name 'Information Security Checklist - Anti-malware defences - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Boundary firewalls' already exists.
+400
+An attribute type with name 'Information Security Checklist - Boundary firewalls - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Disaster recovery' already exists.
+400
+An attribute type with name 'Information Security Checklist - Disaster recovery - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Governance of hardware and software assets' already exists.
+400
+An attribute type with name 'Information Security Checklist - Governance of hardware and software assets - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security agreements with third parties' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security agreements with third parties - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security awareness' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security awareness - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security risk management' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security risk management - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security risk policy implemented' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security risk policy implemented - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security risk policy in practice' already exists.
+400
+An attribute type with name 'Information Security Checklist - Information security risk policy in practice - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Max questions' already exists.
+400
+An attribute type with name 'Information Security Checklist - Password management' already exists.
+400
+An attribute type with name 'Information Security Checklist - Password management - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Processes to manage data breaches' already exists.
+400
+An attribute type with name 'Information Security Checklist - Processes to manage data breaches - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Process for disposal of data and equipment' already exists.
+400
+An attribute type with name 'Information Security Checklist - Process for disposal of data and equipment - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Process to investigate breaches' already exists.
+400
+An attribute type with name 'Information Security Checklist - Process to investigate breaches - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Process to report breaches to supervisor' already exists.
+400
+An attribute type with name 'Information Security Checklist - Process to report breaches to supervisor - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Restricted access to premises' already exists.
+400
+An attribute type with name 'Information Security Checklist - Restricted access to premises - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure hardware configuration' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure hardware configuration - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure management of media' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure management of media - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure mobile working' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure mobile working - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure storage' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure storage - justification' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure user accounts' already exists.
+400
+An attribute type with name 'Information Security Checklist - Secure user accounts - justification' already exists.
+400
+An attribute type with name 'Inherent Likelihood' already exists.
+400
+An attribute type with name 'Inherent Risk Level' already exists.
+400
+An attribute type with name 'Inherent Severity' already exists.
+400
+An attribute type with name 'intrusive or inappropriate' already exists.
+400
+An attribute type with name 'intrusive or inappropriate - justification' already exists.
 400
 An attribute type with name 'Is Auto Incremented' already exists.
 400
@@ -127,13 +745,63 @@ An attribute type with name 'Is Unique' already exists.
 400
 An attribute type with name 'IT Requirements' already exists.
 400
+An attribute type with name 'Job Filter' already exists.
+400
+An attribute type with name 'Job Row Filter' already exists.
+400
 An attribute type with name 'Key sequence' already exists.
+400
+An attribute type with name 'Label' already exists.
+400
+An attribute type with name 'Labels' already exists.
+400
+An attribute type with name 'Lake Id' already exists.
+400
+An attribute type with name 'Lake Status' already exists.
+400
+An attribute type with name 'Language' already exists.
+400
+An attribute type with name 'Last DPIA Assessment Date' already exists.
+400
+An attribute type with name 'Last Job Run' already exists.
+400
+An attribute type with name 'Last PIA Assessment Date' already exists.
 400
 An attribute type with name 'Last Review Date' already exists.
 400
+An attribute type with name 'Last run date' already exists.
+400
+An attribute type with name 'Last Run Status' already exists.
+400
+An attribute type with name 'Last Successful Job Run' already exists.
+400
 An attribute type with name 'Last Sync Date' already exists.
 400
+An attribute type with name 'lawful interest' already exists.
+400
+An attribute type with name 'lawful interest - justification' already exists.
+400
+An attribute type with name 'Legal bases specified' already exists.
+400
+An attribute type with name 'Legal bases specified - Justification' already exists.
+400
+An attribute type with name 'Legal Basis of Processing GDPR Special Category' already exists.
+400
+An attribute type with name 'Legal Basis of Processing Personal Information' already exists.
+400
+An attribute type with name 'Legitimate interest appropriate' already exists.
+400
+An attribute type with name 'Legitimate interest assessment is balanced' already exists.
+400
+An attribute type with name 'Legitimate interest assessment is balanced - justification' already exists.
+400
+An attribute type with name 'Level of Automation' already exists.
+400
 An attribute type with name 'License' already exists.
+400
+An attribute type with name 'Lineage Diagram Picture URL' already exists.
+400
+An attribute type with name 'Link to Data Quality Result Page' already exists.
 400
 An attribute type with name 'Loaded Rows' already exists.
 400
@@ -157,6 +825,14 @@ An attribute type with name 'Measurement' already exists.
 400
 An attribute type with name 'Median' already exists.
 400
+An attribute type with name 'Minimization' already exists.
+400
+An attribute type with name 'Minimization control check' already exists.
+400
+An attribute type with name 'Minimization control check - Justification' already exists.
+400
+An attribute type with name 'Minimization - Justification' already exists.
+400
 An attribute type with name 'Minimum Text Length' already exists.
 400
 An attribute type with name 'Minimum Value' already exists.
@@ -165,9 +841,29 @@ An attribute type with name 'Min Length' already exists.
 400
 An attribute type with name 'Mode' already exists.
 400
+An attribute type with name 'Model Type' already exists.
+400
+An attribute type with name 'Mode of Consent' already exists.
+400
+An attribute type with name 'Mode of Information' already exists.
+400
+An attribute type with name 'nature of interest' already exists.
+400
+An attribute type with name 'nature of interest - justification' already exists.
+400
+An attribute type with name 'negative impacts on data subject' already exists.
+400
+An attribute type with name 'negative impacts on data subject - justification' already exists.
+400
+An attribute type with name 'negative impacts warranted' already exists.
+400
+An attribute type with name 'negative impacts warranted - justification' already exists.
+400
 An attribute type with name 'Non Conformity Score' already exists.
 400
 An attribute type with name 'Note' already exists.
+400
+An attribute type with name 'notification date' already exists.
 400
 An attribute type with name 'Null Count' already exists.
 400
@@ -179,41 +875,381 @@ An attribute type with name 'Number of Files' already exists.
 400
 An attribute type with name 'Number Of Fractional Digits' already exists.
 400
+An attribute type with name 'Number of Times Requested' already exists.
+400
+An attribute type with name 'Number of Times Viewed' already exists.
+400
 An attribute type with name 'Number of Values' already exists.
+400
+An attribute type with name 'obtaining of personal data' already exists.
+400
+An attribute type with name 'obtaining of personal data - justification' already exists.
+400
+An attribute type with name 'Operational Impact' already exists.
+400
+An attribute type with name 'Opt out from selling personal information' already exists.
+400
+An attribute type with name 'Opt out from selling personal information - Justification' already exists.
+400
+An attribute type with name 'Organization' already exists.
+400
+An attribute type with name 'Organization and procedures' already exists.
+400
+An attribute type with name 'Organization and procedures - Justification' already exists.
+400
+An attribute type with name 'Organization - Justification' already exists.
 400
 An attribute type with name 'Original Name' already exists.
 400
+An attribute type with name 'Owner in Source' already exists.
+400
+An attribute type with name 'Party Role Type' already exists.
+400
 An attribute type with name 'Passing Fraction' already exists.
+400
+An attribute type with name 'Personal information categories' already exists.
+400
+An attribute type with name 'Personal information categories - Justification' already exists.
+400
+An attribute type with name 'Personal information source' already exists.
+400
+An attribute type with name 'Personal information usage' already exists.
 400
 An attribute type with name 'Personally Identifiable Information' already exists.
 400
+An attribute type with name 'Physical access control' already exists.
+400
+An attribute type with name 'Physical access control - Justification' already exists.
+400
+An attribute type with name 'PIA Assessment - PIA Required?' already exists.
+400
+An attribute type with name 'Policies' already exists.
+400
+An attribute type with name 'Policies completeness' already exists.
+400
+An attribute type with name 'Policies completeness - Justification' already exists.
+400
+An attribute type with name 'Policies - Justification' already exists.
+400
+An attribute type with name 'power imbalance' already exists.
+400
+An attribute type with name 'power imbalance - justification' already exists.
+400
 An attribute type with name 'Predicate' already exists.
+400
+An attribute type with name 'prejudice when not processing' already exists.
+400
+An attribute type with name 'prejudice when not processing - justification' already exists.
 400
 An attribute type with name 'Primary Key Name' already exists.
 400
+An attribute type with name 'Prior DPA approval required' already exists.
+400
+An attribute type with name 'Prior DPA approval required - Justification' already exists.
+400
+An attribute type with name 'Priori checking control check' already exists.
+400
+An attribute type with name 'Priori checking control check - Justification' already exists.
+400
 An attribute type with name 'Priority' already exists.
+400
+An attribute type with name 'Privacy Notice' already exists.
+400
+An attribute type with name 'Privacy Notice - justification' already exists.
+400
+An attribute type with name 'Processing Category' already exists.
+400
+An attribute type with name 'processing in interest of data subjects' already exists.
+400
+An attribute type with name 'processing in interest of data subjects - justification' already exists.
+400
+An attribute type with name 'processing necessary and proportionate' already exists.
+400
+An attribute type with name 'processing necessary and proportionate - justification' already exists.
+400
+An attribute type with name 'processing of sensitive data' already exists.
+400
+An attribute type with name 'processing of sensitive data - justification' already exists.
+400
+An attribute type with name 'Processors assigned' already exists.
+400
+An attribute type with name 'Processors assigned - Justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Answered questions' already exists.
+400
+An attribute type with name 'Processors Checklist - Appropriate risk management' already exists.
+400
+An attribute type with name 'Processors Checklist - Appropriate risk management - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Awareness training' already exists.
+400
+An attribute type with name 'Processors Checklist - Awareness training - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Contract with controller' already exists.
+400
+An attribute type with name 'Processors Checklist - Contract with controller - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Data flows documented' already exists.
+400
+An attribute type with name 'Processors Checklist - Data flows documented - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Data protection by design' already exists.
+400
+An attribute type with name 'Processors Checklist - Data protection by design - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Data protection policy' already exists.
+400
+An attribute type with name 'Processors Checklist - Data protection policy - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Information audit performed' already exists.
+400
+An attribute type with name 'Processors Checklist - Information audit performed - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Involved senior management' already exists.
+400
+An attribute type with name 'Processors Checklist - Involved senior management - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Max questions' already exists.
+400
+An attribute type with name 'Processors Checklist - Nominated DPO' already exists.
+400
+An attribute type with name 'Processors Checklist - Nominated DPO - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Prior approval for using sub-processor' already exists.
+400
+An attribute type with name 'Processors Checklist - Prior approval for using sub-processor - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for accurate data' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for accurate data - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for data portability' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for data portability - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for disposal of data' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for disposal of data - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for restriction of processing' already exists.
+400
+An attribute type with name 'Processors Checklist - Processes for restriction of processing - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Process for access requests' already exists.
+400
+An attribute type with name 'Processors Checklist - Process for access requests - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Reporting of data breaches to controller' already exists.
+400
+An attribute type with name 'Processors Checklist - Reporting of data breaches to controller - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Representative in EU' already exists.
+400
+An attribute type with name 'Processors Checklist - Representative in EU - justification' already exists.
+400
+An attribute type with name 'Processors Checklist - Supported information security policy' already exists.
+400
+An attribute type with name 'Processors Checklist - Supported information security policy - justification' already exists.
 400
 An attribute type with name 'Profiled Row Count' already exists.
 400
 An attribute type with name 'Profiling Information' already exists.
 400
+An attribute type with name 'Progress (percentage)' already exists.
+400
+An attribute type with name 'Project Id' already exists.
+400
+An attribute type with name 'Project Number' already exists.
+400
+An attribute type with name 'Protection against non-human risk sources' already exists.
+400
+An attribute type with name 'Protection against non-human risk sources - Justification' already exists.
+400
+An attribute type with name 'Pseudonymization' already exists.
+400
+An attribute type with name 'Pseudonymization - Justification' already exists.
+400
+An attribute type with name 'Purge Operation' already exists.
+400
 An attribute type with name 'Purpose' already exists.
 400
+An attribute type with name 'Purpose control check' already exists.
+400
+An attribute type with name 'Purpose control check - Justification' already exists.
+400
+An attribute type with name 'Purpose of personal information usage defined' already exists.
+400
+An attribute type with name 'Purpose of personal information usage defined - Justification' already exists.
+400
+An attribute type with name 'Purposes specified' already exists.
+400
+An attribute type with name 'Purposes specified - Justification' already exists.
+400
+An attribute type with name 'Quality' already exists.
+400
+An attribute type with name 'Quality control check' already exists.
+400
+An attribute type with name 'Quality control check - Justification' already exists.
+400
+An attribute type with name 'Quality - Justification' already exists.
+400
 An attribute type with name 'Rating' already exists.
+400
+An attribute type with name 'real and present interest' already exists.
+400
+An attribute type with name 'real and present interest - justification' already exists.
+400
+An attribute type with name 'reasonably expected processing' already exists.
+400
+An attribute type with name 'reasonably expected processing - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Accountability records management' already exists.
+400
+An attribute type with name 'Records Management Checklist - Accountability records management - justification' already exists.
+400
+An attribute type with name 'Records management Checklist - Answered questions' already exists.
+400
+An attribute type with name 'Records Management Checklist - Confidential waste disposal' already exists.
+400
+An attribute type with name 'Records Management Checklist - Confidential waste disposal - justification' already exists.
+400
+An attribute type with name 'Records management Checklist - Max questions' already exists.
+400
+An attribute type with name 'Records Management Checklist - Processes for accurate,adequate, relevant data' already exists.
+400
+An attribute type with name 'Records Management Checklist - Processes for accurate,adequate, relevant data - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Protection of records' already exists.
+400
+An attribute type with name 'Records Management Checklist - Protection of records - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Recording of data flows' already exists.
+400
+An attribute type with name 'Records Management Checklist - Recording of data flows - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management localisation' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management localisation - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management policy' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management policy - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management security' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management security - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management standards' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management standards - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management training' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records management training - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records risk management' already exists.
+400
+An attribute type with name 'Records Management Checklist - Records risk management - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Restricted access to records' already exists.
+400
+An attribute type with name 'Records Management Checklist - Restricted access to records - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Retention and disposal schedules' already exists.
+400
+An attribute type with name 'Records Management Checklist - Retention and disposal schedules - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Secure user accounts with removal' already exists.
+400
+An attribute type with name 'Records Management Checklist - Secure user accounts with removal - justification' already exists.
+400
+An attribute type with name 'Records Management Checklist - Security of records' already exists.
+400
+An attribute type with name 'Records Management Checklist - Security of records - justification' already exists.
+400
+An attribute type with name 'Reference to legal text' already exists.
 400
 An attribute type with name 'Refresh Conflict' already exists.
 400
 An attribute type with name 'Refresh Frequency' already exists.
 400
+An attribute type with name 'Relation Type UUID - Provide UUID of the Relation Type used to 'hop'' already exists.
+400
+An attribute type with name 'Relevant DPA - Justification' already exists.
+400
+An attribute type with name 'Remediation Actions - Justification' already exists.
+400
 An attribute type with name 'Report Image' already exists.
+400
+An attribute type with name 'Reporting to Data Subjects Required?' already exists.
+400
+An attribute type with name 'Reporting to Management Required?' already exists.
+400
+An attribute type with name 'Reporting to Supervisor Required?' already exists.
+400
+An attribute type with name 'Residual Likelihood' already exists.
+400
+An attribute type with name 'Residual Risk Level' already exists.
+400
+An attribute type with name 'Residual Severity' already exists.
 400
 An attribute type with name 'Resolution' already exists.
 400
 An attribute type with name 'Result' already exists.
 400
+An attribute type with name 'Result of analysis' already exists.
+400
+An attribute type with name 'Retention period control check' already exists.
+400
+An attribute type with name 'Retention period control check - Justification' already exists.
+400
+An attribute type with name 'Retention periods' already exists.
+400
+An attribute type with name 'Retention periods - Justification' already exists.
+400
+An attribute type with name 'Right of access control check' already exists.
+400
+An attribute type with name 'Right of access control check - Justification' already exists.
+400
+An attribute type with name 'Right to information' already exists.
+400
+An attribute type with name 'Right to information control check' already exists.
+400
+An attribute type with name 'Right to information control check - Justification' already exists.
+400
+An attribute type with name 'Right to information - Justification' already exists.
+400
+An attribute type with name 'Right to object control check' already exists.
+400
+An attribute type with name 'Right to object control check - Justification' already exists.
+400
+An attribute type with name 'Right to rectification control check' already exists.
+400
+An attribute type with name 'Right to rectification control check - Justification' already exists.
+400
+An attribute type with name 'Risk Categories' already exists.
+400
+An attribute type with name 'Risk Level' already exists.
+400
+An attribute type with name 'Risk Level for Data Subjects' already exists.
+400
+An attribute type with name 'Risk Level - Justification' already exists.
+400
+An attribute type with name 'Risk management' already exists.
+400
+An attribute type with name 'Risk management - Justification' already exists.
+400
+An attribute type with name 'Risk Treatment' already exists.
+400
+An attribute type with name 'risky processing of personal data' already exists.
+400
+An attribute type with name 'risky processing of personal data - justification' already exists.
+400
 An attribute type with name 'Role' already exists.
 400
 An attribute type with name 'Role in Report' already exists.
+400
+An attribute type with name 'Root Cause' already exists.
 400
 An attribute type with name 'Row Count' already exists.
 400
@@ -223,15 +1259,77 @@ An attribute type with name 'Rows Passed' already exists.
 400
 An attribute type with name 'Rule' already exists.
 400
+An attribute type with name 'Rule Status' already exists.
+400
+An attribute type with name 'Rule Type' already exists.
+400
+An attribute type with name 'Rule Weight' already exists.
+400
+An attribute type with name 'Safeguard' already exists.
+400
 An attribute type with name 'Schema Name' already exists.
 400
 An attribute type with name 'Scope' already exists.
 400
+An attribute type with name 'Score - CCTV' already exists.
+400
+An attribute type with name 'Score - Controllers Checklist' already exists.
+400
+An attribute type with name 'Score - Data Sharing and Subject Access' already exists.
+400
+An attribute type with name 'Score Details' already exists.
+400
+An attribute type with name 'Score - Direct Marketing' already exists.
+400
+An attribute type with name 'Score - Information Security Checklist' already exists.
+400
+An attribute type with name 'Score - Processors Checklist' already exists.
+400
+An attribute type with name 'Score - Records Management' already exists.
+400
+An attribute type with name 'Score Status' already exists.
+400
 An attribute type with name 'Security Classification' already exists.
+400
+An attribute type with name 'Security Level' already exists.
+400
+An attribute type with name 'Security measures' already exists.
+400
+An attribute type with name 'Security measures - Justification' already exists.
+400
+An attribute type with name 'Security of hardware' already exists.
+400
+An attribute type with name 'Security of hardware - Justification' already exists.
+400
+An attribute type with name 'Security procedures' already exists.
+400
+An attribute type with name 'Security procedures - Justification' already exists.
+400
+An attribute type with name 'Sensitivity' already exists.
 400
 An attribute type with name 'Sequence Number' already exists.
 400
+An attribute type with name 'Service Measurement Formula' already exists.
+400
+An attribute type with name 'Service Measurement Frequency' already exists.
+400
+An attribute type with name 'Service Measurement Source' already exists.
+400
+An attribute type with name 'Service Measurement Target' already exists.
+400
+An attribute type with name 'Service Measure Rationale' already exists.
+400
+An attribute type with name 'Service Measure Type' already exists.
+400
+An attribute type with name 'Sharing of personal information' already exists.
+400
+An attribute type with name 'Sharing of personal information - Justification' already exists.
+400
 An attribute type with name 'Size' already exists.
+400
+An attribute type with name 'Source category' already exists.
+400
+An attribute type with name 'Source Tags' already exists.
 400
 An attribute type with name 'Source Type' already exists.
 400
@@ -245,15 +1343,31 @@ An attribute type with name 'State Changed By' already exists.
 400
 An attribute type with name 'State Changed Date' already exists.
 400
+An attribute type with name 'Submission date' already exists.
+400
 An attribute type with name 'Synchronization Status' already exists.
 400
 An attribute type with name 'Table Type' already exists.
 400
 An attribute type with name 'Technical Data Type' already exists.
 400
+An attribute type with name 'Third parties' already exists.
+400
+An attribute type with name 'Third parties - Justification' already exists.
+400
 An attribute type with name 'Threshold' already exists.
 400
+An attribute type with name 'Total Score' already exists.
+400
+An attribute type with name 'Transfers control check' already exists.
+400
+An attribute type with name 'Transfers control check - Justification' already exists.
+400
 An attribute type with name 'Transformation Logic' already exists.
+400
+An attribute type with name 'Type of event?' already exists.
+400
+An attribute type with name 'Type of Security Breach' already exists.
 400
 An attribute type with name 'URL' already exists.
 400
@@ -261,12 +1375,38 @@ An attribute type with name 'Validation Result' already exists.
 400
 An attribute type with name 'Validation Script' already exists.
 400
+An attribute type with name 'Validation Type' already exists.
+400
 An attribute type with name 'Value Distribution' already exists.
 400
 An attribute type with name 'Variance' already exists.
+400
+An attribute type with name 'Verifiable consumer requests' already exists.
+400
+An attribute type with name 'Verifiable consumer requests - Justification' already exists.
 400
 An attribute type with name 'Visible on server' already exists.
 400
 An attribute type with name 'Visits count' already exists.
 400
 An attribute type with name 'Weighting Factor' already exists.
+400
+An attribute type with name 'xBoolean' already exists.
+400
+An attribute type with name 'xBooleanMetric' already exists.
+400
+An attribute type with name 'xDate' already exists.
+400
+An attribute type with name 'xInteger' already exists.
+400
+An attribute type with name 'xMetric' already exists.
+400
+An attribute type with name 'xMultiSelect' already exists.
+400
+An attribute type with name 'xPlainText' already exists.
+400
+An attribute type with name 'xRichText' already exists.
+400
+An attribute type with name 'xSelection' already exists.
+400
+An attribute type with name 'Zone Name' already exists.

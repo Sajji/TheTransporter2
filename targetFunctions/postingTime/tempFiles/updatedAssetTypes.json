@@ -12,7 +12,7 @@
     "targetDescription": "An abbreviation that is used as a word. It is formed from the initial letters of a Business Term.\nExamples: ERP, EDW, EAD"
   },
   {
-    "id": "4a390d5e-ffe7-4af2-bb9e-9e3c5ea2111d",
+    "id": "55809461-8b23-4b9d-a79a-8ee3a9aafe9c",
     "name": "Adaptive Rule Score",
     "description": "Score of an adaptive rule executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -24,7 +24,7 @@
     "targetDescription": "Score of an adaptive rule executed in CDQ."
   },
   {
-    "id": "639f4e79-7e1d-49bd-8822-8aa63305aea7",
+    "id": "64af592c-0f5c-4be2-a70e-a9b62c913ef4",
     "name": "ADLS Container",
     "description": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects.",
     "parentId": "00000000-0000-0000-0001-002900000002",
@@ -36,7 +36,7 @@
     "targetDescription": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects."
   },
   {
-    "id": "3180da46-0b69-4158-9e23-504281fa9228",
+    "id": "9afb8226-2139-48fc-a618-d50f60c723a3",
     "name": "ADLS File System",
     "description": "An asset type that represents Azure Data Lake Storage file system.",
     "parentId": "00000000-0000-0000-0001-002900000001",
@@ -48,7 +48,7 @@
     "targetDescription": "An asset type that represents Azure Data Lake Storage file system."
   },
   {
-    "id": "9f5bb2a2-a864-486d-8002-51535973b0fb",
+    "id": "cabb3f17-ce36-4805-be04-f568190fd0b5",
     "name": "ADLS Storage Account",
     "description": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects.",
     "parentId": "00000000-0000-0000-0001-002900000002",
@@ -60,19 +60,19 @@
     "targetDescription": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects."
   },
   {
-    "id": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "name": "API",
-    "description": "",
-    "parentId": "2e80b691-8ba7-481e-bc3b-f8c492b27e4b",
-    "parentName": "Application",
-    "sourceId": "4e042233-bee8-4c2d-8846-63c4cf7ef1dc",
-    "sourceName": "API",
-    "sourceDescription": "",
-    "targetName": "API",
-    "targetDescription": ""
+    "id": "b578cc28-3b29-4c72-9ecb-1ec4864c6aab",
+    "name": "Analytics Model",
+    "description": "An Analytics Model is a model that examines current and historical datasets for underlying patterns and calculate the probability of an outcome.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "752466c9-ec22-4510-802d-77de062cabe7",
+    "sourceName": "Analytics Model",
+    "sourceDescription": "An Analytics Model is a model that examines current and historical datasets for underlying patterns and calculate the probability of an outcome.",
+    "targetName": "Analytics Model",
+    "targetDescription": "An Analytics Model is a model that examines current and historical datasets for underlying patterns and calculate the probability of an outcome."
   },
   {
-    "id": "2e80b691-8ba7-481e-bc3b-f8c492b27e4b",
+    "id": "31df505b-d2c8-47b8-8197-1995292ba1dd",
     "name": "Application",
     "description": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -82,6 +82,30 @@
     "sourceDescription": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose.",
     "targetName": "Application",
     "targetDescription": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose."
+  },
+  {
+    "id": "f72f8c63-5d3d-4957-aa11-f9c379c855ce",
+    "name": "ArcGIS Server",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "44d719ac-0992-4d78-a9a4-d19324c3e0fa",
+    "sourceName": "ArcGIS Server",
+    "sourceDescription": "",
+    "targetName": "ArcGIS Server",
+    "targetDescription": ""
+  },
+  {
+    "id": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "name": "Assessment",
+    "description": "A type of asset that is used to store the results of assessments as attributes and relations.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039050",
+    "sourceName": "Assessment",
+    "sourceDescription": "A type of asset that is used to store the results of assessments as attributes and relations.",
+    "targetName": "Assessment",
+    "targetDescription": "A type of asset that is used to store the results of assessments as attributes and relations."
   },
   {
     "id": "00000000-0000-0000-0000-000000031305",
@@ -94,6 +118,54 @@
     "sourceDescription": "An asset of this type is created when an assessment is conducted on an asset and submitted for review.",
     "targetName": "Assessment Review",
     "targetDescription": "An asset of this type is created when an assessment is conducted on an asset and submitted for review."
+  },
+  {
+    "id": "cc94d9ba-a9c2-4975-9ebd-768b7d3f3e78",
+    "name": "AWS Data Assets",
+    "description": "Aws Lake Formation Asset",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "7021cfdf-0b94-48ba-9010-65fffd3aa554",
+    "sourceName": "AWS Data Assets",
+    "sourceDescription": "Aws Lake Formation Asset",
+    "targetName": "AWS Data Assets",
+    "targetDescription": "Aws Lake Formation Asset"
+  },
+  {
+    "id": "ab51dd8f-cc9c-4168-a81b-711a33a88a84",
+    "name": "Aws-LF-Tag-Key",
+    "description": "Aws Lake Formation Asset",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "40d2ce1c-df64-4fef-9064-ef794d9558c6",
+    "sourceName": "Aws-LF-Tag-Key",
+    "sourceDescription": "Aws Lake Formation Asset",
+    "targetName": "Aws-LF-Tag-Key",
+    "targetDescription": "Aws Lake Formation Asset"
+  },
+  {
+    "id": "886f945e-b16a-43f0-8ef7-63a912f08144",
+    "name": "Aws-LF-Tag-Value",
+    "description": "Aws Lake Formation Asset",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "744ce3c7-4c64-47c2-9ca8-1eb1b628db2b",
+    "sourceName": "Aws-LF-Tag-Value",
+    "sourceDescription": "Aws Lake Formation Asset",
+    "targetName": "Aws-LF-Tag-Value",
+    "targetDescription": "Aws Lake Formation Asset"
+  },
+  {
+    "id": "ab13807c-641d-4769-9edf-8432e680151e",
+    "name": "AWS Operations",
+    "description": "Aws Lake Formation Asset",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "d2c090b7-9128-4c58-a63b-1e626ba25b7f",
+    "sourceName": "AWS Operations",
+    "sourceDescription": "Aws Lake Formation Asset",
+    "targetName": "AWS Operations",
+    "targetDescription": "Aws Lake Formation Asset"
   },
   {
     "id": "00000000-0000-0000-0000-090000000006",
@@ -206,12 +278,12 @@
   {
     "id": "00000000-0000-0000-0000-000000031101",
     "name": "Business Asset",
-    "description": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.",
+    "description": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.<div><br></div><div>Part of BG</div>",
     "parentId": "00000000-0000-0000-0000-000000031000",
     "parentName": "Asset",
     "sourceId": "00000000-0000-0000-0000-000000031101",
     "sourceName": "Business Asset",
-    "sourceDescription": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.",
+    "sourceDescription": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.<div><br></div><div>Part of BG</div>",
     "targetName": "Business Asset",
     "targetDescription": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application."
   },
@@ -300,6 +372,18 @@
     "targetDescription": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America"
   },
   {
+    "id": "33b74630-9747-44e4-8570-63e4767482a8",
+    "name": "Code Value2",
+    "description": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "54ba817b-d1d1-4aa6-aba6-9a1d257acaec",
+    "sourceName": "Code Value2",
+    "sourceDescription": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America",
+    "targetName": "Code Value2",
+    "targetDescription": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000031008",
     "name": "Column",
     "description": "An atomic unit of data that can be stored in a database table.\n\nExamples: FST_NM, EMPID",
@@ -310,6 +394,66 @@
     "sourceDescription": "An atomic unit of data that can be stored in a database table.\n\nExamples: FST_NM, EMPID",
     "targetName": "Column",
     "targetDescription": "An atomic unit of data that can be stored in a database table.\n\nExamples: FST_NM, EMPID"
+  },
+  {
+    "id": "cbb49a74-c42f-41aa-a7c7-841e5d32bcdf",
+    "name": "Compliance Self Assessment",
+    "description": "According to Article 39.1.b. of GDPR, the DPO is responsible for monitoring the organization’s compliance with GDPR. This asset is used to store the characteristics of this assessment.",
+    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentName": "Assessment",
+    "sourceId": "c0e00000-0000-0000-0000-000000039052",
+    "sourceName": "Compliance Self Assessment",
+    "sourceDescription": "According to Article 39.1.b. of GDPR, the DPO is responsible for monitoring the organization’s compliance with GDPR. This asset is used to store the characteristics of this assessment.",
+    "targetName": "Compliance Self Assessment",
+    "targetDescription": "According to Article 39.1.b. of GDPR, the DPO is responsible for monitoring the organization’s compliance with GDPR. This asset is used to store the characteristics of this assessment."
+  },
+  {
+    "id": "10f04d8b-8b2c-41e8-91cd-ccf465cb3557",
+    "name": "Consequence",
+    "description": "<p>Outcome of an Event, affecting objectives. This is used to document the consequences that will take effect if a risk materializes.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039038",
+    "sourceName": "Consequence",
+    "sourceDescription": "<p>Outcome of an Event, affecting objectives. This is used to document the consequences that will take effect if a risk materializes.</p>",
+    "targetName": "Consequence",
+    "targetDescription": "<p>Outcome of an Event, affecting objectives. This is used to document the consequences that will take effect if a risk materializes.</p>"
+  },
+  {
+    "id": "068c8e96-8525-4d83-8e2d-e482c6876b6f",
+    "name": "Contract",
+    "description": "<p>Represents a legally binding contract between 2 or more parties.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039058",
+    "sourceName": "Contract",
+    "sourceDescription": "<p>Represents a legally binding contract between 2 or more parties.</p>",
+    "targetName": "Contract",
+    "targetDescription": "<p>Represents a legally binding contract between 2 or more parties.</p>"
+  },
+  {
+    "id": "2be51eb3-8701-48b5-8e65-1e4b738bbb40",
+    "name": "Control",
+    "description": "<p>A measure taken to mitigate a risk. Any process, policy, device, practice, or other conditions and/or actions which maintain and/or modify risk.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039040",
+    "sourceName": "Control",
+    "sourceDescription": "<p>A measure taken to mitigate a risk. Any process, policy, device, practice, or other conditions and/or actions which maintain and/or modify risk.</p>",
+    "targetName": "Control",
+    "targetDescription": "<p>A measure taken to mitigate a risk. Any process, policy, device, practice, or other conditions and/or actions which maintain and/or modify risk.</p>"
+  },
+  {
+    "id": "03134112-f91f-4694-ae9f-37b0ceaabc16",
+    "name": "Crawler",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "f5e7c2e3-c430-4518-8310-4759e2c07c46",
+    "sourceName": "Crawler",
+    "sourceDescription": "",
+    "targetName": "Crawler",
+    "targetDescription": ""
   },
   {
     "id": "00000000-0000-0000-0000-000000031031",
@@ -456,7 +600,7 @@
     "targetDescription": "A diagram that organizes data elements and standardizes how the data elements relate to one another. The Data Model is often used as a communication aid between business and technology.\n\nExamples: Customer Subject area model, Event Subject area model"
   },
   {
-    "id": "4f48ca12-cd67-4488-81f0-53ff91ebf2e3",
+    "id": "7463228a-ae71-4cd2-bfdc-9bfbd0b529b0",
     "name": "Dataplex Lake",
     "description": "A lake ifs a centralized repository for managing enterprise data across the organization.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -468,7 +612,7 @@
     "targetDescription": "A lake ifs a centralized repository for managing enterprise data across the organization."
   },
   {
-    "id": "38ee95d2-bc65-4ba0-a3c6-7d4a607e6b9c",
+    "id": "a5e7d4d3-f814-473a-b2dc-a13a64c4c8e5",
     "name": "Dataplex Zone",
     "description": "A zone represents a logical group of related assets within a lake.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -492,7 +636,7 @@
     "targetDescription": "Represents a criterion relevant for assessing quality and categorizes different aspects of how data quality is measured.\n\nExamples: Accuracy, Completeness, Consistency"
   },
   {
-    "id": "bea75639-0f32-482d-9ebe-f6e8f1efc1b5",
+    "id": "ae3ad187-392c-42c2-ac7e-2e5d06e2f5ab",
     "name": "Data Quality Job",
     "description": "Representation of a job executed within CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -564,6 +708,42 @@
     "targetDescription": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName"
   },
   {
+    "id": "76e8186a-bca8-4bd8-87c8-75775df0d4b1",
+    "name": "Data Subject Category",
+    "description": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension",
+    "sourceId": "c0e00000-0000-0000-0000-000000039031",
+    "sourceName": "Data Subject Category",
+    "sourceDescription": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
+    "targetName": "Data Subject Category",
+    "targetDescription": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data."
+  },
+  {
+    "id": "488f0744-0d71-4cc0-811b-6ec58c220f32",
+    "name": "Data Transformation",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "ecd11c73-1357-4044-98f8-59151d950eca",
+    "sourceName": "Data Transformation",
+    "sourceDescription": "",
+    "targetName": "Data Transformation",
+    "targetDescription": ""
+  },
+  {
+    "id": "551ce5da-e544-498d-be8f-e0b7e9ab7027",
+    "name": "Data Transformation Process",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "0a5acf7f-e755-4775-a3ea-8f3fcd9b82ed",
+    "sourceName": "Data Transformation Process",
+    "sourceDescription": "",
+    "targetName": "Data Transformation Process",
+    "targetDescription": ""
+  },
+  {
     "id": "00000000-0000-0000-0000-000000031131",
     "name": "Data Usage",
     "description": "An asset that clearly documents how the data can be used between data producers and consumers for specific purpose\n\nExample: Sales growth information that is available to share for read only requirements",
@@ -588,7 +768,31 @@
     "targetDescription": "An organizational structure that contains files and/or other directories.\n\nExamples: C:/Collibra, D:/Collibra/DGC"
   },
   {
-    "id": "244606b5-da2f-4550-ba47-8b3ed7a1806f",
+    "id": "2fbafcda-4ad9-4aeb-9a66-532eb574147d",
+    "name": "Documentation",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "8e270789-e7c2-44b8-891e-2e745715f1b9",
+    "sourceName": "Documentation",
+    "sourceDescription": "",
+    "targetName": "Documentation",
+    "targetDescription": ""
+  },
+  {
+    "id": "9afbf55b-58ee-452b-8b81-1bf2c5f6aec2",
+    "name": "DPIA",
+    "description": "<p>Asset type created to store the results of the GDPR-specific Data Privacy Impact Assessment. The DPIA assessment is designed to describe a processing activity, assess the necessity and proportionality of processing, and helps managing the risks to the rights and freedoms of natural persons, resulting from the processing of personal data.</p>",
+    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentName": "Assessment",
+    "sourceId": "c0e00000-0000-0000-0000-000000039039",
+    "sourceName": "DPIA",
+    "sourceDescription": "<p>Asset type created to store the results of the GDPR-specific Data Privacy Impact Assessment. The DPIA assessment is designed to describe a processing activity, assess the necessity and proportionality of processing, and helps managing the risks to the rights and freedoms of natural persons, resulting from the processing of personal data.</p>",
+    "targetName": "DPIA",
+    "targetDescription": "<p>Asset type created to store the results of the GDPR-specific Data Privacy Impact Assessment. The DPIA assessment is designed to describe a processing activity, assess the necessity and proportionality of processing, and helps managing the risks to the rights and freedoms of natural persons, resulting from the processing of personal data.</p>"
+  },
+  {
+    "id": "b6de36a6-7b20-4644-962d-67ad42ab84c5",
     "name": "Duplicate Score",
     "description": "Score of the duplicate analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -600,124 +804,52 @@
     "targetDescription": "Score of the duplicate analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "0257600f-706c-42ca-87fb-7eec0768af3b",
-    "name": "ESRI ArcGIS Endpoint",
-    "description": "<p>A URL for an ArcGIS <abbr aria-expanded=\"true\" aria-controls=\"calcite-popover-f46b5e68-b412-ebbb-7f42-0348022b5e9d\">location service</abbr></p>",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "8581c35d-a343-4e0d-9e26-d2b66fc30411",
-    "sourceName": "ESRI ArcGIS Endpoint",
-    "sourceDescription": "<p>A URL for an ArcGIS <abbr aria-expanded=\"true\" aria-controls=\"calcite-popover-f46b5e68-b412-ebbb-7f42-0348022b5e9d\">location service</abbr></p>",
-    "targetName": "ESRI ArcGIS Endpoint",
-    "targetDescription": "<p>A URL for an ArcGIS <abbr aria-expanded=\"true\" aria-controls=\"calcite-popover-f46b5e68-b412-ebbb-7f42-0348022b5e9d\">location service</abbr></p>"
+    "id": "361806af-8a0e-44b2-9205-7b04bd9b20aa",
+    "name": "End User Tool",
+    "description": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039010",
+    "sourceName": "End User Tool",
+    "sourceDescription": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
+    "targetName": "End User Tool",
+    "targetDescription": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data."
   },
   {
-    "id": "fe2d32b1-1326-4ecc-bb09-91312a05f8e4",
-    "name": "ESRI Code Set",
+    "id": "14673a59-92f5-4b6d-879b-bcf8de1890fe",
+    "name": "ETL Script",
     "description": "",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "44a76734-abd2-4227-864b-0848ecefc97c",
-    "sourceName": "ESRI Code Set",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "3ca34173-5cbf-44d5-afeb-97de4d1e4e7d",
+    "sourceName": "ETL Script",
     "sourceDescription": "",
-    "targetName": "ESRI Code Set",
+    "targetName": "ETL Script",
     "targetDescription": ""
   },
   {
-    "id": "bb02dd4f-0361-4538-bce1-0a8916a06d14",
-    "name": "ESRI Code Value",
-    "description": "",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "f55f9092-29e3-4329-bb43-103a17301e31",
-    "sourceName": "ESRI Code Value",
-    "sourceDescription": "",
-    "targetName": "ESRI Code Value",
-    "targetDescription": ""
+    "id": "3d946241-fd39-4ded-94fe-ad9ee1637ea0",
+    "name": "Event",
+    "description": "<p>A potential cause of an incident that may result in harm to a system or organization (ISO 31000). This is used to document the events that can trigger a certain risk.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039037",
+    "sourceName": "Event",
+    "sourceDescription": "<p>A potential cause of an incident that may result in harm to a system or organization (ISO 31000). This is used to document the events that can trigger a certain risk.</p>",
+    "targetName": "Event",
+    "targetDescription": "<p>A potential cause of an incident that may result in harm to a system or organization (ISO 31000). This is used to document the events that can trigger a certain risk.</p>"
   },
   {
-    "id": "23e69209-6965-4fc5-9a03-3e5c418a3428",
-    "name": "ESRI Database",
-    "description": "A source database for ArcGIS data.",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "689673b7-5e52-4e1d-8978-126dbd46925b",
-    "sourceName": "ESRI Database",
-    "sourceDescription": "A source database for ArcGIS data.",
-    "targetName": "ESRI Database",
-    "targetDescription": "A source database for ArcGIS data."
-  },
-  {
-    "id": "b5e83901-88ee-4e5b-aac7-cb5a26aef2b8",
-    "name": "ESRI Field",
-    "description": "",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "f92ecdbe-e3fc-4817-b8bc-0da37b1df3ac",
-    "sourceName": "ESRI Field",
-    "sourceDescription": "",
-    "targetName": "ESRI Field",
-    "targetDescription": ""
-  },
-  {
-    "id": "7f4f13b5-027f-4e3c-9480-bfc9e9eb7bbe",
-    "name": "ESRI Folder",
-    "description": "",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "18f4271b-6b51-4ed0-83f2-09473027e690",
-    "sourceName": "ESRI Folder",
-    "sourceDescription": "",
-    "targetName": "ESRI Folder",
-    "targetDescription": ""
-  },
-  {
-    "id": "d10cdde2-4c06-4656-8af7-c4268f5cd7e7",
-    "name": "ESRI Layer",
-    "description": "<p>A reference to a collection of geographic data that can be accessed and displayed in a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-0babd854-366c-a281-c8c6-8cdc9c12b476\">map</abbr> or a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-955f52ad-91b6-8869-aff2-9d7a5d0ef7bc\">scene</abbr></p>",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "a1ebfd80-bfa5-43d0-a2f1-936664d6d437",
-    "sourceName": "ESRI Layer",
-    "sourceDescription": "<p>A reference to a collection of geographic data that can be accessed and displayed in a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-0babd854-366c-a281-c8c6-8cdc9c12b476\">map</abbr> or a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-955f52ad-91b6-8869-aff2-9d7a5d0ef7bc\">scene</abbr></p>",
-    "targetName": "ESRI Layer",
-    "targetDescription": "<p>A reference to a collection of geographic data that can be accessed and displayed in a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-0babd854-366c-a281-c8c6-8cdc9c12b476\">map</abbr> or a <abbr aria-expanded=\"false\" aria-controls=\"calcite-popover-955f52ad-91b6-8869-aff2-9d7a5d0ef7bc\">scene</abbr></p>"
-  },
-  {
-    "id": "7bb42bcc-7772-4619-a0ae-bab8eba806e4",
-    "name": "ESRI Service",
-    "description": "",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "069c2330-f126-47e9-bca5-d25dc17c1998",
-    "sourceName": "ESRI Service",
-    "sourceDescription": "",
-    "targetName": "ESRI Service",
-    "targetDescription": ""
-  },
-  {
-    "id": "d7f724d8-35fe-431f-bc6b-840e2b53caac",
-    "name": "ESRI Spatial Reference",
-    "description": "A WKID, that defines the coordinate system and spatial properties for geographic data.",
-    "parentId": "c8f959ca-d07c-46d1-ba72-a59aa20bca5c",
-    "parentName": "API",
-    "sourceId": "97e3d582-cb4d-472b-a25f-bff32a37e27b",
-    "sourceName": "ESRI Spatial Reference",
-    "sourceDescription": "A WKID, that defines the coordinate system and spatial properties for geographic data.",
-    "targetName": "ESRI Spatial Reference",
-    "targetDescription": "A WKID, that defines the coordinate system and spatial properties for geographic data."
-  },
-  {
-    "id": "f2bbb077-ac82-48ce-90d8-857fa0d41497",
-    "name": "FAQ",
-    "description": "Frequently asked questions area to identify common questions and their answers.&nbsp;",
-    "parentId": "00000000-0000-0000-0000-000000011001",
-    "parentName": "Business Term",
-    "sourceId": "e0f5923c-af8c-4d03-85db-69476351ac0f",
-    "sourceName": "FAQ",
-    "sourceDescription": "Frequently asked questions area to identify common questions and their answers.&nbsp;",
-    "targetName": "FAQ",
-    "targetDescription": "Frequently asked questions area to identify common questions and their answers.&nbsp;"
+    "id": "bbd936d2-46d2-4c24-a0fd-e5051ff05565",
+    "name": "Event-based Review Rule",
+    "description": "<p></p>\n<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains event based rules that determine when a review request is triggered on an asset</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
+    "parentId": "d5fd1f91-c82c-4f96-85e5-2bb2a2e46426",
+    "parentName": "Review Rule",
+    "sourceId": "c0e00000-0000-0000-0000-000000039055",
+    "sourceName": "Event-based Review Rule",
+    "sourceDescription": "<p></p>\n<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains event based rules that determine when a review request is triggered on an asset</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
+    "targetName": "Event-based Review Rule",
+    "targetDescription": "<p></p>\n<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains event based rules that determine when a review request is triggered on an asset</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>"
   },
   {
     "id": "00000000-0000-0000-0001-000400000008",
@@ -792,7 +924,7 @@
     "targetDescription": "Asset type used to model the Primary key - Foreign key relations in relational databases."
   },
   {
-    "id": "15e85293-3c08-4b0a-9ed4-32fd11eae1b4",
+    "id": "a94255b7-a1fd-46d0-a4fa-5921b7e5cec8",
     "name": "GCP Project",
     "description": "An asset type representing a GCP Project.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -828,6 +960,42 @@
     "targetDescription": "An asset type that represents Google Cloud Storage file system."
   },
   {
+    "id": "e1c5a944-a90a-4030-8884-643f93683426",
+    "name": "GIS Folder",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "a5afe058-e3a6-4020-8300-dcf568306e40",
+    "sourceName": "GIS Folder",
+    "sourceDescription": "",
+    "targetName": "GIS Folder",
+    "targetDescription": ""
+  },
+  {
+    "id": "bcc37755-8e5a-4c35-9835-f528140f4874",
+    "name": "GIS Layer",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "976762bf-cafb-4bd3-ab7d-7ab568ae1353",
+    "sourceName": "GIS Layer",
+    "sourceDescription": "",
+    "targetName": "GIS Layer",
+    "targetDescription": ""
+  },
+  {
+    "id": "47f134ea-1157-4142-886b-9250306b08b7",
+    "name": "GIS Service",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "0d685eaa-9176-404f-9728-3439a2f976ad",
+    "sourceName": "GIS Service",
+    "sourceDescription": "",
+    "targetName": "GIS Service",
+    "targetDescription": ""
+  },
+  {
     "id": "00000000-0000-0000-0000-000000031201",
     "name": "Governance Asset",
     "description": "A type of asset that is used to monitor and advocates to maximize performance or utilization of other Business and Data assets while minimizing the risk factors in alignment with Organisational/Business goals.",
@@ -838,6 +1006,126 @@
     "sourceDescription": "A type of asset that is used to monitor and advocates to maximize performance or utilization of other Business and Data assets while minimizing the risk factors in alignment with Organisational/Business goals.",
     "targetName": "Governance Asset",
     "targetDescription": "A type of asset that is used to monitor and advocates to maximize performance or utilization of other Business and Data assets while minimizing the risk factors in alignment with Organisational/Business goals."
+  },
+  {
+    "id": "78adada2-6655-4ba5-8f24-a2b9b72db25f",
+    "name": "GPS Server",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "6d7ba5ee-87b0-42d2-bed4-bedecd4f2e63",
+    "sourceName": "GPS Server",
+    "sourceDescription": "",
+    "targetName": "GPS Server",
+    "targetDescription": ""
+  },
+  {
+    "id": "0a5e06c7-32b0-4da6-8adf-9fa1faa1331d",
+    "name": "HCM Service Measures",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000021001",
+    "parentName": "Code Value",
+    "sourceId": "e8f0d0c0-91c3-481a-9554-479ed700eb39",
+    "sourceName": "HCM Service Measures",
+    "sourceDescription": "",
+    "targetName": "HCM Service Measures",
+    "targetDescription": ""
+  },
+  {
+    "id": "42439e8a-60f7-424d-9f88-b596a6a9b8b8",
+    "name": "Ikea Bed",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "22181a97-83fb-4c01-a484-eb6393d3950d",
+    "sourceName": "Ikea Bed",
+    "sourceDescription": "",
+    "targetName": "Ikea Bed",
+    "targetDescription": ""
+  },
+  {
+    "id": "28533b74-039f-4ab8-b022-6abdb7a0f0d8",
+    "name": "Ikea Chair",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "ae99bb41-0fd2-40eb-a321-7503d0cc0cf6",
+    "sourceName": "Ikea Chair",
+    "sourceDescription": "",
+    "targetName": "Ikea Chair",
+    "targetDescription": ""
+  },
+  {
+    "id": "9aaf2baf-8ed1-4da2-967f-21fb03a2f7f0",
+    "name": "Ikea Chair Cushion",
+    "description": "",
+    "parentId": "28533b74-039f-4ab8-b022-6abdb7a0f0d8",
+    "parentName": "Ikea Chair",
+    "sourceId": "846ca7b7-ae4d-4dda-8cf0-ab806c896185",
+    "sourceName": "Ikea Chair Cushion",
+    "sourceDescription": "",
+    "targetName": "Ikea Chair Cushion",
+    "targetDescription": ""
+  },
+  {
+    "id": "0ec5ee2f-544f-45ce-b236-3e1ca5749e79",
+    "name": "Ikea Lamp",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "454cc277-4f13-4615-b33e-531e0d88b5e4",
+    "sourceName": "Ikea Lamp",
+    "sourceDescription": "",
+    "targetName": "Ikea Lamp",
+    "targetDescription": ""
+  },
+  {
+    "id": "dfea7b55-5011-4bf9-8230-da333e0eb1af",
+    "name": "Ikea Rug",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "86f2ecdd-d70d-453a-9def-8a1f1e47d02b",
+    "sourceName": "Ikea Rug",
+    "sourceDescription": "",
+    "targetName": "Ikea Rug",
+    "targetDescription": ""
+  },
+  {
+    "id": "330a86d1-778d-4fca-ace2-9fea46c8220f",
+    "name": "Ikea Rug Cleaner",
+    "description": "",
+    "parentId": "dfea7b55-5011-4bf9-8230-da333e0eb1af",
+    "parentName": "Ikea Rug",
+    "sourceId": "ee983ecc-9e1b-413b-8749-dbab7840f68e",
+    "sourceName": "Ikea Rug Cleaner",
+    "sourceDescription": "",
+    "targetName": "Ikea Rug Cleaner",
+    "targetDescription": ""
+  },
+  {
+    "id": "54da5d53-b1b2-41e5-b5f9-7559e33cbf47",
+    "name": "Ikea Table",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "481900c0-56c4-449b-b1c0-f517a9cfc4ad",
+    "sourceName": "Ikea Table",
+    "sourceDescription": "",
+    "targetName": "Ikea Table",
+    "targetDescription": ""
+  },
+  {
+    "id": "5d8a2232-ec57-474a-9e6b-26d568e6ff02",
+    "name": "ImageFile",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "3c0472f6-fae2-4155-9e14-90dc7c9908e0",
+    "sourceName": "ImageFile",
+    "sourceDescription": "",
+    "targetName": "ImageFile",
+    "targetDescription": ""
   },
   {
     "id": "00000000-0000-0000-0000-000000031111",
@@ -863,6 +1151,18 @@
     "targetName": "Issue Category"
   },
   {
+    "id": "3d021a29-9745-44ea-8f83-72ad1526b7ef",
+    "name": "Jurisdiction",
+    "description": "A hierarchical representation of how a business divides its market on the basis of geography, such as regions and countries. For example, North America is segmented into USA and Canada.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension",
+    "sourceId": "c0e00000-0000-0000-0000-000000039008",
+    "sourceName": "Jurisdiction",
+    "sourceDescription": "A hierarchical representation of how a business divides its market on the basis of geography, such as regions and countries. For example, North America is segmented into USA and Canada.",
+    "targetName": "Jurisdiction",
+    "targetDescription": "A hierarchical representation of how a business divides its market on the basis of geography, such as regions and countries. For example, North America is segmented into USA and Canada."
+  },
+  {
     "id": "00000000-0000-0000-0000-000000011002",
     "name": "KPI",
     "description": "An indicator to periodically measure the success or progress of a particular activity or of an organization, towards a strategic goal.\n\nExamples: Employee Turnover, Customer Attrition, Claims Denial Rate",
@@ -873,6 +1173,30 @@
     "sourceDescription": "An indicator to periodically measure the success or progress of a particular activity or of an organization, towards a strategic goal.\n\nExamples: Employee Turnover, Customer Attrition, Claims Denial Rate",
     "targetName": "KPI",
     "targetDescription": "An indicator to periodically measure the success or progress of a particular activity or of an organization, towards a strategic goal.\n\nExamples: Employee Turnover, Customer Attrition, Claims Denial Rate"
+  },
+  {
+    "id": "644dd4bf-0d9d-4279-b1de-6aa05d3081d7",
+    "name": "Legal Basis",
+    "description": "The lawfulness of processing, as defined by Article 6 of GDPR. Personal data may be processed only if, and to the extent that, at least one legal basis applies.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039042",
+    "sourceName": "Legal Basis",
+    "sourceDescription": "The lawfulness of processing, as defined by Article 6 of GDPR. Personal data may be processed only if, and to the extent that, at least one legal basis applies.",
+    "targetName": "Legal Basis",
+    "targetDescription": "The lawfulness of processing, as defined by Article 6 of GDPR. Personal data may be processed only if, and to the extent that, at least one legal basis applies."
+  },
+  {
+    "id": "48a6a78a-fa19-48f3-b911-cd01ec8171ad",
+    "name": "Legitimate Interest Assessment",
+    "description": "<p>Asset type created to store the results of the GDPR-specific Legitimate Interest Assessment.</p>",
+    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentName": "Assessment",
+    "sourceId": "c0e00000-0000-0000-0000-000000039051",
+    "sourceName": "Legitimate Interest Assessment",
+    "sourceDescription": "<p>Asset type created to store the results of the GDPR-specific Legitimate Interest Assessment.</p>",
+    "targetName": "Legitimate Interest Assessment",
+    "targetDescription": "<p>Asset type created to store the results of the GDPR-specific Legitimate Interest Assessment.</p>"
   },
   {
     "id": "00000000-0000-0000-0000-000000031110",
@@ -899,6 +1223,18 @@
     "targetDescription": "A collection of Looker Tiles with metrics from one or more Looker Looks."
   },
   {
+    "id": "cae14dda-c8cc-4281-9e18-cb4820279f79",
+    "name": "Looker Data Attribute",
+    "description": "A specification that defines a property of a Looker data entity. Examples: CustomerBirthDate, EmployeeFirstName.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "dec80ff0-a077-4a58-98e9-e51026f5e36c",
+    "sourceName": "Looker Data Attribute",
+    "sourceDescription": "A specification that defines a property of a Looker data entity. Examples: CustomerBirthDate, EmployeeFirstName.",
+    "targetName": "Looker Data Attribute",
+    "targetDescription": "A specification that defines a property of a Looker data entity. Examples: CustomerBirthDate, EmployeeFirstName."
+  },
+  {
     "id": "00000000-0000-0000-0000-100000000017",
     "name": "Looker Data Set",
     "description": "A collection of data that is used to create a Looker Look.",
@@ -921,6 +1257,18 @@
     "sourceDescription": "A column in a Looker Data Set.",
     "targetName": "Looker Data Set Column",
     "targetDescription": "A column in a Looker Data Set."
+  },
+  {
+    "id": "d1d527e1-ee9b-4970-8874-9d0cebf297d4",
+    "name": "Looker Explore",
+    "description": "An abstraction from the physical implementation of database tables, used for Looker report creation.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "61aae908-d665-4856-ad28-b83b178be24f",
+    "sourceName": "Looker Explore",
+    "sourceDescription": "An abstraction from the physical implementation of database tables, used for Looker report creation.",
+    "targetName": "Looker Explore",
+    "targetDescription": "An abstraction from the physical implementation of database tables, used for Looker report creation."
   },
   {
     "id": "00000000-0000-0000-0000-100000000012",
@@ -947,6 +1295,30 @@
     "targetDescription": "A detailed view of a Looker Data Set, with visualizations of findings and insights."
   },
   {
+    "id": "c936bab5-fbe8-4a49-ad86-51b9d839ba1a",
+    "name": "Looker LookML Model",
+    "description": "An abstraction from the physical implementation of database, schema, file, etc., used for Looker report creation.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "4a24e588-efd9-44ab-9fce-dc77680ad2b3",
+    "sourceName": "Looker LookML Model",
+    "sourceDescription": "An abstraction from the physical implementation of database, schema, file, etc., used for Looker report creation.",
+    "targetName": "Looker LookML Model",
+    "targetDescription": "An abstraction from the physical implementation of database, schema, file, etc., used for Looker report creation."
+  },
+  {
+    "id": "a497e566-72ea-4094-8c10-326e07e81a2f",
+    "name": "Looker Project",
+    "description": "Collection of LookML files that describe how your database tables are related to each other and how Looker should interpret those tables.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "fc47f911-e716-45ad-93b9-360cf03479ef",
+    "sourceName": "Looker Project",
+    "sourceDescription": "Collection of LookML files that describe how your database tables are related to each other and how Looker should interpret those tables.",
+    "targetName": "Looker Project",
+    "targetDescription": "Collection of LookML files that describe how your database tables are related to each other and how Looker should interpret those tables."
+  },
+  {
     "id": "00000000-0000-0000-0000-100000000016",
     "name": "Looker Query",
     "description": "A query that creates a simple report in a Looker Tile or Looker Look.",
@@ -969,6 +1341,30 @@
     "sourceDescription": "An atomic unit of data that can be used in a Looker Query and represents a Looker Look.",
     "targetName": "Looker Report Attribute",
     "targetDescription": "An atomic unit of data that can be used in a Looker Query and represents a Looker Look."
+  },
+  {
+    "id": "9433a046-5cc1-43a2-9b96-923c83070e27",
+    "name": "Looker Server",
+    "description": "A visual analytics platform for creating interactive dashboards and rich visualisations",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "130a2bc4-d76e-49a7-ac5a-9053b933fe1c",
+    "sourceName": "Looker Server",
+    "sourceDescription": "A visual analytics platform for creating interactive dashboards and rich visualisations",
+    "targetName": "Looker Server",
+    "targetDescription": "A visual analytics platform for creating interactive dashboards and rich visualisations"
+  },
+  {
+    "id": "fce6f559-0a8c-483e-b679-4d1eb8b68228",
+    "name": "Looker Space",
+    "description": "Collection of content (workbooks, data sources, users, &hellip;) that's walled off from any other content on that instance of Looker Server.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "825a6018-f92f-4a20-a096-a4b24de72f54",
+    "sourceName": "Looker Space",
+    "sourceDescription": "Collection of content (workbooks, data sources, users, &hellip;) that's walled off from any other content on that instance of Looker Server.",
+    "targetName": "Looker Space",
+    "targetDescription": "Collection of content (workbooks, data sources, users, &hellip;) that's walled off from any other content on that instance of Looker Server."
   },
   {
     "id": "00000000-0000-0000-0000-100000000011",
@@ -1007,6 +1403,18 @@
     "targetDescription": "Mapping between two or more Data Structures."
   },
   {
+    "id": "b89441c0-9271-404e-8482-e4f5181f34f5",
+    "name": "Map Server",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "19f27385-6c87-4958-b9ed-7c2fe9802f4a",
+    "sourceName": "Map Server",
+    "sourceDescription": "",
+    "targetName": "Map Server",
+    "targetDescription": ""
+  },
+  {
     "id": "00000000-0000-0000-0000-000000031104",
     "name": "Measure",
     "description": "An asset type on which calculations (e.g. sum, count, average, minimum, maximum) can be made.\n\nExamples: Net Sales, Top Customers, On-hand Inventory",
@@ -1019,7 +1427,7 @@
     "targetDescription": "An asset type on which calculations (e.g. sum, count, average, minimum, maximum) can be made.\n\nExamples: Net Sales, Top Customers, On-hand Inventory"
   },
   {
-    "id": "fe7cb7bc-f73d-4ced-9767-a4f6735b5307",
+    "id": "9a485f13-6dbe-4d14-81e7-53fd5b109ebb",
     "name": "MicroStrategy Data Attribute",
     "description": "A column in a MicroStrategy data model.",
     "parentId": "00000000-0000-0000-0000-090000000006",
@@ -1031,7 +1439,7 @@
     "targetDescription": "A column in a MicroStrategy data model."
   },
   {
-    "id": "4c9c2014-32e1-4494-9e8f-d5ed29d04980",
+    "id": "f6a10481-2b14-4791-a552-b9b1496ba0d1",
     "name": "MicroStrategy Data Entity",
     "description": "A unit of data in MicroStrategy that can be classified and can have a stated relationship to other units of data.",
     "parentId": "00000000-0000-0000-0000-090000000007",
@@ -1055,7 +1463,7 @@
     "targetDescription": "A collection of data that is used to create MicroStrategy reports."
   },
   {
-    "id": "5b9e3702-fd5e-4a9c-9e5b-ff1c11e72bb5",
+    "id": "975ff5da-45ad-40bf-8efd-63d764a7f1ed",
     "name": "MicroStrategy Document",
     "description": "A detailed view of a MicroStrategy data model, with visualisations of findings and insights.",
     "parentId": "00000000-0000-0000-0000-090000000003",
@@ -1139,7 +1547,7 @@
     "targetDescription": "A visual analytics platform for creating and storing MicroStrategy reports and data models."
   },
   {
-    "id": "889b26c7-c351-4c2d-be77-51e83cf688ba",
+    "id": "e3d6eb96-fa5b-4bce-9691-b63ae0a2264c",
     "name": "MicroStrategy Visualisation",
     "description": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map.",
     "parentId": "00000000-0000-0000-0000-090000000004",
@@ -1151,7 +1559,43 @@
     "targetDescription": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map."
   },
   {
-    "id": "de8a8faa-4fc8-4bd7-b022-d6fa26225d30",
+    "id": "56467a2e-1038-4df4-bbba-2dc67046e6e1",
+    "name": "Network",
+    "description": "A computer network or data network is a digital telecommunications network that allows nodes to share resources. In computer networks, network-connected computing devices exchange data with each other using a data link. The connections between nodes are established using either cable media or wireless media.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039027",
+    "sourceName": "Network",
+    "sourceDescription": "A computer network or data network is a digital telecommunications network that allows nodes to share resources. In computer networks, network-connected computing devices exchange data with each other using a data link. The connections between nodes are established using either cable media or wireless media.",
+    "targetName": "Network",
+    "targetDescription": "A computer network or data network is a digital telecommunications network that allows nodes to share resources. In computer networks, network-connected computing devices exchange data with each other using a data link. The connections between nodes are established using either cable media or wireless media."
+  },
+  {
+    "id": "b7ff9aa7-d797-4844-a5f6-50a770ccb9bc",
+    "name": "new Domain Asset",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "554bda86-b7c2-441e-8499-2d4560e7c1e3",
+    "sourceName": "new Domain Asset",
+    "sourceDescription": "",
+    "targetName": "new Domain Asset",
+    "targetDescription": ""
+  },
+  {
+    "id": "f51d1e9b-2974-40bd-8538-94af393a8d7d",
+    "name": "Operating Model",
+    "description": "Operating Model Reverse Engineering asset type",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "d005866a-8f38-40aa-b7c7-d3632c047b35",
+    "sourceName": "Operating Model",
+    "sourceDescription": "Operating Model Reverse Engineering asset type",
+    "targetName": "Operating Model",
+    "targetDescription": "Operating Model Reverse Engineering asset type"
+  },
+  {
+    "id": "b5c4e8b3-5ee6-4430-9c92-edf47cb20806",
     "name": "Outlier Score",
     "description": "Score of the outlier analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1163,7 +1607,43 @@
     "targetDescription": "Score of the outlier analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "df6ff6c5-a28b-41fe-a294-b9b60e47b0a8",
+    "id": "50cc0f42-10e8-4351-acfd-a51d2cf8c28a",
+    "name": "Paper Document",
+    "description": "A carrier of data in paper form",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039049",
+    "sourceName": "Paper Document",
+    "sourceDescription": "A carrier of data in paper form",
+    "targetName": "Paper Document",
+    "targetDescription": "A carrier of data in paper form"
+  },
+  {
+    "id": "572121e3-6b24-4436-ab98-f01a360a17f0",
+    "name": "Paragraph",
+    "description": "A distinct part of a policy, often establishing a particular set of requirements. For example, roles and responsibilities should be established, as they relate to the ownership and quality of data and information for both the business and IT functions.",
+    "parentId": "00000000-0000-0000-0000-000000031206",
+    "parentName": "Standard",
+    "sourceId": "c0e00000-0000-0000-0000-000000039012",
+    "sourceName": "Paragraph",
+    "sourceDescription": "A distinct part of a policy, often establishing a particular set of requirements. For example, roles and responsibilities should be established, as they relate to the ownership and quality of data and information for both the business and IT functions.",
+    "targetName": "Paragraph",
+    "targetDescription": "A distinct part of a policy, often establishing a particular set of requirements. For example, roles and responsibilities should be established, as they relate to the ownership and quality of data and information for both the business and IT functions."
+  },
+  {
+    "id": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "name": "Party",
+    "description": "An association, corporation, partnership, proprietorship, trust, or individual that has legal standing. A Party has legal capacity to enter into agreements or contracts, assume obligations, incur and pay debts, sue and be sued in its own right, and to be held responsible for its actions.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension",
+    "sourceId": "c0e00000-0000-0000-0000-000000000261",
+    "sourceName": "Party",
+    "sourceDescription": "An association, corporation, partnership, proprietorship, trust, or individual that has legal standing. A Party has legal capacity to enter into agreements or contracts, assume obligations, incur and pay debts, sue and be sued in its own right, and to be held responsible for its actions.",
+    "targetName": "Party",
+    "targetDescription": "An association, corporation, partnership, proprietorship, trust, or individual that has legal standing. A Party has legal capacity to enter into agreements or contracts, assume obligations, incur and pay debts, sue and be sued in its own right, and to be held responsible for its actions."
+  },
+  {
+    "id": "41b3c2aa-9dea-42b6-b650-9b32ab722d2d",
     "name": "Pattern Score",
     "description": "Score of the pattern analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1173,6 +1653,42 @@
     "sourceDescription": "Score of the pattern analysis conducted as part of a job, executed in CDQ.",
     "targetName": "Pattern Score",
     "targetDescription": "Score of the pattern analysis conducted as part of a job, executed in CDQ."
+  },
+  {
+    "id": "ba84c1f8-5a83-4a63-b81d-3d5416ab3f8f",
+    "name": "Permission",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "78be6912-d09a-4524-bc18-4d65d9173463",
+    "sourceName": "Permission",
+    "sourceDescription": "",
+    "targetName": "Permission",
+    "targetDescription": ""
+  },
+  {
+    "id": "88466c51-f56f-4b2f-9f45-ba6f622fc445",
+    "name": "Person Record",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "ead1a901-2856-4240-971b-6ffa0563de5d",
+    "sourceName": "Person Record",
+    "sourceDescription": "",
+    "targetName": "Person Record",
+    "targetDescription": ""
+  },
+  {
+    "id": "b6ee2217-0a4c-4391-a27b-aa660780d168",
+    "name": "PIA",
+    "description": "<p>Asset type created to store the results of the CCPA-specific Privacy Impact Assessment. The PIA assessment is designed to check if a business process adheres to data minimization and purpose limitation considerations outlined in CCPA.</p>",
+    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentName": "Assessment",
+    "sourceId": "c0e00000-0000-0000-0000-000000039059",
+    "sourceName": "PIA",
+    "sourceDescription": "<p>Asset type created to store the results of the CCPA-specific Privacy Impact Assessment. The PIA assessment is designed to check if a business process adheres to data minimization and purpose limitation considerations outlined in CCPA.</p>",
+    "targetName": "PIA",
+    "targetDescription": "<p>Asset type created to store the results of the CCPA-specific Privacy Impact Assessment. The PIA assessment is designed to check if a business process adheres to data minimization and purpose limitation considerations outlined in CCPA.</p>"
   },
   {
     "id": "00000000-0000-0000-0000-000000031202",
@@ -1343,19 +1859,31 @@
     "targetDescription": "A collection of Power BI Dashboards, Reports and Data Models."
   },
   {
-    "id": "e196b2f8-9d6d-40e1-85b6-cf455c9e847a",
-    "name": "Presidential Documents",
-    "description": "",
-    "parentId": "00000000-0000-0000-0000-000000031201",
-    "parentName": "Governance Asset",
-    "sourceId": "a36095c7-1527-4192-bdf7-9d9df8ba85df",
-    "sourceName": "Presidential Documents",
-    "sourceDescription": "",
-    "targetName": "Presidential Documents",
-    "targetDescription": ""
+    "id": "5eb290f8-bcb9-4f10-af08-98549f7af008",
+    "name": "Processing Category",
+    "description": "A category of processing activities determined by the actions taken during the processing activity.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension",
+    "sourceId": "c0e00000-0000-0000-0000-000000039043",
+    "sourceName": "Processing Category",
+    "sourceDescription": "A category of processing activities determined by the actions taken during the processing activity.",
+    "targetName": "Processing Category",
+    "targetDescription": "A category of processing activities determined by the actions taken during the processing activity."
   },
   {
-    "id": "dfa352de-7b9e-478c-8b6f-18b37362b7d8",
+    "id": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
+    "name": "Purpose",
+    "description": "An asset that describes the reason for which another asset is created or for which another asset exists.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039021",
+    "sourceName": "Purpose",
+    "sourceDescription": "An asset that describes the reason for which another asset is created or for which another asset exists.",
+    "targetName": "Purpose",
+    "targetDescription": "An asset that describes the reason for which another asset is created or for which another asset exists."
+  },
+  {
+    "id": "d21758ac-2d03-4780-902d-0bd65ac87412",
     "name": "Record Score",
     "description": "Score of the record analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1365,6 +1893,54 @@
     "sourceDescription": "Score of the record analysis conducted as part of a job, executed in CDQ.",
     "targetName": "Record Score",
     "targetDescription": "Score of the record analysis conducted as part of a job, executed in CDQ."
+  },
+  {
+    "id": "4a9ac553-8b0f-4f67-a136-d5576c0070dd",
+    "name": "Regulation",
+    "description": "A directive made and maintained by an authority. For example, BCBS and Solvency.",
+    "parentId": "00000000-0000-0000-0000-000000031202",
+    "parentName": "Policy",
+    "sourceId": "c0e00000-0000-0000-0000-000000039014",
+    "sourceName": "Regulation",
+    "sourceDescription": "A directive made and maintained by an authority. For example, BCBS and Solvency.",
+    "targetName": "Regulation",
+    "targetDescription": "A directive made and maintained by an authority. For example, BCBS and Solvency."
+  },
+  {
+    "id": "ee3558c0-db93-4df6-af68-9dfb8726ef48",
+    "name": "Relation Type",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "1f19f03f-d38b-425a-b6e5-cc12eb6c2b0f",
+    "sourceName": "Relation Type",
+    "sourceDescription": "",
+    "targetName": "Relation Type",
+    "targetDescription": ""
+  },
+  {
+    "id": "0f5a9e61-5344-4af9-8111-6d00d60f03e8",
+    "name": "Remediation Action",
+    "description": "An action taken by the business, to counteract deficiencies or undesirable characteristics.",
+    "parentId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "parentName": "Remediation Plan",
+    "sourceId": "c0e00000-0000-0000-0000-000000039033",
+    "sourceName": "Remediation Action",
+    "sourceDescription": "An action taken by the business, to counteract deficiencies or undesirable characteristics.",
+    "targetName": "Remediation Action",
+    "targetDescription": "An action taken by the business, to counteract deficiencies or undesirable characteristics."
+  },
+  {
+    "id": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "name": "Remediation Plan",
+    "description": "Steps for carrying out the remediation of one or more issues. The steps typically include options for removing threats and vulnerabilities and priorities for carrying out the remediation.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039047",
+    "sourceName": "Remediation Plan",
+    "sourceDescription": "Steps for carrying out the remediation of one or more issues. The steps typically include options for removing threats and vulnerabilities and priorities for carrying out the remediation.",
+    "targetName": "Remediation Plan",
+    "targetDescription": "Steps for carrying out the remediation of one or more issues. The steps typically include options for removing threats and vulnerabilities and priorities for carrying out the remediation."
   },
   {
     "id": "00000000-0000-0000-0000-000000031102",
@@ -1389,6 +1965,78 @@
     "sourceDescription": "An atomic unit of data that represents a report.\n\nExamples: ExpenseAmount, RiskAmount",
     "targetName": "Report Attribute",
     "targetDescription": "An atomic unit of data that represents a report.\n\nExamples: ExpenseAmount, RiskAmount"
+  },
+  {
+    "id": "9b27dfd1-91a3-4bd7-a1ab-c3dee22aca80",
+    "name": "Requirement",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031206",
+    "parentName": "Standard",
+    "sourceId": "c0e00000-0000-0000-0000-000000039024",
+    "sourceName": "Requirement",
+    "sourceDescription": "",
+    "targetName": "Requirement",
+    "targetDescription": ""
+  },
+  {
+    "id": "71cf0b82-b135-48e8-acac-7a699f5ac738",
+    "name": "Review Request",
+    "description": "Asset that groups all triggers that ask for a review or update to another asset",
+    "parentId": "00000000-0000-0000-0000-000000031111",
+    "parentName": "Issue",
+    "sourceId": "c0e00000-0000-0000-0000-000000039053",
+    "sourceName": "Review Request",
+    "sourceDescription": "Asset that groups all triggers that ask for a review or update to another asset",
+    "targetName": "Review Request",
+    "targetDescription": "Asset that groups all triggers that ask for a review or update to another asset"
+  },
+  {
+    "id": "d5fd1f91-c82c-4f96-85e5-2bb2a2e46426",
+    "name": "Review Rule",
+    "description": "Contains rules that determine when a review request will be triggered",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule",
+    "sourceId": "c0e00000-0000-0000-0000-000000039057",
+    "sourceName": "Review Rule",
+    "sourceDescription": "Contains rules that determine when a review request will be triggered",
+    "targetName": "Review Rule",
+    "targetDescription": "Contains rules that determine when a review request will be triggered"
+  },
+  {
+    "id": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "name": "Risk",
+    "description": "An uncertain event that could create damage, injury, liability, loss or any other negative occurrence that is caused by external or internal vulnerabilities (Risk Sources), which can be avoided through controls.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039035",
+    "sourceName": "Risk",
+    "sourceDescription": "An uncertain event that could create damage, injury, liability, loss or any other negative occurrence that is caused by external or internal vulnerabilities (Risk Sources), which can be avoided through controls.",
+    "targetName": "Risk",
+    "targetDescription": "An uncertain event that could create damage, injury, liability, loss or any other negative occurrence that is caused by external or internal vulnerabilities (Risk Sources), which can be avoided through controls."
+  },
+  {
+    "id": "0ba0bde9-443b-4261-8e4e-fa716556ed40",
+    "name": "Risk Source",
+    "description": "<p>A weakness of an asset or a group of assets that can be exploited by one or more events (ISO 31000). This is used to document the funcamantal source of a risk.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039036",
+    "sourceName": "Risk Source",
+    "sourceDescription": "<p>A weakness of an asset or a group of assets that can be exploited by one or more events (ISO 31000). This is used to document the funcamantal source of a risk.</p>",
+    "targetName": "Risk Source",
+    "targetDescription": "<p>A weakness of an asset or a group of assets that can be exploited by one or more events (ISO 31000). This is used to document the funcamantal source of a risk.</p>"
+  },
+  {
+    "id": "156a0f68-160f-4250-a33c-526884665710",
+    "name": "Role",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "a5fdb848-6b45-4a60-aac7-ab2db281c3f8",
+    "sourceName": "Role",
+    "sourceDescription": "",
+    "targetName": "Role",
+    "targetDescription": ""
   },
   {
     "id": "00000000-0000-0000-0000-000000031203",
@@ -1427,6 +2075,18 @@
     "targetDescription": "An asset type that represents Amazon S3."
   },
   {
+    "id": "20081082-ae3e-42db-8cde-f938a3e529d6",
+    "name": "Safeguard",
+    "description": "<p>Safeguards for transfers of data and in particular Personal Information to third parties, other countries or international organizations.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039044",
+    "sourceName": "Safeguard",
+    "sourceDescription": "<p>Safeguards for transfers of data and in particular Personal Information to third parties, other countries or international organizations.</p>",
+    "targetName": "Safeguard",
+    "targetDescription": "<p>Safeguards for transfers of data and in particular Personal Information to third parties, other countries or international organizations.</p>"
+  },
+  {
     "id": "00000000-0000-0000-0001-000400000002",
     "name": "Schema",
     "description": "An organized structure described in a formal language supported by implementing technology that defines the objects in the technology assets (Table and columns in a relational database, fields in a file).\n\nE.g. CRM_001_PRD, HDP_CNT_CLD",
@@ -1439,7 +2099,7 @@
     "targetDescription": "An organized structure described in a formal language supported by implementing technology that defines the objects in the technology assets (Table and columns in a relational database, fields in a file).\n\nE.g. CRM_001_PRD, HDP_CNT_CLD"
   },
   {
-    "id": "35d967ed-96f2-4b26-90cc-e941599cc8bb",
+    "id": "e2234068-635e-457f-8616-7eca6a4d3036",
     "name": "Schema Score",
     "description": "Score of the schema analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1449,6 +2109,30 @@
     "sourceDescription": "Score of the schema analysis conducted as part of a job, executed in CDQ.",
     "targetName": "Schema Score",
     "targetDescription": "Score of the schema analysis conducted as part of a job, executed in CDQ."
+  },
+  {
+    "id": "e85cb317-4e76-41a7-8d70-b7424b24ef68",
+    "name": "Scope",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "d348bb43-1150-43c5-967d-a8ed9cbaa24e",
+    "sourceName": "Scope",
+    "sourceDescription": "",
+    "targetName": "Scope",
+    "targetDescription": ""
+  },
+  {
+    "id": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
+    "name": "Security Issue",
+    "description": "A security incident in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. Security issues can involve financial information, such as credit card or bank details; Personal Health Information (PHI); Personally Identifiable Information (PII); corporate trade secrets or intellectual property. Most security issues involve overexposed and vulnerable unstructured data, such as files, documents and sensitive information.",
+    "parentId": "00000000-0000-0000-0000-000000031111",
+    "parentName": "Issue",
+    "sourceId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceName": "Security Issue",
+    "sourceDescription": "A security incident in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. Security issues can involve financial information, such as credit card or bank details; Personal Health Information (PHI); Personally Identifiable Information (PII); corporate trade secrets or intellectual property. Most security issues involve overexposed and vulnerable unstructured data, such as files, documents and sensitive information.",
+    "targetName": "Security Issue",
+    "targetDescription": "A security incident in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. Security issues can involve financial information, such as credit card or bank details; Personal Health Information (PHI); Personally Identifiable Information (PII); corporate trade secrets or intellectual property. Most security issues involve overexposed and vulnerable unstructured data, such as files, documents and sensitive information."
   },
   {
     "id": "00000000-0000-0000-0000-110000000004",
@@ -1463,7 +2147,55 @@
     "targetDescription": "A computer program or device that supports other computer programs and their users"
   },
   {
-    "id": "6786b0ae-c68c-4de5-a0e8-b67113f4e715",
+    "id": "b7f95463-4eed-4ef9-a93a-3baf25dd0800",
+    "name": "ServiceNow Configuration",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "e45d9997-39f8-43e0-b97c-8d2e93c5800e",
+    "sourceName": "ServiceNow Configuration",
+    "sourceDescription": "",
+    "targetName": "ServiceNow Configuration",
+    "targetDescription": ""
+  },
+  {
+    "id": "07c3f878-3c6e-4e03-b232-1030bfeeb562",
+    "name": "ServiceNow Incident Issue",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "9e00fdc6-8849-4a88-a8e9-0c93d938ab65",
+    "sourceName": "ServiceNow Incident Issue",
+    "sourceDescription": "",
+    "targetName": "ServiceNow Incident Issue",
+    "targetDescription": ""
+  },
+  {
+    "id": "ac011c8a-9fbe-44d9-a28d-9bf2ce08d908",
+    "name": "ServiceNow Requested Item Issue",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "5f64269c-c9c4-4dfe-8d00-ab0c7f138b47",
+    "sourceName": "ServiceNow Requested Item Issue",
+    "sourceDescription": "",
+    "targetName": "ServiceNow Requested Item Issue",
+    "targetDescription": ""
+  },
+  {
+    "id": "869aa5d3-fd44-44af-a49f-705420a6642c",
+    "name": "ServiceNow Request Issue",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "d897b383-f2f9-4b42-bb2f-f469122f4779",
+    "sourceName": "ServiceNow Request Issue",
+    "sourceDescription": "",
+    "targetName": "ServiceNow Request Issue",
+    "targetDescription": ""
+  },
+  {
+    "id": "993d09ce-6552-4144-8cf5-47ab0034391d",
     "name": "Shape Score",
     "description": "Score of the shape analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1475,7 +2207,19 @@
     "targetDescription": "Score of the shape analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "7ab62e8d-ab35-4857-839a-eabb3c693a2c",
+    "id": "a89c8420-839c-43ad-b9f3-3c89e8fee24b",
+    "name": "Software",
+    "description": "Software is a collection of instructions that enables the user to interact with a computer or its hardware and perform tasks. For example, computer programs, libraries and related non-executable data, such as online documentation or digital media.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset",
+    "sourceId": "c0e00000-0000-0000-0000-000000039028",
+    "sourceName": "Software",
+    "sourceDescription": "Software is a collection of instructions that enables the user to interact with a computer or its hardware and perform tasks. For example, computer programs, libraries and related non-executable data, such as online documentation or digital media.",
+    "targetName": "Software",
+    "targetDescription": "Software is a collection of instructions that enables the user to interact with a computer or its hardware and perform tasks. For example, computer programs, libraries and related non-executable data, such as online documentation or digital media."
+  },
+  {
+    "id": "9a768702-2eae-465d-b2fb-0ca77f7d857a",
     "name": "Source Score",
     "description": "Score of the source analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1593,6 +2337,30 @@
     "sourceDescription": "A specific low-level mandatory action or rule that helps to enforce and support a policy.\n\nExample: All personal information has to be encrypted with a specific encryption type.",
     "targetName": "Standard",
     "targetDescription": "A specific low-level mandatory action or rule that helps to enforce and support a policy.\n\nExample: All personal information has to be encrypted with a specific encryption type."
+  },
+  {
+    "id": "1d862106-97d9-4b9e-8752-a198fd70cd30",
+    "name": "Start Event",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "475f86d1-eef4-4f45-aec5-3797e5814fdf",
+    "sourceName": "Start Event",
+    "sourceDescription": "",
+    "targetName": "Start Event",
+    "targetDescription": ""
+  },
+  {
+    "id": "320c6c9a-b9fb-4bc0-bf5b-3d5ceaaa3f5d",
+    "name": "Status Type",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "7a6e4fe4-bedb-4010-9856-6f34c46af96b",
+    "sourceName": "Status Type",
+    "sourceDescription": "",
+    "targetName": "Status Type",
+    "targetDescription": ""
   },
   {
     "id": "00000000-0000-0000-0000-000000031302",
@@ -1787,7 +2555,67 @@
     "targetDescription": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File"
   },
   {
-    "id": "1a4a29ea-8b3f-450d-b78b-be12cd6fa298",
+    "id": "ad420421-a770-43e5-be70-b0685ecac008",
+    "name": "Threshold Assessment Rule",
+    "description": "<p>Rule that allow to configure the threshold assessments that will allow you to see if impact assessment need to be done.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule",
+    "sourceId": "c0e00000-0000-0000-0000-000000039048",
+    "sourceName": "Threshold Assessment Rule",
+    "sourceDescription": "<p>Rule that allow to configure the threshold assessments that will allow you to see if impact assessment need to be done.</p>",
+    "targetName": "Threshold Assessment Rule",
+    "targetDescription": "<p>Rule that allow to configure the threshold assessments that will allow you to see if impact assessment need to be done.</p>"
+  },
+  {
+    "id": "67c5bc43-dc21-4bd2-84f6-f26c26a57925",
+    "name": "Time-based Review Rule",
+    "description": "<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains time based rules that determine when a review request will be triggered</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
+    "parentId": "d5fd1f91-c82c-4f96-85e5-2bb2a2e46426",
+    "parentName": "Review Rule",
+    "sourceId": "c0e00000-0000-0000-0000-000000039054",
+    "sourceName": "Time-based Review Rule",
+    "sourceDescription": "<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains time based rules that determine when a review request will be triggered</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
+    "targetName": "Time-based Review Rule",
+    "targetDescription": "<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains time based rules that determine when a review request will be triggered</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>"
+  },
+  {
+    "id": "822f8f13-8401-4fc2-a438-fa32a63f63ee",
+    "name": "Transformation Rule",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "0532fdfe-9f7b-4a3b-a090-f983a04bd65b",
+    "sourceName": "Transformation Rule",
+    "sourceDescription": "",
+    "targetName": "Transformation Rule",
+    "targetDescription": ""
+  },
+  {
+    "id": "56aebfe3-ef7f-4631-ab6a-6d5038872cc6",
+    "name": "Trigger",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "db84b3e9-72de-4a5e-853e-19a1ae9eac59",
+    "sourceName": "Trigger",
+    "sourceDescription": "",
+    "targetName": "Trigger",
+    "targetDescription": ""
+  },
+  {
+    "id": "8c505d9f-b444-4002-ba4c-ed661fcc7959",
+    "name": "User",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "226989b0-7b39-4258-b96e-efa173ee3900",
+    "sourceName": "User",
+    "sourceDescription": "",
+    "targetName": "User",
+    "targetDescription": ""
+  },
+  {
+    "id": "7cf27eb4-ba8a-4428-99cb-3f710e006ab3",
     "name": "User Defined Rule Score",
     "description": "Score of a custom rule defined by the user, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1797,6 +2625,18 @@
     "sourceDescription": "Score of a custom rule defined by the user, executed in CDQ.",
     "targetName": "User Defined Rule Score",
     "targetDescription": "Score of a custom rule defined by the user, executed in CDQ."
+  },
+  {
+    "id": "3169e66d-632d-4631-a438-4dfa91d2da0e",
+    "name": "User Group",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "e483ff8f-6150-4e70-a7ba-6b4d360ec513",
+    "sourceName": "User Group",
+    "sourceDescription": "",
+    "targetName": "User Group",
+    "targetDescription": ""
   },
   {
     "id": "00000000-0000-0000-0000-000000005119",
@@ -1809,5 +2649,29 @@
     "sourceDescription": "A rule that describes a criterion to which content in DGC has to comply.",
     "targetName": "Validation Rule",
     "targetDescription": "A rule that describes a criterion to which content in DGC has to comply."
+  },
+  {
+    "id": "0da2d81c-53bc-4a25-a794-cf2fd631a120",
+    "name": "Video",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "8b170a53-d657-49dd-9122-5c7fc41318b0",
+    "sourceName": "Video",
+    "sourceDescription": "",
+    "targetName": "Video",
+    "targetDescription": ""
+  },
+  {
+    "id": "1d638c65-6b9b-4867-bebf-efb304417c7c",
+    "name": "Workflow",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "sourceId": "9269b7f1-5a18-42c4-9c63-3837e4d3482d",
+    "sourceName": "Workflow",
+    "sourceDescription": "",
+    "targetName": "Workflow",
+    "targetDescription": ""
   }
 ]
