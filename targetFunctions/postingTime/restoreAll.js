@@ -42,4 +42,16 @@ async function gqlRestore() {
 
 }
 
-gqlRestore();
+async function goNoGo () {
+  const checkApi = require('./checkConfig.js');
+  const checkTarget = await checkApi();
+  if (checkTarget !== 0) {
+    
+    console.log(checkTarget)
+    gqlRestore();
+  } else {
+    console.log('API is not reachable.');
+  }
+}
+
+goNoGo();

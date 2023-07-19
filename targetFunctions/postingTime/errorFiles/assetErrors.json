@@ -1,0 +1,26 @@
+[
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "An asset with ID '16700d6d-70a7-4367-9a07-2a146bbe936d' already exists.",
+    "errorCode": "termWithIdAlreadyExists"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "An asset with ID '00147334-8ef1-4908-b2e4-47d30758361b' already exists.",
+    "errorCode": "termWithIdAlreadyExists"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "An asset with ID '76c68e79-87d2-4fa0-a3ea-daabd9c52100' already exists.",
+    "errorCode": "termWithIdAlreadyExists"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "An asset with ID 'edfd8320-2366-45af-bd50-05f2319caafe' already exists.",
+    "errorCode": "termWithIdAlreadyExists"
+  }
+]

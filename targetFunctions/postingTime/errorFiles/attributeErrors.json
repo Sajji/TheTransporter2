@@ -1,0 +1,104 @@
+[
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  },
+  {
+    "statusCode": 400,
+    "titleMessage": "Value not allowed",
+    "userMessage": "The maximum limit of attributes (1) has been reached.",
+    "errorCode": "attributeMaxLimitReached"
+  }
+]

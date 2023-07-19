@@ -65,4 +65,17 @@ async function createCopyOfConfig() {
   console.log(`Copy of config.json created at ${backupFilePath}`);
 }
 
-backupAll();
+async function goNoGo () {
+  const checkApi = require('./checkConfig.js');
+  const checkTarget = await checkApi();
+  if (checkTarget !== 0) {
+    
+    console.log(checkTarget)
+    backupAll();
+  } else {
+    console.log(checkTarget)
+    console.log('API is not reachable.');
+  }
+}
+
+goNoGo();

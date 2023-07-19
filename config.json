@@ -1,17 +1,17 @@
 {
     "sourceSystem": {
-      "baseURL": "https://fedworld.collibra.com/rest/2.0/",
-      "username": "Admin",
+      "baseURL": "https://SOURCE-SYSTEM-HERE/rest/2.0/",
+      "username": "admin",
       "password": "admin",
       "communities": [
         "HHS"
       ],
       "useGraphQl": true,
-      "baseGraphql": "https://fedworld.collibra.com/graphql/knowledgeGraph/v1"
+      "baseGraphql": "https://SOURCE-SYSTEM-HERE/graphql/knowledgeGraph/v1"
     },
     "targetSystem": {
-      "baseURL": "http://192.168.1.144:4400/rest/2.0/",
-      "username": "Admin",
+      "baseURL": "https://TARGET-SYSTEM-HERE/rest/2.0/",
+      "username": "admin",
       "password": "admin",
       "endpoints": [
         "communities",

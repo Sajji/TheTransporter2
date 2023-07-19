@@ -12,7 +12,7 @@
     "targetDescription": "An abbreviation that is used as a word. It is formed from the initial letters of a Business Term.\nExamples: ERP, EDW, EAD"
   },
   {
-    "id": "55809461-8b23-4b9d-a79a-8ee3a9aafe9c",
+    "id": "00000000-0000-0000-0000-090000010014",
     "name": "Adaptive Rule Score",
     "description": "Score of an adaptive rule executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -24,7 +24,7 @@
     "targetDescription": "Score of an adaptive rule executed in CDQ."
   },
   {
-    "id": "64af592c-0f5c-4be2-a70e-a9b62c913ef4",
+    "id": "00000000-0000-0000-0001-002800000003",
     "name": "ADLS Container",
     "description": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects.",
     "parentId": "00000000-0000-0000-0001-002900000002",
@@ -36,7 +36,7 @@
     "targetDescription": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects."
   },
   {
-    "id": "9afb8226-2139-48fc-a618-d50f60c723a3",
+    "id": "00000000-0000-0000-0001-002800000001",
     "name": "ADLS File System",
     "description": "An asset type that represents Azure Data Lake Storage file system.",
     "parentId": "00000000-0000-0000-0001-002900000001",
@@ -48,7 +48,7 @@
     "targetDescription": "An asset type that represents Azure Data Lake Storage file system."
   },
   {
-    "id": "cabb3f17-ce36-4805-be04-f568190fd0b5",
+    "id": "00000000-0000-0000-0001-002800000002",
     "name": "ADLS Storage Account",
     "description": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects.",
     "parentId": "00000000-0000-0000-0001-002900000002",
@@ -60,7 +60,7 @@
     "targetDescription": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects."
   },
   {
-    "id": "b578cc28-3b29-4c72-9ecb-1ec4864c6aab",
+    "id": "752466c9-ec22-4510-802d-77de062cabe7",
     "name": "Analytics Model",
     "description": "An Analytics Model is a model that examines current and historical datasets for underlying patterns and calculate the probability of an outcome.",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -72,7 +72,7 @@
     "targetDescription": "An Analytics Model is a model that examines current and historical datasets for underlying patterns and calculate the probability of an outcome."
   },
   {
-    "id": "31df505b-d2c8-47b8-8197-1995292ba1dd",
+    "id": "c0e00000-0000-0000-0000-000000000262",
     "name": "Application",
     "description": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -84,7 +84,7 @@
     "targetDescription": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose."
   },
   {
-    "id": "f72f8c63-5d3d-4957-aa11-f9c379c855ce",
+    "id": "52f2388e-87ce-425b-8336-401ebcf55f27",
     "name": "ArcGIS Server",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -96,7 +96,7 @@
     "targetDescription": ""
   },
   {
-    "id": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "id": "c0e00000-0000-0000-0000-000000039050",
     "name": "Assessment",
     "description": "A type of asset that is used to store the results of assessments as attributes and relations.",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -120,7 +120,7 @@
     "targetDescription": "An asset of this type is created when an assessment is conducted on an asset and submitted for review."
   },
   {
-    "id": "cc94d9ba-a9c2-4975-9ebd-768b7d3f3e78",
+    "id": "ab6e4667-1a63-442e-b4df-ac0fdfa0a61e",
     "name": "AWS Data Assets",
     "description": "Aws Lake Formation Asset",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -132,7 +132,7 @@
     "targetDescription": "Aws Lake Formation Asset"
   },
   {
-    "id": "ab51dd8f-cc9c-4168-a81b-711a33a88a84",
+    "id": "340aec93-ce9f-4835-a723-51f6e061d54c",
     "name": "Aws-LF-Tag-Key",
     "description": "Aws Lake Formation Asset",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -144,7 +144,7 @@
     "targetDescription": "Aws Lake Formation Asset"
   },
   {
-    "id": "886f945e-b16a-43f0-8ef7-63a912f08144",
+    "id": "16b2ff23-9771-4b0f-9967-08aee2c58ee6",
     "name": "Aws-LF-Tag-Value",
     "description": "Aws Lake Formation Asset",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -156,7 +156,7 @@
     "targetDescription": "Aws Lake Formation Asset"
   },
   {
-    "id": "ab13807c-641d-4769-9edf-8432e680151e",
+    "id": "06942d99-0113-4308-a9ce-6948715b1a2c",
     "name": "AWS Operations",
     "description": "Aws Lake Formation Asset",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -372,7 +372,7 @@
     "targetDescription": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America"
   },
   {
-    "id": "33b74630-9747-44e4-8570-63e4767482a8",
+    "id": "c0ea88d9-d43e-44f9-bea3-fc86a4134284",
     "name": "Code Value2",
     "description": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -396,10 +396,10 @@
     "targetDescription": "An atomic unit of data that can be stored in a database table.\n\nExamples: FST_NM, EMPID"
   },
   {
-    "id": "cbb49a74-c42f-41aa-a7c7-841e5d32bcdf",
+    "id": "c0e00000-0000-0000-0000-000000039052",
     "name": "Compliance Self Assessment",
     "description": "According to Article 39.1.b. of GDPR, the DPO is responsible for monitoring the organization’s compliance with GDPR. This asset is used to store the characteristics of this assessment.",
-    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
     "parentName": "Assessment",
     "sourceId": "c0e00000-0000-0000-0000-000000039052",
     "sourceName": "Compliance Self Assessment",
@@ -408,7 +408,7 @@
     "targetDescription": "According to Article 39.1.b. of GDPR, the DPO is responsible for monitoring the organization’s compliance with GDPR. This asset is used to store the characteristics of this assessment."
   },
   {
-    "id": "10f04d8b-8b2c-41e8-91cd-ccf465cb3557",
+    "id": "c0e00000-0000-0000-0000-000000039038",
     "name": "Consequence",
     "description": "<p>Outcome of an Event, affecting objectives. This is used to document the consequences that will take effect if a risk materializes.</p>",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -420,7 +420,7 @@
     "targetDescription": "<p>Outcome of an Event, affecting objectives. This is used to document the consequences that will take effect if a risk materializes.</p>"
   },
   {
-    "id": "068c8e96-8525-4d83-8e2d-e482c6876b6f",
+    "id": "c0e00000-0000-0000-0000-000000039058",
     "name": "Contract",
     "description": "<p>Represents a legally binding contract between 2 or more parties.</p>",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -432,7 +432,7 @@
     "targetDescription": "<p>Represents a legally binding contract between 2 or more parties.</p>"
   },
   {
-    "id": "2be51eb3-8701-48b5-8e65-1e4b738bbb40",
+    "id": "c0e00000-0000-0000-0000-000000039040",
     "name": "Control",
     "description": "<p>A measure taken to mitigate a risk. Any process, policy, device, practice, or other conditions and/or actions which maintain and/or modify risk.</p>",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -444,7 +444,7 @@
     "targetDescription": "<p>A measure taken to mitigate a risk. Any process, policy, device, practice, or other conditions and/or actions which maintain and/or modify risk.</p>"
   },
   {
-    "id": "03134112-f91f-4694-ae9f-37b0ceaabc16",
+    "id": "cd000000-0000-0000-0000-000000000010",
     "name": "Crawler",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -452,8 +452,7 @@
     "sourceId": "f5e7c2e3-c430-4518-8310-4759e2c07c46",
     "sourceName": "Crawler",
     "sourceDescription": "",
-    "targetName": "Crawler",
-    "targetDescription": ""
+    "targetName": "Crawler"
   },
   {
     "id": "00000000-0000-0000-0000-000000031031",
@@ -600,7 +599,7 @@
     "targetDescription": "A diagram that organizes data elements and standardizes how the data elements relate to one another. The Data Model is often used as a communication aid between business and technology.\n\nExamples: Customer Subject area model, Event Subject area model"
   },
   {
-    "id": "7463228a-ae71-4cd2-bfdc-9bfbd0b529b0",
+    "id": "00000000-0000-0000-0001-110000000401",
     "name": "Dataplex Lake",
     "description": "A lake ifs a centralized repository for managing enterprise data across the organization.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -612,7 +611,7 @@
     "targetDescription": "A lake ifs a centralized repository for managing enterprise data across the organization."
   },
   {
-    "id": "a5e7d4d3-f814-473a-b2dc-a13a64c4c8e5",
+    "id": "00000000-0000-0000-0001-110000000402",
     "name": "Dataplex Zone",
     "description": "A zone represents a logical group of related assets within a lake.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -636,7 +635,7 @@
     "targetDescription": "Represents a criterion relevant for assessing quality and categorizes different aspects of how data quality is measured.\n\nExamples: Accuracy, Completeness, Consistency"
   },
   {
-    "id": "ae3ad187-392c-42c2-ac7e-2e5d06e2f5ab",
+    "id": "00000000-0000-0000-0000-090000010012",
     "name": "Data Quality Job",
     "description": "Representation of a job executed within CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031002",
@@ -708,7 +707,7 @@
     "targetDescription": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName"
   },
   {
-    "id": "76e8186a-bca8-4bd8-87c8-75775df0d4b1",
+    "id": "c0e00000-0000-0000-0000-000000039031",
     "name": "Data Subject Category",
     "description": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
     "parentId": "00000000-0000-0000-0000-000000031105",
@@ -720,7 +719,7 @@
     "targetDescription": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data."
   },
   {
-    "id": "488f0744-0d71-4cc0-811b-6ec58c220f32",
+    "id": "cd000000-0000-0000-0000-000000000001",
     "name": "Data Transformation",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -728,11 +727,10 @@
     "sourceId": "ecd11c73-1357-4044-98f8-59151d950eca",
     "sourceName": "Data Transformation",
     "sourceDescription": "",
-    "targetName": "Data Transformation",
-    "targetDescription": ""
+    "targetName": "Data Transformation"
   },
   {
-    "id": "551ce5da-e544-498d-be8f-e0b7e9ab7027",
+    "id": "128da987-1c8b-461f-978e-225c92b64693",
     "name": "Data Transformation Process",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -768,7 +766,7 @@
     "targetDescription": "An organizational structure that contains files and/or other directories.\n\nExamples: C:/Collibra, D:/Collibra/DGC"
   },
   {
-    "id": "2fbafcda-4ad9-4aeb-9a66-532eb574147d",
+    "id": "00e2073b-95af-464b-b7ec-4f32304234c3",
     "name": "Documentation",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -780,10 +778,10 @@
     "targetDescription": ""
   },
   {
-    "id": "9afbf55b-58ee-452b-8b81-1bf2c5f6aec2",
+    "id": "c0e00000-0000-0000-0000-000000039039",
     "name": "DPIA",
     "description": "<p>Asset type created to store the results of the GDPR-specific Data Privacy Impact Assessment. The DPIA assessment is designed to describe a processing activity, assess the necessity and proportionality of processing, and helps managing the risks to the rights and freedoms of natural persons, resulting from the processing of personal data.</p>",
-    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
     "parentName": "Assessment",
     "sourceId": "c0e00000-0000-0000-0000-000000039039",
     "sourceName": "DPIA",
@@ -792,7 +790,7 @@
     "targetDescription": "<p>Asset type created to store the results of the GDPR-specific Data Privacy Impact Assessment. The DPIA assessment is designed to describe a processing activity, assess the necessity and proportionality of processing, and helps managing the risks to the rights and freedoms of natural persons, resulting from the processing of personal data.</p>"
   },
   {
-    "id": "b6de36a6-7b20-4644-962d-67ad42ab84c5",
+    "id": "00000000-0000-0000-0000-090000010021",
     "name": "Duplicate Score",
     "description": "Score of the duplicate analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -804,7 +802,7 @@
     "targetDescription": "Score of the duplicate analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "361806af-8a0e-44b2-9205-7b04bd9b20aa",
+    "id": "c0e00000-0000-0000-0000-000000039010",
     "name": "End User Tool",
     "description": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -816,7 +814,7 @@
     "targetDescription": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data."
   },
   {
-    "id": "14673a59-92f5-4b6d-879b-bcf8de1890fe",
+    "id": "cd000000-0000-0000-0000-000000000002",
     "name": "ETL Script",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -824,11 +822,10 @@
     "sourceId": "3ca34173-5cbf-44d5-afeb-97de4d1e4e7d",
     "sourceName": "ETL Script",
     "sourceDescription": "",
-    "targetName": "ETL Script",
-    "targetDescription": ""
+    "targetName": "ETL Script"
   },
   {
-    "id": "3d946241-fd39-4ded-94fe-ad9ee1637ea0",
+    "id": "c0e00000-0000-0000-0000-000000039037",
     "name": "Event",
     "description": "<p>A potential cause of an incident that may result in harm to a system or organization (ISO 31000). This is used to document the events that can trigger a certain risk.</p>",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -840,10 +837,10 @@
     "targetDescription": "<p>A potential cause of an incident that may result in harm to a system or organization (ISO 31000). This is used to document the events that can trigger a certain risk.</p>"
   },
   {
-    "id": "bbd936d2-46d2-4c24-a0fd-e5051ff05565",
+    "id": "c0e00000-0000-0000-0000-000000039055",
     "name": "Event-based Review Rule",
     "description": "<p></p>\n<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains event based rules that determine when a review request is triggered on an asset</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
-    "parentId": "d5fd1f91-c82c-4f96-85e5-2bb2a2e46426",
+    "parentId": "c0e00000-0000-0000-0000-000000039057",
     "parentName": "Review Rule",
     "sourceId": "c0e00000-0000-0000-0000-000000039055",
     "sourceName": "Event-based Review Rule",
@@ -924,7 +921,7 @@
     "targetDescription": "Asset type used to model the Primary key - Foreign key relations in relational databases."
   },
   {
-    "id": "a94255b7-a1fd-46d0-a4fa-5921b7e5cec8",
+    "id": "00000000-0000-0000-0001-110000000400",
     "name": "GCP Project",
     "description": "An asset type representing a GCP Project.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -960,7 +957,7 @@
     "targetDescription": "An asset type that represents Google Cloud Storage file system."
   },
   {
-    "id": "e1c5a944-a90a-4030-8884-643f93683426",
+    "id": "cc53fd1f-310a-4682-96f4-e45d33befdd5",
     "name": "GIS Folder",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -972,7 +969,7 @@
     "targetDescription": ""
   },
   {
-    "id": "bcc37755-8e5a-4c35-9835-f528140f4874",
+    "id": "36613e4a-d61c-4600-b7c6-7585f5ae2e80",
     "name": "GIS Layer",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -984,7 +981,7 @@
     "targetDescription": ""
   },
   {
-    "id": "47f134ea-1157-4142-886b-9250306b08b7",
+    "id": "e668a9d2-8ad4-4c88-8b90-d5fe5021c752",
     "name": "GIS Service",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1008,7 +1005,7 @@
     "targetDescription": "A type of asset that is used to monitor and advocates to maximize performance or utilization of other Business and Data assets while minimizing the risk factors in alignment with Organisational/Business goals."
   },
   {
-    "id": "78adada2-6655-4ba5-8f24-a2b9b72db25f",
+    "id": "f6b36fd0-453b-4816-9a03-2b91475114ea",
     "name": "GPS Server",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1020,7 +1017,7 @@
     "targetDescription": ""
   },
   {
-    "id": "0a5e06c7-32b0-4da6-8adf-9fa1faa1331d",
+    "id": "9ef64897-2c19-4def-a434-24449edca89e",
     "name": "HCM Service Measures",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000021001",
@@ -1032,7 +1029,7 @@
     "targetDescription": ""
   },
   {
-    "id": "42439e8a-60f7-424d-9f88-b596a6a9b8b8",
+    "id": "737953e2-a6c5-457d-ae71-32a6ed69e880",
     "name": "Ikea Bed",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1044,7 +1041,7 @@
     "targetDescription": ""
   },
   {
-    "id": "28533b74-039f-4ab8-b022-6abdb7a0f0d8",
+    "id": "048fd227-56b9-4014-a511-8cc46a73450a",
     "name": "Ikea Chair",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1056,10 +1053,10 @@
     "targetDescription": ""
   },
   {
-    "id": "9aaf2baf-8ed1-4da2-967f-21fb03a2f7f0",
+    "id": "66998022-8db5-488f-bc13-1b4cbf4ed202",
     "name": "Ikea Chair Cushion",
     "description": "",
-    "parentId": "28533b74-039f-4ab8-b022-6abdb7a0f0d8",
+    "parentId": "048fd227-56b9-4014-a511-8cc46a73450a",
     "parentName": "Ikea Chair",
     "sourceId": "846ca7b7-ae4d-4dda-8cf0-ab806c896185",
     "sourceName": "Ikea Chair Cushion",
@@ -1068,7 +1065,7 @@
     "targetDescription": ""
   },
   {
-    "id": "0ec5ee2f-544f-45ce-b236-3e1ca5749e79",
+    "id": "06d722d0-f37b-4f97-a7be-911c56b513e2",
     "name": "Ikea Lamp",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1080,7 +1077,7 @@
     "targetDescription": ""
   },
   {
-    "id": "dfea7b55-5011-4bf9-8230-da333e0eb1af",
+    "id": "6b4e5c7e-5ddf-4c9e-bf12-a5140b712c41",
     "name": "Ikea Rug",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1092,10 +1089,10 @@
     "targetDescription": ""
   },
   {
-    "id": "330a86d1-778d-4fca-ace2-9fea46c8220f",
+    "id": "d2569f59-0a41-46cb-b841-2bda4ac77f77",
     "name": "Ikea Rug Cleaner",
     "description": "",
-    "parentId": "dfea7b55-5011-4bf9-8230-da333e0eb1af",
+    "parentId": "6b4e5c7e-5ddf-4c9e-bf12-a5140b712c41",
     "parentName": "Ikea Rug",
     "sourceId": "ee983ecc-9e1b-413b-8749-dbab7840f68e",
     "sourceName": "Ikea Rug Cleaner",
@@ -1104,7 +1101,7 @@
     "targetDescription": ""
   },
   {
-    "id": "54da5d53-b1b2-41e5-b5f9-7559e33cbf47",
+    "id": "481900c0-56c4-449b-b1c0-f517a9cfc4ad",
     "name": "Ikea Table",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1112,11 +1109,10 @@
     "sourceId": "481900c0-56c4-449b-b1c0-f517a9cfc4ad",
     "sourceName": "Ikea Table",
     "sourceDescription": "",
-    "targetName": "Ikea Table",
-    "targetDescription": ""
+    "targetName": "Ikea Table"
   },
   {
-    "id": "5d8a2232-ec57-474a-9e6b-26d568e6ff02",
+    "id": "5bad399b-3c7a-4c88-9039-bf884fbac45c",
     "name": "ImageFile",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1151,7 +1147,7 @@
     "targetName": "Issue Category"
   },
   {
-    "id": "3d021a29-9745-44ea-8f83-72ad1526b7ef",
+    "id": "c0e00000-0000-0000-0000-000000039008",
     "name": "Jurisdiction",
     "description": "A hierarchical representation of how a business divides its market on the basis of geography, such as regions and countries. For example, North America is segmented into USA and Canada.",
     "parentId": "00000000-0000-0000-0000-000000031105",
@@ -1175,7 +1171,7 @@
     "targetDescription": "An indicator to periodically measure the success or progress of a particular activity or of an organization, towards a strategic goal.\n\nExamples: Employee Turnover, Customer Attrition, Claims Denial Rate"
   },
   {
-    "id": "644dd4bf-0d9d-4279-b1de-6aa05d3081d7",
+    "id": "c0e00000-0000-0000-0000-000000039042",
     "name": "Legal Basis",
     "description": "The lawfulness of processing, as defined by Article 6 of GDPR. Personal data may be processed only if, and to the extent that, at least one legal basis applies.",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -1187,10 +1183,10 @@
     "targetDescription": "The lawfulness of processing, as defined by Article 6 of GDPR. Personal data may be processed only if, and to the extent that, at least one legal basis applies."
   },
   {
-    "id": "48a6a78a-fa19-48f3-b911-cd01ec8171ad",
+    "id": "c0e00000-0000-0000-0000-000000039051",
     "name": "Legitimate Interest Assessment",
     "description": "<p>Asset type created to store the results of the GDPR-specific Legitimate Interest Assessment.</p>",
-    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
     "parentName": "Assessment",
     "sourceId": "c0e00000-0000-0000-0000-000000039051",
     "sourceName": "Legitimate Interest Assessment",
@@ -1211,7 +1207,7 @@
     "targetDescription": "Also known as Business Unit or Business Area, the Line of Business is a logical element or segment of an organization that serves a particular Business need.\n\nExamples: Asset Management, Retail, E-com, Investment Management"
   },
   {
-    "id": "00000000-0000-0000-0000-100000000013",
+    "id": "37c76f9b-1880-4bba-8bcd-9512ed167353",
     "name": "Looker Dashboard",
     "description": "A collection of Looker Tiles with metrics from one or more Looker Looks.",
     "parentId": "00000000-0000-0000-0000-090000000003",
@@ -1220,10 +1216,10 @@
     "sourceName": "Looker Dashboard",
     "sourceDescription": "A collection of Looker Tiles with metrics from one or more Looker Looks.",
     "targetName": "Looker Dashboard",
-    "targetDescription": "A collection of Looker Tiles with metrics from one or more Looker Looks."
+    "targetDescription": "Collection of queries displayed as visualisations on a page."
   },
   {
-    "id": "cae14dda-c8cc-4281-9e18-cb4820279f79",
+    "id": "59957ab4-4419-4007-b179-edc2fcdea81a",
     "name": "Looker Data Attribute",
     "description": "A specification that defines a property of a Looker data entity. Examples: CustomerBirthDate, EmployeeFirstName.",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1259,7 +1255,7 @@
     "targetDescription": "A column in a Looker Data Set."
   },
   {
-    "id": "d1d527e1-ee9b-4970-8874-9d0cebf297d4",
+    "id": "6e77f7a1-3f56-4307-a8b9-519e8fce091d",
     "name": "Looker Explore",
     "description": "An abstraction from the physical implementation of database tables, used for Looker report creation.",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1283,7 +1279,7 @@
     "targetDescription": "A container that stores Looker Looks, Dashboards and other folders."
   },
   {
-    "id": "00000000-0000-0000-0000-100000000014",
+    "id": "47a1491f-0426-405c-bb13-5f6aad11f336",
     "name": "Looker Look",
     "description": "A detailed view of a Looker Data Set, with visualizations of findings and insights.",
     "parentId": "00000000-0000-0000-0000-090000000003",
@@ -1292,10 +1288,10 @@
     "sourceName": "Looker Look",
     "sourceDescription": "A detailed view of a Looker Data Set, with visualizations of findings and insights.",
     "targetName": "Looker Look",
-    "targetDescription": "A detailed view of a Looker Data Set, with visualizations of findings and insights."
+    "targetDescription": "Saved report that can be retrieved by name and shared with other people in the organisation."
   },
   {
-    "id": "c936bab5-fbe8-4a49-ad86-51b9d839ba1a",
+    "id": "f731bb07-d08d-4d03-8c66-cf5ee1825360",
     "name": "Looker LookML Model",
     "description": "An abstraction from the physical implementation of database, schema, file, etc., used for Looker report creation.",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1307,7 +1303,7 @@
     "targetDescription": "An abstraction from the physical implementation of database, schema, file, etc., used for Looker report creation."
   },
   {
-    "id": "a497e566-72ea-4094-8c10-326e07e81a2f",
+    "id": "faa30353-a9b0-4038-8e7c-2f04467e4cf2",
     "name": "Looker Project",
     "description": "Collection of LookML files that describe how your database tables are related to each other and how Looker should interpret those tables.",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1331,7 +1327,7 @@
     "targetDescription": "A query that creates a simple report in a Looker Tile or Looker Look."
   },
   {
-    "id": "00000000-0000-0000-0000-100000000019",
+    "id": "d67747a8-9d31-4d30-95f2-d733132a95bf",
     "name": "Looker Report Attribute",
     "description": "An atomic unit of data that can be used in a Looker Query and represents a Looker Look.",
     "parentId": "00000000-0000-0000-0000-090000000004",
@@ -1340,10 +1336,10 @@
     "sourceName": "Looker Report Attribute",
     "sourceDescription": "An atomic unit of data that can be used in a Looker Query and represents a Looker Look.",
     "targetName": "Looker Report Attribute",
-    "targetDescription": "An atomic unit of data that can be used in a Looker Query and represents a Looker Look."
+    "targetDescription": "An atomic unit of data that represents a Looker report. Examples: ExpenseAmount, RiskAmount."
   },
   {
-    "id": "9433a046-5cc1-43a2-9b96-923c83070e27",
+    "id": "ccd67a28-8ac0-45bd-a86c-278ea17cc6af",
     "name": "Looker Server",
     "description": "A visual analytics platform for creating interactive dashboards and rich visualisations",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1355,7 +1351,7 @@
     "targetDescription": "A visual analytics platform for creating interactive dashboards and rich visualisations"
   },
   {
-    "id": "fce6f559-0a8c-483e-b679-4d1eb8b68228",
+    "id": "22f46447-e873-4e26-80ef-49903b003412",
     "name": "Looker Space",
     "description": "Collection of content (workbooks, data sources, users, &hellip;) that's walled off from any other content on that instance of Looker Server.",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1403,7 +1399,7 @@
     "targetDescription": "Mapping between two or more Data Structures."
   },
   {
-    "id": "b89441c0-9271-404e-8482-e4f5181f34f5",
+    "id": "2dd46111-2740-4dd7-bc84-e756f50b1eae",
     "name": "Map Server",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1427,7 +1423,7 @@
     "targetDescription": "An asset type on which calculations (e.g. sum, count, average, minimum, maximum) can be made.\n\nExamples: Net Sales, Top Customers, On-hand Inventory"
   },
   {
-    "id": "9a485f13-6dbe-4d14-81e7-53fd5b109ebb",
+    "id": "00000000-0000-0000-0000-100000000047",
     "name": "MicroStrategy Data Attribute",
     "description": "A column in a MicroStrategy data model.",
     "parentId": "00000000-0000-0000-0000-090000000006",
@@ -1439,7 +1435,7 @@
     "targetDescription": "A column in a MicroStrategy data model."
   },
   {
-    "id": "f6a10481-2b14-4791-a552-b9b1496ba0d1",
+    "id": "00000000-0000-0000-0000-100000000048",
     "name": "MicroStrategy Data Entity",
     "description": "A unit of data in MicroStrategy that can be classified and can have a stated relationship to other units of data.",
     "parentId": "00000000-0000-0000-0000-090000000007",
@@ -1463,7 +1459,7 @@
     "targetDescription": "A collection of data that is used to create MicroStrategy reports."
   },
   {
-    "id": "975ff5da-45ad-40bf-8efd-63d764a7f1ed",
+    "id": "00000000-0000-0000-0000-100000000049",
     "name": "MicroStrategy Document",
     "description": "A detailed view of a MicroStrategy data model, with visualisations of findings and insights.",
     "parentId": "00000000-0000-0000-0000-090000000003",
@@ -1547,7 +1543,7 @@
     "targetDescription": "A visual analytics platform for creating and storing MicroStrategy reports and data models."
   },
   {
-    "id": "e3d6eb96-fa5b-4bce-9691-b63ae0a2264c",
+    "id": "00000000-0000-0000-0000-100000000050",
     "name": "MicroStrategy Visualisation",
     "description": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map.",
     "parentId": "00000000-0000-0000-0000-090000000004",
@@ -1559,7 +1555,7 @@
     "targetDescription": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map."
   },
   {
-    "id": "56467a2e-1038-4df4-bbba-2dc67046e6e1",
+    "id": "c0e00000-0000-0000-0000-000000039027",
     "name": "Network",
     "description": "A computer network or data network is a digital telecommunications network that allows nodes to share resources. In computer networks, network-connected computing devices exchange data with each other using a data link. The connections between nodes are established using either cable media or wireless media.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -1571,7 +1567,7 @@
     "targetDescription": "A computer network or data network is a digital telecommunications network that allows nodes to share resources. In computer networks, network-connected computing devices exchange data with each other using a data link. The connections between nodes are established using either cable media or wireless media."
   },
   {
-    "id": "b7ff9aa7-d797-4844-a5f6-50a770ccb9bc",
+    "id": "a567e8ea-e0c9-4c8f-a0d4-8b657aba9802",
     "name": "new Domain Asset",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1583,7 +1579,7 @@
     "targetDescription": ""
   },
   {
-    "id": "f51d1e9b-2974-40bd-8538-94af393a8d7d",
+    "id": "4727462d-15da-4833-8901-5fe88e4f9b51",
     "name": "Operating Model",
     "description": "Operating Model Reverse Engineering asset type",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1595,7 +1591,7 @@
     "targetDescription": "Operating Model Reverse Engineering asset type"
   },
   {
-    "id": "b5c4e8b3-5ee6-4430-9c92-edf47cb20806",
+    "id": "00000000-0000-0000-0000-090000010015",
     "name": "Outlier Score",
     "description": "Score of the outlier analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1607,7 +1603,7 @@
     "targetDescription": "Score of the outlier analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "50cc0f42-10e8-4351-acfd-a51d2cf8c28a",
+    "id": "c0e00000-0000-0000-0000-000000039049",
     "name": "Paper Document",
     "description": "A carrier of data in paper form",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -1619,7 +1615,7 @@
     "targetDescription": "A carrier of data in paper form"
   },
   {
-    "id": "572121e3-6b24-4436-ab98-f01a360a17f0",
+    "id": "c0e00000-0000-0000-0000-000000039012",
     "name": "Paragraph",
     "description": "A distinct part of a policy, often establishing a particular set of requirements. For example, roles and responsibilities should be established, as they relate to the ownership and quality of data and information for both the business and IT functions.",
     "parentId": "00000000-0000-0000-0000-000000031206",
@@ -1631,7 +1627,7 @@
     "targetDescription": "A distinct part of a policy, often establishing a particular set of requirements. For example, roles and responsibilities should be established, as they relate to the ownership and quality of data and information for both the business and IT functions."
   },
   {
-    "id": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "id": "c0e00000-0000-0000-0000-000000000261",
     "name": "Party",
     "description": "An association, corporation, partnership, proprietorship, trust, or individual that has legal standing. A Party has legal capacity to enter into agreements or contracts, assume obligations, incur and pay debts, sue and be sued in its own right, and to be held responsible for its actions.",
     "parentId": "00000000-0000-0000-0000-000000031105",
@@ -1643,7 +1639,7 @@
     "targetDescription": "An association, corporation, partnership, proprietorship, trust, or individual that has legal standing. A Party has legal capacity to enter into agreements or contracts, assume obligations, incur and pay debts, sue and be sued in its own right, and to be held responsible for its actions."
   },
   {
-    "id": "41b3c2aa-9dea-42b6-b650-9b32ab722d2d",
+    "id": "00000000-0000-0000-0000-090000010016",
     "name": "Pattern Score",
     "description": "Score of the pattern analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1655,7 +1651,7 @@
     "targetDescription": "Score of the pattern analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "ba84c1f8-5a83-4a63-b81d-3d5416ab3f8f",
+    "id": "fb1ba587-06c2-4528-bae7-2461be71faf3",
     "name": "Permission",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1663,11 +1659,10 @@
     "sourceId": "78be6912-d09a-4524-bc18-4d65d9173463",
     "sourceName": "Permission",
     "sourceDescription": "",
-    "targetName": "Permission",
-    "targetDescription": ""
+    "targetName": "Permission"
   },
   {
-    "id": "88466c51-f56f-4b2f-9f45-ba6f622fc445",
+    "id": "4dc5cbbf-e6fb-4bb3-8d7a-fbbdd834f144",
     "name": "Person Record",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1679,10 +1674,10 @@
     "targetDescription": ""
   },
   {
-    "id": "b6ee2217-0a4c-4391-a27b-aa660780d168",
+    "id": "c0e00000-0000-0000-0000-000000039059",
     "name": "PIA",
     "description": "<p>Asset type created to store the results of the CCPA-specific Privacy Impact Assessment. The PIA assessment is designed to check if a business process adheres to data minimization and purpose limitation considerations outlined in CCPA.</p>",
-    "parentId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
     "parentName": "Assessment",
     "sourceId": "c0e00000-0000-0000-0000-000000039059",
     "sourceName": "PIA",
@@ -1859,7 +1854,7 @@
     "targetDescription": "A collection of Power BI Dashboards, Reports and Data Models."
   },
   {
-    "id": "5eb290f8-bcb9-4f10-af08-98549f7af008",
+    "id": "c0e00000-0000-0000-0000-000000039043",
     "name": "Processing Category",
     "description": "A category of processing activities determined by the actions taken during the processing activity.",
     "parentId": "00000000-0000-0000-0000-000000031105",
@@ -1871,7 +1866,7 @@
     "targetDescription": "A category of processing activities determined by the actions taken during the processing activity."
   },
   {
-    "id": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
+    "id": "c0e00000-0000-0000-0000-000000039021",
     "name": "Purpose",
     "description": "An asset that describes the reason for which another asset is created or for which another asset exists.",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -1883,7 +1878,7 @@
     "targetDescription": "An asset that describes the reason for which another asset is created or for which another asset exists."
   },
   {
-    "id": "d21758ac-2d03-4780-902d-0bd65ac87412",
+    "id": "00000000-0000-0000-0000-090000010020",
     "name": "Record Score",
     "description": "Score of the record analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -1895,7 +1890,7 @@
     "targetDescription": "Score of the record analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "4a9ac553-8b0f-4f67-a136-d5576c0070dd",
+    "id": "c0e00000-0000-0000-0000-000000039014",
     "name": "Regulation",
     "description": "A directive made and maintained by an authority. For example, BCBS and Solvency.",
     "parentId": "00000000-0000-0000-0000-000000031202",
@@ -1907,7 +1902,7 @@
     "targetDescription": "A directive made and maintained by an authority. For example, BCBS and Solvency."
   },
   {
-    "id": "ee3558c0-db93-4df6-af68-9dfb8726ef48",
+    "id": "e75e0c4c-0e9d-439c-a85c-7dcde51238e9",
     "name": "Relation Type",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -1915,14 +1910,13 @@
     "sourceId": "1f19f03f-d38b-425a-b6e5-cc12eb6c2b0f",
     "sourceName": "Relation Type",
     "sourceDescription": "",
-    "targetName": "Relation Type",
-    "targetDescription": ""
+    "targetName": "Relation Type"
   },
   {
-    "id": "0f5a9e61-5344-4af9-8111-6d00d60f03e8",
+    "id": "c0e00000-0000-0000-0000-000000039033",
     "name": "Remediation Action",
     "description": "An action taken by the business, to counteract deficiencies or undesirable characteristics.",
-    "parentId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "parentId": "c0e00000-0000-0000-0000-000000039047",
     "parentName": "Remediation Plan",
     "sourceId": "c0e00000-0000-0000-0000-000000039033",
     "sourceName": "Remediation Action",
@@ -1931,7 +1925,7 @@
     "targetDescription": "An action taken by the business, to counteract deficiencies or undesirable characteristics."
   },
   {
-    "id": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "id": "c0e00000-0000-0000-0000-000000039047",
     "name": "Remediation Plan",
     "description": "Steps for carrying out the remediation of one or more issues. The steps typically include options for removing threats and vulnerabilities and priorities for carrying out the remediation.",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -1967,7 +1961,7 @@
     "targetDescription": "An atomic unit of data that represents a report.\n\nExamples: ExpenseAmount, RiskAmount"
   },
   {
-    "id": "9b27dfd1-91a3-4bd7-a1ab-c3dee22aca80",
+    "id": "c0e00000-0000-0000-0000-000000039024",
     "name": "Requirement",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031206",
@@ -1979,7 +1973,7 @@
     "targetDescription": ""
   },
   {
-    "id": "71cf0b82-b135-48e8-acac-7a699f5ac738",
+    "id": "c0e00000-0000-0000-0000-000000039053",
     "name": "Review Request",
     "description": "Asset that groups all triggers that ask for a review or update to another asset",
     "parentId": "00000000-0000-0000-0000-000000031111",
@@ -1991,7 +1985,7 @@
     "targetDescription": "Asset that groups all triggers that ask for a review or update to another asset"
   },
   {
-    "id": "d5fd1f91-c82c-4f96-85e5-2bb2a2e46426",
+    "id": "c0e00000-0000-0000-0000-000000039057",
     "name": "Review Rule",
     "description": "Contains rules that determine when a review request will be triggered",
     "parentId": "00000000-0000-0000-0000-000000031203",
@@ -2003,7 +1997,7 @@
     "targetDescription": "Contains rules that determine when a review request will be triggered"
   },
   {
-    "id": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "id": "c0e00000-0000-0000-0000-000000039035",
     "name": "Risk",
     "description": "An uncertain event that could create damage, injury, liability, loss or any other negative occurrence that is caused by external or internal vulnerabilities (Risk Sources), which can be avoided through controls.",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -2015,7 +2009,7 @@
     "targetDescription": "An uncertain event that could create damage, injury, liability, loss or any other negative occurrence that is caused by external or internal vulnerabilities (Risk Sources), which can be avoided through controls."
   },
   {
-    "id": "0ba0bde9-443b-4261-8e4e-fa716556ed40",
+    "id": "c0e00000-0000-0000-0000-000000039036",
     "name": "Risk Source",
     "description": "<p>A weakness of an asset or a group of assets that can be exploited by one or more events (ISO 31000). This is used to document the funcamantal source of a risk.</p>",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -2027,7 +2021,7 @@
     "targetDescription": "<p>A weakness of an asset or a group of assets that can be exploited by one or more events (ISO 31000). This is used to document the funcamantal source of a risk.</p>"
   },
   {
-    "id": "156a0f68-160f-4250-a33c-526884665710",
+    "id": "ebe0f73a-1fbe-4212-9679-ee31a26f72fa",
     "name": "Role",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2035,8 +2029,7 @@
     "sourceId": "a5fdb848-6b45-4a60-aac7-ab2db281c3f8",
     "sourceName": "Role",
     "sourceDescription": "",
-    "targetName": "Role",
-    "targetDescription": ""
+    "targetName": "Role"
   },
   {
     "id": "00000000-0000-0000-0000-000000031203",
@@ -2075,7 +2068,7 @@
     "targetDescription": "An asset type that represents Amazon S3."
   },
   {
-    "id": "20081082-ae3e-42db-8cde-f938a3e529d6",
+    "id": "c0e00000-0000-0000-0000-000000039044",
     "name": "Safeguard",
     "description": "<p>Safeguards for transfers of data and in particular Personal Information to third parties, other countries or international organizations.</p>",
     "parentId": "00000000-0000-0000-0000-000000031201",
@@ -2099,7 +2092,7 @@
     "targetDescription": "An organized structure described in a formal language supported by implementing technology that defines the objects in the technology assets (Table and columns in a relational database, fields in a file).\n\nE.g. CRM_001_PRD, HDP_CNT_CLD"
   },
   {
-    "id": "e2234068-635e-457f-8616-7eca6a4d3036",
+    "id": "00000000-0000-0000-0000-090000010018",
     "name": "Schema Score",
     "description": "Score of the schema analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -2111,7 +2104,7 @@
     "targetDescription": "Score of the schema analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "e85cb317-4e76-41a7-8d70-b7424b24ef68",
+    "id": "6dc30230-1cc6-4a20-9898-ad1a749ced5a",
     "name": "Scope",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2119,11 +2112,10 @@
     "sourceId": "d348bb43-1150-43c5-967d-a8ed9cbaa24e",
     "sourceName": "Scope",
     "sourceDescription": "",
-    "targetName": "Scope",
-    "targetDescription": ""
+    "targetName": "Scope"
   },
   {
-    "id": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
+    "id": "c0e00000-0000-0000-0000-000000039023",
     "name": "Security Issue",
     "description": "A security incident in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. Security issues can involve financial information, such as credit card or bank details; Personal Health Information (PHI); Personally Identifiable Information (PII); corporate trade secrets or intellectual property. Most security issues involve overexposed and vulnerable unstructured data, such as files, documents and sensitive information.",
     "parentId": "00000000-0000-0000-0000-000000031111",
@@ -2147,7 +2139,7 @@
     "targetDescription": "A computer program or device that supports other computer programs and their users"
   },
   {
-    "id": "b7f95463-4eed-4ef9-a93a-3baf25dd0800",
+    "id": "c07dd6b5-181a-4f6b-bb4a-3297a3228bc5",
     "name": "ServiceNow Configuration",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2159,7 +2151,7 @@
     "targetDescription": ""
   },
   {
-    "id": "07c3f878-3c6e-4e03-b232-1030bfeeb562",
+    "id": "f54b14b0-2986-4c9a-b534-517b34b47cd3",
     "name": "ServiceNow Incident Issue",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2171,7 +2163,7 @@
     "targetDescription": ""
   },
   {
-    "id": "ac011c8a-9fbe-44d9-a28d-9bf2ce08d908",
+    "id": "5bb312c8-d588-46fa-becc-0f5170911327",
     "name": "ServiceNow Requested Item Issue",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2183,7 +2175,7 @@
     "targetDescription": ""
   },
   {
-    "id": "869aa5d3-fd44-44af-a49f-705420a6642c",
+    "id": "01fa1ded-3389-4610-ae9f-b1d21767f747",
     "name": "ServiceNow Request Issue",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2195,7 +2187,7 @@
     "targetDescription": ""
   },
   {
-    "id": "993d09ce-6552-4144-8cf5-47ab0034391d",
+    "id": "00000000-0000-0000-0000-090000010017",
     "name": "Shape Score",
     "description": "Score of the shape analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -2207,7 +2199,7 @@
     "targetDescription": "Score of the shape analysis conducted as part of a job, executed in CDQ."
   },
   {
-    "id": "a89c8420-839c-43ad-b9f3-3c89e8fee24b",
+    "id": "c0e00000-0000-0000-0000-000000039028",
     "name": "Software",
     "description": "Software is a collection of instructions that enables the user to interact with a computer or its hardware and perform tasks. For example, computer programs, libraries and related non-executable data, such as online documentation or digital media.",
     "parentId": "00000000-0000-0000-0000-000000031301",
@@ -2219,7 +2211,7 @@
     "targetDescription": "Software is a collection of instructions that enables the user to interact with a computer or its hardware and perform tasks. For example, computer programs, libraries and related non-executable data, such as online documentation or digital media."
   },
   {
-    "id": "9a768702-2eae-465d-b2fb-0ca77f7d857a",
+    "id": "00000000-0000-0000-0000-090000010019",
     "name": "Source Score",
     "description": "Score of the source analysis conducted as part of a job, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -2339,7 +2331,7 @@
     "targetDescription": "A specific low-level mandatory action or rule that helps to enforce and support a policy.\n\nExample: All personal information has to be encrypted with a specific encryption type."
   },
   {
-    "id": "1d862106-97d9-4b9e-8752-a198fd70cd30",
+    "id": "18bf2d83-94fe-42cf-b787-110391868e9f",
     "name": "Start Event",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2347,11 +2339,10 @@
     "sourceId": "475f86d1-eef4-4f45-aec5-3797e5814fdf",
     "sourceName": "Start Event",
     "sourceDescription": "",
-    "targetName": "Start Event",
-    "targetDescription": ""
+    "targetName": "Start Event"
   },
   {
-    "id": "320c6c9a-b9fb-4bc0-bf5b-3d5ceaaa3f5d",
+    "id": "00b79d60-a5d2-4573-a4b4-a73af97e7c18",
     "name": "Status Type",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2359,8 +2350,7 @@
     "sourceId": "7a6e4fe4-bedb-4010-9856-6f34c46af96b",
     "sourceName": "Status Type",
     "sourceDescription": "",
-    "targetName": "Status Type",
-    "targetDescription": ""
+    "targetName": "Status Type"
   },
   {
     "id": "00000000-0000-0000-0000-000000031302",
@@ -2555,7 +2545,7 @@
     "targetDescription": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File"
   },
   {
-    "id": "ad420421-a770-43e5-be70-b0685ecac008",
+    "id": "c0e00000-0000-0000-0000-000000039048",
     "name": "Threshold Assessment Rule",
     "description": "<p>Rule that allow to configure the threshold assessments that will allow you to see if impact assessment need to be done.</p>",
     "parentId": "00000000-0000-0000-0000-000000031203",
@@ -2567,10 +2557,10 @@
     "targetDescription": "<p>Rule that allow to configure the threshold assessments that will allow you to see if impact assessment need to be done.</p>"
   },
   {
-    "id": "67c5bc43-dc21-4bd2-84f6-f26c26a57925",
+    "id": "c0e00000-0000-0000-0000-000000039054",
     "name": "Time-based Review Rule",
     "description": "<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains time based rules that determine when a review request will be triggered</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
-    "parentId": "d5fd1f91-c82c-4f96-85e5-2bb2a2e46426",
+    "parentId": "c0e00000-0000-0000-0000-000000039057",
     "parentName": "Review Rule",
     "sourceId": "c0e00000-0000-0000-0000-000000039054",
     "sourceName": "Time-based Review Rule",
@@ -2579,7 +2569,7 @@
     "targetDescription": "<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains time based rules that determine when a review request will be triggered</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>"
   },
   {
-    "id": "822f8f13-8401-4fc2-a438-fa32a63f63ee",
+    "id": "cd000000-0000-0000-0000-000000000003",
     "name": "Transformation Rule",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2587,11 +2577,10 @@
     "sourceId": "0532fdfe-9f7b-4a3b-a090-f983a04bd65b",
     "sourceName": "Transformation Rule",
     "sourceDescription": "",
-    "targetName": "Transformation Rule",
-    "targetDescription": ""
+    "targetName": "Transformation Rule"
   },
   {
-    "id": "56aebfe3-ef7f-4631-ab6a-6d5038872cc6",
+    "id": "cd000000-0000-0000-0000-000000000012",
     "name": "Trigger",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2599,11 +2588,10 @@
     "sourceId": "db84b3e9-72de-4a5e-853e-19a1ae9eac59",
     "sourceName": "Trigger",
     "sourceDescription": "",
-    "targetName": "Trigger",
-    "targetDescription": ""
+    "targetName": "Trigger"
   },
   {
-    "id": "8c505d9f-b444-4002-ba4c-ed661fcc7959",
+    "id": "05b06c22-3a3f-4924-b2ce-573b42d8fd0d",
     "name": "User",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2611,11 +2599,10 @@
     "sourceId": "226989b0-7b39-4258-b96e-efa173ee3900",
     "sourceName": "User",
     "sourceDescription": "",
-    "targetName": "User",
-    "targetDescription": ""
+    "targetName": "User"
   },
   {
-    "id": "7cf27eb4-ba8a-4428-99cb-3f710e006ab3",
+    "id": "00000000-0000-0000-0000-090000010013",
     "name": "User Defined Rule Score",
     "description": "Score of a custom rule defined by the user, executed in CDQ.",
     "parentId": "00000000-0000-0000-0000-000000031107",
@@ -2627,7 +2614,7 @@
     "targetDescription": "Score of a custom rule defined by the user, executed in CDQ."
   },
   {
-    "id": "3169e66d-632d-4631-a438-4dfa91d2da0e",
+    "id": "addd8bd7-c7f8-4bc7-9fdf-f93e44c39b5f",
     "name": "User Group",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2635,8 +2622,7 @@
     "sourceId": "e483ff8f-6150-4e70-a7ba-6b4d360ec513",
     "sourceName": "User Group",
     "sourceDescription": "",
-    "targetName": "User Group",
-    "targetDescription": ""
+    "targetName": "User Group"
   },
   {
     "id": "00000000-0000-0000-0000-000000005119",
@@ -2651,7 +2637,7 @@
     "targetDescription": "A rule that describes a criterion to which content in DGC has to comply."
   },
   {
-    "id": "0da2d81c-53bc-4a25-a794-cf2fd631a120",
+    "id": "3ac2f155-4d90-41ca-b697-84df6485eb38",
     "name": "Video",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2663,7 +2649,7 @@
     "targetDescription": ""
   },
   {
-    "id": "1d638c65-6b9b-4867-bebf-efb304417c7c",
+    "id": "6e88a5c6-f233-4317-bbcc-20e525250b46",
     "name": "Workflow",
     "description": "",
     "parentId": "00000000-0000-0000-0000-000000031101",
@@ -2671,7 +2657,6 @@
     "sourceId": "9269b7f1-5a18-42c4-9c63-3837e4d3482d",
     "sourceName": "Workflow",
     "sourceDescription": "",
-    "targetName": "Workflow",
-    "targetDescription": ""
+    "targetName": "Workflow"
   }
 ]

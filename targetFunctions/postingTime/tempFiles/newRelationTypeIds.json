@@ -1,8 +1,8 @@
 [
   {
-    "id": "930d04f9-11b7-44ea-a2f1-1daceeb997fb",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "3d021a29-9745-44ea-8f83-72ad1526b7ef",
+    "id": "b3c4de4d-e05c-4dfc-9e5f-e5a0ca418e25",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "b9bfabc0-c2f1-4937-8980-72fd2ed01b33",
     "role": "affects data subjects in",
     "coRole": "has data subjects that are affected by",
     "description": "",
@@ -54,16 +54,16 @@
     "uniqueKey": "Data ElementCode Setallowed value setapplies to"
   },
   {
-    "id": "3e66c4ad-e166-4421-85c6-ae469adf77b5",
+    "id": "68fb0129-7c8c-4cf9-ac7e-b9411bd9926c",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
-    "targetTypeId": "76e8186a-bca8-4bd8-87c8-75775df0d4b1",
+    "targetTypeId": "2af2a0be-5fb8-4408-b77c-a7d255b52b09",
     "role": "Allows processing for",
     "coRole": "Can be processed under",
     "description": "",
     "uniqueKey": "Data Sharing AgreementData Subject CategoryAllows processing forCan be processed under"
   },
   {
-    "id": "b8600274-9f77-4121-bc4c-4847fce8eb8a",
+    "id": "18131130-716a-4c60-bd52-2dbd8353b1cc",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
     "targetTypeId": "00000000-0000-0000-0000-000000031109",
     "role": "Arranges processing of",
@@ -90,7 +90,7 @@
     "uniqueKey": "Line of BusinessBusiness Assetassociatesis associated with"
   },
   {
-    "id": "f91f569c-971f-4fe6-b845-ca468f4a310d",
+    "id": "e69c2cd0-4170-4244-a14f-b8311a9e825a",
     "sourceTypeId": "00000000-0000-0000-0000-000000031105",
     "targetTypeId": "00000000-0000-0000-0000-000000031103",
     "role": "authorizes",
@@ -99,7 +99,7 @@
     "uniqueKey": "Business DimensionBusiness Processauthorizesis authorized by"
   },
   {
-    "id": "9f486b22-2c7c-42c2-80ba-de0e8b0f9bbe",
+    "id": "e894eba6-8cfe-4c4e-92ec-94bb577b171d",
     "sourceTypeId": "00000000-0000-0000-0001-000400000001",
     "targetTypeId": "00000000-0000-0000-0000-000000031231",
     "role": "can be processed in accordance to",
@@ -108,9 +108,9 @@
     "uniqueKey": "Data SetData Sharing Agreementcan be processed in accordance toallows processing of"
   },
   {
-    "id": "d6ec6a8e-9e90-43e0-a61e-1ab96dc0bdb7",
-    "sourceTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "targetTypeId": "10f04d8b-8b2c-41e8-91cd-ccf465cb3557",
+    "id": "629b0f43-4c39-4b8c-b496-eb7e9bf9edc0",
+    "sourceTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "targetTypeId": "edeed7ef-c912-495b-999a-4974896795a3",
     "role": "can result in ",
     "coRole": "can be result of",
     "description": "",
@@ -126,7 +126,7 @@
     "uniqueKey": "IssueIssue Categorycategorized bycategorizes"
   },
   {
-    "id": "dc294f19-7890-4c78-b1be-b75e5ea9a469",
+    "id": "36ebb334-05d8-4213-b8a4-3915a7741f17",
     "sourceTypeId": "00000000-0000-0000-0000-000000031109",
     "targetTypeId": "00000000-0000-0000-0000-000000031101",
     "role": "categorizes",
@@ -135,7 +135,7 @@
     "uniqueKey": "Data CategoryBusiness Assetcategorizesis categorized by"
   },
   {
-    "id": "a17c2d7c-93e2-47f6-9394-dc2cb259dec8",
+    "id": "d081cb57-0d65-499b-a006-ae6382d74420",
     "sourceTypeId": "00000000-0000-0000-0000-000000031109",
     "targetTypeId": "00000000-0000-0000-0000-000000031002",
     "role": "categorizes",
@@ -144,9 +144,9 @@
     "uniqueKey": "Data CategoryData Assetcategorizesis categorized by"
   },
   {
-    "id": "1e7a8037-2bb2-4a0f-b139-bf80c12cb850",
-    "sourceTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "targetTypeId": "3d946241-fd39-4ded-94fe-ad9ee1637ea0",
+    "id": "eb93573a-ff24-4522-9e01-47f12cd5404d",
+    "sourceTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "targetTypeId": "3cfdb096-4d38-43db-b69c-be8fcfdba024",
     "role": "caused by",
     "coRole": "causes",
     "description": "",
@@ -162,7 +162,7 @@
     "uniqueKey": "Data Quality RuleData Quality Dimensionclassified byclassifies"
   },
   {
-    "id": "a7c55393-e264-4f6d-950b-602a4493031f",
+    "id": "c2f7d3d4-ac5e-440f-9f36-3bfda3a397cc",
     "sourceTypeId": "00000000-0000-0000-0000-000000031107",
     "targetTypeId": "00000000-0000-0000-0000-000000031108",
     "role": "classified by",
@@ -180,7 +180,7 @@
     "uniqueKey": "Business DimensionAssetclassifiesis classified by"
   },
   {
-    "id": "a3933c81-1010-4be6-b895-b5bc68197d73",
+    "id": "4c3c46e2-58a1-440f-ab1c-423db8ee83d3",
     "sourceTypeId": "00000000-0000-0000-0001-000400000001",
     "targetTypeId": "00000000-0000-0000-0000-000000031202",
     "role": "complies to",
@@ -198,43 +198,43 @@
     "uniqueKey": "AssetGovernance Assetcomplies toapplies to"
   },
   {
-    "id": "60d70327-61b0-4315-8cfb-1b996077f081",
-    "sourceTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
-    "targetTypeId": "48a6a78a-fa19-48f3-b911-cd01ec8171ad",
+    "id": "2069f010-7c13-4db0-8e17-ee44e0c7d464",
+    "sourceTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
+    "targetTypeId": "16288fcc-a768-4c9a-aad0-21f41b761aa8",
     "role": "considered as controller or third party in",
     "coRole": "relevant controller or third party",
     "description": "",
     "uniqueKey": "PartyLegitimate Interest Assessmentconsidered as controller or third party inrelevant controller or third party"
   },
   {
-    "id": "a1519a48-f201-4fb1-9419-308165947935",
-    "sourceTypeId": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
-    "targetTypeId": "48a6a78a-fa19-48f3-b911-cd01ec8171ad",
+    "id": "0314b937-ca77-4520-97ca-f524418726de",
+    "sourceTypeId": "ffbaa898-b9cc-4b0c-a676-cb36a7ecfa53",
+    "targetTypeId": "16288fcc-a768-4c9a-aad0-21f41b761aa8",
     "role": "considered as purpose in",
     "coRole": "relevant purpose",
     "description": "",
     "uniqueKey": "PurposeLegitimate Interest Assessmentconsidered as purpose inrelevant purpose"
   },
   {
-    "id": "10d77145-fbcf-42b1-bf3d-680e6410a7ec",
+    "id": "10155ffb-fb01-4f0a-a4ca-7055e405019c",
     "sourceTypeId": "00000000-0000-0000-0000-000000031109",
-    "targetTypeId": "48a6a78a-fa19-48f3-b911-cd01ec8171ad",
+    "targetTypeId": "16288fcc-a768-4c9a-aad0-21f41b761aa8",
     "role": "considered data category in",
     "coRole": "relevant data categories",
     "description": "",
     "uniqueKey": "Data CategoryLegitimate Interest Assessmentconsidered data category inrelevant data categories"
   },
   {
-    "id": "8e479983-5f90-4376-b294-1b55b0b86c49",
-    "sourceTypeId": "76e8186a-bca8-4bd8-87c8-75775df0d4b1",
-    "targetTypeId": "48a6a78a-fa19-48f3-b911-cd01ec8171ad",
+    "id": "0326faf4-9453-476e-b028-1ab75a82470c",
+    "sourceTypeId": "2af2a0be-5fb8-4408-b77c-a7d255b52b09",
+    "targetTypeId": "16288fcc-a768-4c9a-aad0-21f41b761aa8",
     "role": "considered data subject category in",
     "coRole": "relevant data subject categories",
     "description": "",
     "uniqueKey": "Data Subject CategoryLegitimate Interest Assessmentconsidered data subject category inrelevant data subject categories"
   },
   {
-    "id": "3c8530dc-c58a-49b6-a3d5-477091a26d76",
+    "id": "683685aa-97a0-4b2c-a7c7-9e9cd92cd60f",
     "sourceTypeId": "00000000-0000-0000-0000-000000007504",
     "targetTypeId": "00000000-0000-0000-0000-000000031008",
     "role": "constrains",
@@ -251,7 +251,7 @@
     "uniqueKey": "Foreign Key MappingColumnconstrainsundefined"
   },
   {
-    "id": "67c754bf-a1ce-4464-9977-e666615273ee",
+    "id": "8afa4b03-5cd7-48d4-8f0d-055b3e0a8905",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031002",
     "role": "consumes",
@@ -260,8 +260,8 @@
     "uniqueKey": "Business ProcessData Assetconsumesis consumed by"
   },
   {
-    "id": "ed2a59a9-f803-40d1-abf5-e2a78b83c8b3",
-    "sourceTypeId": "b578cc28-3b29-4c72-9ecb-1ec4864c6aab",
+    "id": "974a173c-d729-4b77-9343-aa7e76cd80cd",
+    "sourceTypeId": "d1013d37-ff2c-4128-b247-420a778e2508",
     "targetTypeId": "00000000-0000-0000-0001-000400000001",
     "role": "consumes",
     "coRole": "is consumed by",
@@ -269,8 +269,8 @@
     "uniqueKey": "Analytics ModelData Setconsumesis consumed by"
   },
   {
-    "id": "b113da36-6017-440d-a691-70a119b85339",
-    "sourceTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "id": "ac4d9fda-06db-415b-9333-5be5d6fbb87d",
+    "sourceTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "targetTypeId": "00000000-0000-0000-0001-000400000001",
     "role": "consumes",
     "coRole": "consumed by",
@@ -323,7 +323,7 @@
     "uniqueKey": "FileFieldcontainsis part of"
   },
   {
-    "id": "909ae681-b1f9-4bd1-b2b5-adea097f4de6",
+    "id": "32ae6262-4668-4c63-b228-ce6f7dd59d40",
     "sourceTypeId": "00000000-0000-0000-0000-000000031002",
     "targetTypeId": "00000000-0000-0000-0000-000000031008",
     "role": "contains",
@@ -332,7 +332,7 @@
     "uniqueKey": "Data AssetColumncontainsis contained by"
   },
   {
-    "id": "cf3ce681-542f-44f2-84e4-ed8b331e7198",
+    "id": "1f62f33b-0ecd-4dff-9e29-2f65999d7a83",
     "sourceTypeId": "00000000-0000-0000-0000-090000000003",
     "targetTypeId": "00000000-0000-0000-0000-090000000008",
     "role": "contains",
@@ -341,7 +341,7 @@
     "uniqueKey": "BI ReportBI Data Modelcontainsis contained in"
   },
   {
-    "id": "2fbecad4-3d1a-4025-b598-abf83a065abb",
+    "id": "4de6d1b7-03a3-4979-ae9a-3c1bfe723ada",
     "sourceTypeId": "00000000-0000-0000-0001-000400000001",
     "targetTypeId": "00000000-0000-0000-0000-000000031114",
     "role": "contains",
@@ -350,7 +350,7 @@
     "uniqueKey": "Data SetData Domaincontainsis part of"
   },
   {
-    "id": "f823d07c-125e-4f7d-97c1-93dd3533cbb2",
+    "id": "82d0769e-d0a1-46eb-a22a-efa458d7a911",
     "sourceTypeId": "00000000-0000-0000-0001-000400000001",
     "targetTypeId": "00000000-0000-0000-0000-000000031004",
     "role": "contains",
@@ -458,9 +458,9 @@
     "uniqueKey": "FileTablecontainsis part of"
   },
   {
-    "id": "f8e53888-f3fa-443d-ab3f-7dc6cfc8c066",
+    "id": "ab83bd21-42ef-451b-86f6-c55f2c4f5ac6",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "controller",
     "coRole": "is controller of",
     "description": "",
@@ -475,7 +475,7 @@
     "uniqueKey": "Code MappingCrosswalkcrosswalkundefined"
   },
   {
-    "id": "c202fab9-3e58-42c9-a1d8-121874a802d5",
+    "id": "1adaa440-44b4-4609-ae91-6fbd66dab09f",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031110",
     "role": "data subject rights managed by",
@@ -484,8 +484,8 @@
     "uniqueKey": "Business ProcessLine of Businessdata subject rights managed bymanages data subject rights of"
   },
   {
-    "id": "a4805d05-7352-4fed-bc36-e8541c18cef5",
-    "sourceTypeId": "644dd4bf-0d9d-4279-b1de-6aa05d3081d7",
+    "id": "21fcc126-d7f5-4fd3-9293-5863a70a2c05",
+    "sourceTypeId": "12192bb1-6a84-4190-a502-5ce038a679e4",
     "targetTypeId": "00000000-0000-0000-0000-000000031103",
     "role": "determines lawfulness of",
     "coRole": "lawfulness determined by",
@@ -493,8 +493,8 @@
     "uniqueKey": "Legal BasisBusiness Processdetermines lawfulness oflawfulness determined by"
   },
   {
-    "id": "bf744230-58b7-4d08-9934-52f80d753914",
-    "sourceTypeId": "068c8e96-8525-4d83-8e2d-e482c6876b6f",
+    "id": "86c2b7fd-60b7-4113-a09f-c10922b2e3c0",
+    "sourceTypeId": "b1a334b3-3358-47d4-9a0f-d200a54cd1f9",
     "targetTypeId": "00000000-0000-0000-0000-000000031231",
     "role": "enforces",
     "coRole": "is enforced by",
@@ -528,7 +528,7 @@
     "uniqueKey": "Data UsageRulegoverned byundefined"
   },
   {
-    "id": "9ac26d19-8f2a-46f4-b16d-02378649a0c2",
+    "id": "45feace8-9816-428a-a1a5-8f94355f3d1d",
     "sourceTypeId": "00000000-0000-0000-0000-000000031205",
     "targetTypeId": "00000000-0000-0000-0000-000000031008",
     "role": "governs",
@@ -546,9 +546,9 @@
     "uniqueKey": "Data Quality RuleData Elementgovernsis governed by"
   },
   {
-    "id": "95d78312-d5b4-474f-9710-71e912b2cf8f",
+    "id": "fdf5d0ed-3e9d-43f5-b88a-26076cb660ac",
     "sourceTypeId": "00000000-0000-0000-0000-000000031205",
-    "targetTypeId": "ae3ad187-392c-42c2-ac7e-2e5d06e2f5ab",
+    "targetTypeId": "67476ed7-f763-422e-9f85-70aa6a17a898",
     "role": "governs",
     "coRole": "is governed by",
     "description": "",
@@ -618,27 +618,27 @@
     "uniqueKey": "ReportReportgroupsis grouped into"
   },
   {
-    "id": "f31b7f67-8c34-4dec-be67-d08edb450b22",
-    "sourceTypeId": "a94255b7-a1fd-46d0-a4fa-5921b7e5cec8",
-    "targetTypeId": "7463228a-ae71-4cd2-bfdc-9bfbd0b529b0",
+    "id": "e3547a2a-ca38-4f4c-b3eb-0303cddf6ff4",
+    "sourceTypeId": "cbf43dc2-c9b0-49e0-a0fd-9ec29e8a230c",
+    "targetTypeId": "4c474c06-c952-4424-a6d2-b8cf56aab016",
     "role": "groups",
     "coRole": "is grouped by",
     "description": "",
     "uniqueKey": "GCP ProjectDataplex Lakegroupsis grouped by"
   },
   {
-    "id": "fdaeb18b-68c2-446d-ad58-346b7c7b7b50",
-    "sourceTypeId": "2be51eb3-8701-48b5-8e65-1e4b738bbb40",
-    "targetTypeId": "2be51eb3-8701-48b5-8e65-1e4b738bbb40",
+    "id": "262d0996-4796-417a-a453-21f2702beb7a",
+    "sourceTypeId": "fb2f7713-b6a8-4d3e-ad74-1af87b333229",
+    "targetTypeId": "fb2f7713-b6a8-4d3e-ad74-1af87b333229",
     "role": "groups",
     "coRole": "grouped by",
     "description": "",
     "uniqueKey": "ControlControlgroupsgrouped by"
   },
   {
-    "id": "216cdd83-f63b-4aeb-8d33-14abe8f2fac5",
-    "sourceTypeId": "28533b74-039f-4ab8-b022-6abdb7a0f0d8",
-    "targetTypeId": "9aaf2baf-8ed1-4da2-967f-21fb03a2f7f0",
+    "id": "290b2357-92de-437e-bb95-8993f5024830",
+    "sourceTypeId": "63fd37c2-9791-4a80-bc04-1a329de2f459",
+    "targetTypeId": "b3049c7e-a969-495e-ba70-004e3a350eba",
     "role": "has",
     "coRole": "is on",
     "description": "",
@@ -681,8 +681,8 @@
     "uniqueKey": "IssueIssuehas duplicateis duplicate for"
   },
   {
-    "id": "6a99a781-408a-463e-8468-9355181d09ea",
-    "sourceTypeId": "76e8186a-bca8-4bd8-87c8-75775df0d4b1",
+    "id": "58473410-a683-4703-8280-03e7da1b5840",
+    "sourceTypeId": "2af2a0be-5fb8-4408-b77c-a7d255b52b09",
     "targetTypeId": "00000000-0000-0000-0001-000400000001",
     "role": "has information in",
     "coRole": "contains data subject",
@@ -690,40 +690,40 @@
     "uniqueKey": "Data Subject CategoryData Sethas information incontains data subject"
   },
   {
-    "id": "3e1daca2-2cb5-47fb-9689-bad166c14ce3",
+    "id": "ac87ff1f-a258-48a1-93bb-81cddda76be6",
     "sourceTypeId": "00000000-0000-0000-0000-000000031131",
-    "targetTypeId": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
+    "targetTypeId": "ffbaa898-b9cc-4b0c-a676-cb36a7ecfa53",
     "role": "has purpose",
     "coRole": "is purpose for",
     "description": "",
     "uniqueKey": "Data UsagePurposehas purposeis purpose for"
   },
   {
-    "id": "a5e7fdae-e2cb-49d0-8a4f-d8e4fce7b742",
+    "id": "58545a6a-550e-4092-b800-50bf85cecfeb",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "20081082-ae3e-42db-8cde-f938a3e529d6",
+    "targetTypeId": "977e477a-664a-4a3a-bb10-1f34e18f2cf8",
     "role": "has safeguards for cross border data transfers",
     "coRole": "safeguards cross border data transfer for",
     "description": "",
     "uniqueKey": "Business ProcessSafeguardhas safeguards for cross border data transferssafeguards cross border data transfer for"
   },
   {
-    "id": "ab23c590-cad9-48d7-9235-ffe5d56829e4",
-    "sourceTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
-    "role": "has source",
-    "coRole": "is source of",
-    "description": "",
-    "uniqueKey": "RiskPartyhas sourceis source of"
-  },
-  {
-    "id": "fd2ca136-0aeb-4374-8c3c-64096c499392",
-    "sourceTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "targetTypeId": "0ba0bde9-443b-4261-8e4e-fa716556ed40",
+    "id": "f413921f-7345-46b3-be34-50983224752e",
+    "sourceTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "targetTypeId": "f36a6cc1-1900-4f3a-80f1-a8f76555579c",
     "role": "has source",
     "coRole": "source of",
     "description": "",
     "uniqueKey": "RiskRisk Sourcehas sourcesource of"
+  },
+  {
+    "id": "3f8753fd-a268-4c90-a270-61b7c9f52b76",
+    "sourceTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
+    "role": "has source",
+    "coRole": "is source of",
+    "description": "",
+    "uniqueKey": "RiskPartyhas sourceis source of"
   },
   {
     "id": "00000000-0000-0000-0000-000000007095",
@@ -752,13 +752,22 @@
     "uniqueKey": "ServerBusiness Dimensionhostsis hosted in"
   },
   {
-    "id": "547d881a-e5c5-4d00-90f9-ff812ec13e89",
+    "id": "2ef09f02-0f25-4724-88a3-4e0c06f5d8ae",
     "sourceTypeId": "00000000-0000-0000-0000-000000031104",
     "targetTypeId": "00000000-0000-0000-0000-000000031104",
     "role": "Impacted by",
     "coRole": "impacts",
     "description": "",
     "uniqueKey": "MeasureMeasureImpacted byimpacts"
+  },
+  {
+    "id": "3c6b4ea8-0517-4caa-be3c-85f53cc8b8de",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "00000000-0000-0000-0000-000000031301",
+    "role": "impacts",
+    "coRole": "impacted by",
+    "description": "",
+    "uniqueKey": "Security IssueTechnology Assetimpactsimpacted by"
   },
   {
     "id": "00000000-0000-0000-0000-000000007025",
@@ -770,8 +779,8 @@
     "uniqueKey": "IssueAssetimpactsimpacted by"
   },
   {
-    "id": "348fe6b9-9b75-42f0-94d6-e80c6160054b",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
+    "id": "c6033df5-aa88-40ef-aa15-c63466869d35",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
     "targetTypeId": "00000000-0000-0000-0000-000000031101",
     "role": "impacts",
     "coRole": "impacted by",
@@ -779,36 +788,27 @@
     "uniqueKey": "Security IssueBusiness Assetimpactsimpacted by"
   },
   {
-    "id": "6ef3faad-5874-4dac-a1b1-e211bcc5ebca",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "00000000-0000-0000-0000-000000031301",
-    "role": "impacts",
-    "coRole": "impacted by",
-    "description": "",
-    "uniqueKey": "Security IssueTechnology Assetimpactsimpacted by"
-  },
-  {
-    "id": "4f661cb0-6993-4808-90ad-ab886acef776",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "id": "46d92c2c-a0a5-489d-bbfb-84a0ff6f4fe2",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "impacts controller",
     "coRole": "is controller impacted by",
     "description": "",
     "uniqueKey": "Security IssuePartyimpacts controlleris controller impacted by"
   },
   {
-    "id": "b0ef1c4d-6942-4b2d-9b01-ec8828ee1803",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "id": "f17537a4-fc70-4aed-85e7-161d8d0f88b2",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "impacts joint controller",
     "coRole": "is joint controller impacted by",
     "description": "",
     "uniqueKey": "Security IssuePartyimpacts joint controlleris joint controller impacted by"
   },
   {
-    "id": "1e51e9da-979b-4ff3-96c9-ce1bb7e418ea",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "id": "9e47d456-2f53-48dd-99fd-83cb92c2ca98",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "impacts processor",
     "coRole": "is processor impacted by",
     "description": "",
@@ -824,15 +824,6 @@
     "uniqueKey": "Data AssetTechnology Assetimplemented inimplements"
   },
   {
-    "id": "00000000-0000-0000-0000-120000000005",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031302",
-    "targetTypeId": "00000000-0000-0000-0001-000400000001",
-    "role": "implements",
-    "coRole": "is implemented in",
-    "description": "",
-    "uniqueKey": "SystemData Setimplementsis implemented in"
-  },
-  {
     "id": "00000000-0000-0000-0000-120000000009",
     "sourceTypeId": "00000000-0000-0000-0000-000000031302",
     "targetTypeId": "00000000-0000-0000-0000-000000031003",
@@ -842,13 +833,31 @@
     "uniqueKey": "SystemData Modelimplementsis implemented in"
   },
   {
-    "id": "92efc6a9-bb69-45af-a1ce-69505f1ada78",
+    "id": "00000000-0000-0000-0000-120000000005",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031302",
+    "targetTypeId": "00000000-0000-0000-0001-000400000001",
+    "role": "implements",
+    "coRole": "is implemented in",
+    "description": "",
+    "uniqueKey": "SystemData Setimplementsis implemented in"
+  },
+  {
+    "id": "11d94a87-33a8-46df-8345-5a51d9afae9b",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
     "targetTypeId": "00000000-0000-0000-0000-000000031105",
     "role": "is accepted by",
     "coRole": "accepts",
     "description": "",
     "uniqueKey": "Data Sharing AgreementBusiness Dimensionis accepted byaccepts"
+  },
+  {
+    "id": "f4cc6d5c-01a9-4498-86dd-f7c3855fa084",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeId": "e80e9d83-339c-4b26-98fb-98e1efde32e0",
+    "role": "is assessed by",
+    "coRole": "assesses",
+    "description": "",
+    "uniqueKey": "AssetAssessmentis assessed byassesses"
   },
   {
     "id": "00000000-0000-0000-0000-000000007097",
@@ -860,16 +869,7 @@
     "uniqueKey": "AssetAssessment Reviewis assessed byassesses"
   },
   {
-    "id": "eefc3d29-9543-4741-ab71-51e2f19ec468",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
-    "targetTypeId": "6d03ba57-249c-4688-b2e6-597b67384785",
-    "role": "is assessed by",
-    "coRole": "assesses",
-    "description": "",
-    "uniqueKey": "AssetAssessmentis assessed byassesses"
-  },
-  {
-    "id": "1a7cb328-6c88-423c-95b0-03c88be99764",
+    "id": "24c5ffa9-b833-4291-8429-181188df6516",
     "sourceTypeId": "00000000-0000-0000-0000-000000031110",
     "targetTypeId": "00000000-0000-0000-0000-000000031103",
     "role": "is associated with",
@@ -878,9 +878,9 @@
     "uniqueKey": "Line of BusinessBusiness Processis associated withassociated with"
   },
   {
-    "id": "1991bca9-6651-46b2-beaf-102a64dddf43",
+    "id": "03cb1f76-b667-49a7-972a-4507e5db58e8",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "5eb290f8-bcb9-4f10-af08-98549f7af008",
+    "targetTypeId": "48392bb3-ae0e-4c68-9b1a-b9fdea3ffd34",
     "role": "is categorised by",
     "coRole": "categorizes",
     "description": "",
@@ -896,15 +896,6 @@
     "uniqueKey": "PolicyRuleis enforced byenforces"
   },
   {
-    "id": "00000000-0000-0000-0000-000000007061",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
-    "targetTypeId": "00000000-0000-0000-0000-000000031131",
-    "role": "is essential for",
-    "coRole": "requires",
-    "description": "",
-    "uniqueKey": "AssetData Usageis essential forrequires"
-  },
-  {
     "id": "00000000-0000-0000-0000-000000007059",
     "sourceTypeId": "00000000-0000-0000-0000-000000031002",
     "targetTypeId": "00000000-0000-0000-0000-000000031131",
@@ -914,7 +905,16 @@
     "uniqueKey": "Data AssetData Usageis essential foris constrained by"
   },
   {
-    "id": "6514437f-6799-4de1-a0ac-1c3d2903957b",
+    "id": "00000000-0000-0000-0000-000000007061",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeId": "00000000-0000-0000-0000-000000031131",
+    "role": "is essential for",
+    "coRole": "requires",
+    "description": "",
+    "uniqueKey": "AssetData Usageis essential forrequires"
+  },
+  {
+    "id": "d1cbd0c8-1324-4e5b-ac76-4a482cbff564",
     "sourceTypeId": "00000000-0000-0000-0000-000000031205",
     "targetTypeId": "00000000-0000-0000-0000-000000031107",
     "role": "is executed by",
@@ -923,22 +923,31 @@
     "uniqueKey": "Data Quality RuleData Quality Metricis executed byexecutes"
   },
   {
-    "id": "d2488690-42c4-4ed9-8bd4-7790990c9e55",
+    "id": "3415a5a8-324c-4196-b911-a649e212a32d",
     "sourceTypeId": "00000000-0000-0000-0000-000000031301",
-    "targetTypeId": "3d021a29-9745-44ea-8f83-72ad1526b7ef",
+    "targetTypeId": "b9bfabc0-c2f1-4937-8980-72fd2ed01b33",
     "role": "is hosted in",
     "coRole": "hosts",
     "description": "",
     "uniqueKey": "Technology AssetJurisdictionis hosted inhosts"
   },
   {
-    "id": "eae7beb1-02c1-4b00-b8df-1b57162f0c1c",
+    "id": "0ec48c28-1447-49b9-989d-0a358f559605",
     "sourceTypeId": "00000000-0000-0000-0000-000000031000",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
     "role": "is impacted by",
     "coRole": "impacts",
     "description": "",
     "uniqueKey": "AssetRiskis impacted byimpacts"
+  },
+  {
+    "id": "f4546105-60bf-45a8-81e0-93791332bc06",
+    "sourceTypeId": "21fd36a5-33dc-47d0-920f-f465f1ef27c6",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "role": "is implemented by",
+    "coRole": "implements",
+    "description": "",
+    "uniqueKey": "Remediation PlanAssetis implemented byimplements"
   },
   {
     "id": "00000000-0000-0000-0000-000000007014",
@@ -950,15 +959,6 @@
     "uniqueKey": "RuleBusiness Ruleis implemented byimplements"
   },
   {
-    "id": "ba3722d0-b7d8-4b6a-8dff-ab1f0353af0e",
-    "sourceTypeId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
-    "targetTypeId": "00000000-0000-0000-0000-000000031000",
-    "role": "is implemented by",
-    "coRole": "implements",
-    "description": "",
-    "uniqueKey": "Remediation PlanAssetis implemented byimplements"
-  },
-  {
     "id": "00000000-0000-0000-0000-000000007012",
     "sourceTypeId": "00000000-0000-0000-0000-000000031206",
     "targetTypeId": "00000000-0000-0000-0000-000000031202",
@@ -968,25 +968,25 @@
     "uniqueKey": "StandardPolicyis included inincludes"
   },
   {
-    "id": "ce53ef9a-54fd-4645-b704-e1d59c5136dd",
-    "sourceTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
-    "targetTypeId": "068c8e96-8525-4d83-8e2d-e482c6876b6f",
+    "id": "6b966873-647c-46f1-9e5a-ac91d4ba68bf",
+    "sourceTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
+    "targetTypeId": "b1a334b3-3358-47d4-9a0f-d200a54cd1f9",
     "role": "is legally bounded by",
     "coRole": "agreeing parties",
     "description": "",
     "uniqueKey": "PartyContractis legally bounded byagreeing parties"
   },
   {
-    "id": "fcf82420-6b83-4dc8-874a-f34b8ca7aaad",
+    "id": "1f83b225-b46a-494d-857a-66813215cbb1",
     "sourceTypeId": "00000000-0000-0000-0000-000000031105",
-    "targetTypeId": "3d021a29-9745-44ea-8f83-72ad1526b7ef",
+    "targetTypeId": "b9bfabc0-c2f1-4937-8980-72fd2ed01b33",
     "role": "is located in",
     "coRole": "is applied to",
     "description": "",
     "uniqueKey": "Business DimensionJurisdictionis located inis applied to"
   },
   {
-    "id": "b0bc314a-31bf-41c6-bf2c-d3b3ec96fa57",
+    "id": "d45a28a4-43b0-4dfb-b6b5-ae2e15653719",
     "sourceTypeId": "00000000-0000-0000-0000-000000031111",
     "targetTypeId": "00000000-0000-0000-0000-000000031201",
     "role": "is mitigated by",
@@ -995,13 +995,21 @@
     "uniqueKey": "IssueGovernance Assetis mitigated bymitigates"
   },
   {
-    "id": "4b4d48d1-a07e-40b0-b3f1-ad4e3d6dd559",
+    "id": "10b386ce-b9a6-49cd-a593-0b68e9fb652d",
     "sourceTypeId": "00000000-0000-0000-0000-000000031301",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "is owned by",
     "coRole": "is owner of",
     "description": "",
     "uniqueKey": "Technology AssetPartyis owned byis owner of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007093",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
+    "targetTypeId": "00000000-0000-0000-0001-000400000003",
+    "role": "is part of",
+    "description": "",
+    "uniqueKey": "Foreign Key MappingForeign Keyis part ofundefined"
   },
   {
     "id": "00000000-0000-0000-0000-000000007041",
@@ -1013,14 +1021,6 @@
     "uniqueKey": "Code ValueCode Setis part ofcontains"
   },
   {
-    "id": "00000000-0000-0000-0000-000000007093",
-    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
-    "targetTypeId": "00000000-0000-0000-0001-000400000003",
-    "role": "is part of",
-    "description": "",
-    "uniqueKey": "Foreign Key MappingForeign Keyis part ofundefined"
-  },
-  {
     "id": "00000000-0000-0000-0000-000000007042",
     "sourceTypeId": "00000000-0000-0000-0000-000000031008",
     "targetTypeId": "00000000-0000-0000-0000-000000031007",
@@ -1028,42 +1028,6 @@
     "coRole": "contains",
     "description": "",
     "uniqueKey": "ColumnTableis part ofcontains"
-  },
-  {
-    "id": "00000000-0000-0000-0000-000000007046",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
-    "targetTypeId": "00000000-0000-0000-0000-000000031003",
-    "role": "is part of",
-    "coRole": "contains",
-    "description": "",
-    "uniqueKey": "Data EntityData Modelis part ofcontains"
-  },
-  {
-    "id": "ce95e670-55e3-445e-b30f-387f2457619d",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031005",
-    "targetTypeId": "00000000-0000-0000-0000-000000031109",
-    "role": "is part of",
-    "coRole": "contains",
-    "description": "",
-    "uniqueKey": "Data AttributeData Categoryis part ofcontains"
-  },
-  {
-    "id": "4021898c-e8b7-4666-a313-2c3874ad586f",
-    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
-    "targetTypeId": "00000000-0000-0000-0001-000400000003",
-    "role": "is part of",
-    "coRole": "is part of",
-    "description": "",
-    "uniqueKey": "Foreign Key MappingForeign Keyis part ofis part of"
-  },
-  {
-    "id": "00000000-0000-0000-0000-000000007045",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031007",
-    "targetTypeId": "00000000-0000-0000-0000-000000031006",
-    "role": "is part of",
-    "coRole": "contains",
-    "description": "",
-    "uniqueKey": "TableDatabaseis part ofcontains"
   },
   {
     "id": "00000000-0000-0000-0000-000000007011",
@@ -1075,53 +1039,89 @@
     "uniqueKey": "Data ElementData Structureis part ofcontains"
   },
   {
-    "id": "7d8bb9bf-a3c0-436c-acfd-6469bf7b609a",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "role": "is potentially impacted by",
-    "coRole": "potentially impacts",
+    "id": "00000000-0000-0000-0000-000000007046",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
+    "targetTypeId": "00000000-0000-0000-0000-000000031003",
+    "role": "is part of",
+    "coRole": "contains",
     "description": "",
-    "uniqueKey": "AssetRiskis potentially impacted bypotentially impacts"
+    "uniqueKey": "Data EntityData Modelis part ofcontains"
   },
   {
-    "id": "43004ea4-0e49-406c-8945-087bb0f4f97c",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "role": "is potentially impacted by",
-    "coRole": "potentially impacts",
+    "id": "f77c5313-f444-493d-ba1e-5c77a99497f7",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
+    "targetTypeId": "00000000-0000-0000-0001-000400000003",
+    "role": "is part of",
+    "coRole": "is part of",
     "description": "",
-    "uniqueKey": "Line of BusinessRiskis potentially impacted bypotentially impacts"
+    "uniqueKey": "Foreign Key MappingForeign Keyis part ofis part of"
   },
   {
-    "id": "bbc3504d-7e3e-4b0c-8cd3-8f370184a54b",
+    "id": "70688387-0fb6-4177-b4e6-5c3f130c033c",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031005",
+    "targetTypeId": "00000000-0000-0000-0000-000000031109",
+    "role": "is part of",
+    "coRole": "contains",
+    "description": "",
+    "uniqueKey": "Data AttributeData Categoryis part ofcontains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007045",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeId": "00000000-0000-0000-0000-000000031006",
+    "role": "is part of",
+    "coRole": "contains",
+    "description": "",
+    "uniqueKey": "TableDatabaseis part ofcontains"
+  },
+  {
+    "id": "019c5d3c-def7-4cda-a6ad-b84e52bc7e94",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
     "role": "is potentially impacted by",
     "coRole": "potentially impacts",
     "description": "",
     "uniqueKey": "Business ProcessRiskis potentially impacted bypotentially impacts"
   },
   {
-    "id": "3f56fabd-013b-4055-96ac-dd162b7addb7",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "id": "a2038742-76f0-41e7-a4a0-d6ebcd601d88",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
     "role": "is potentially impacted by",
     "coRole": "potentially impacts",
     "description": "",
-    "uniqueKey": "Technology AssetRiskis potentially impacted bypotentially impacts"
+    "uniqueKey": "AssetRiskis potentially impacted bypotentially impacts"
   },
   {
-    "id": "9e980efb-86bf-4be7-b268-5f131e190dba",
+    "id": "5ab631f6-1a57-4c78-8fee-8ba2441743f3",
     "sourceTypeId": "00000000-0000-0000-0001-000400000001",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
     "role": "is potentially impacted by",
     "coRole": "potentially impacts",
     "description": "",
     "uniqueKey": "Data SetRiskis potentially impacted bypotentially impacts"
   },
   {
-    "id": "48dc92ff-69ba-4c2e-a611-94e4b06c5494",
-    "sourceTypeId": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
+    "id": "8f9735cf-e9a9-4626-a85b-dd7859b4efe6",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "description": "",
+    "uniqueKey": "Technology AssetRiskis potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "d6cd7797-d220-4a6b-9f63-f616bcc6826a",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "description": "",
+    "uniqueKey": "Line of BusinessRiskis potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "21daac6d-0172-4fc6-8922-f056ddcbb6bb",
+    "sourceTypeId": "ffbaa898-b9cc-4b0c-a676-cb36a7ecfa53",
     "targetTypeId": "00000000-0000-0000-0000-000000031103",
     "role": "is reason for",
     "coRole": "performed for",
@@ -1129,9 +1129,9 @@
     "uniqueKey": "PurposeBusiness Processis reason forperformed for"
   },
   {
-    "id": "202f2244-26b3-411b-a903-028d84b031b5",
-    "sourceTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
-    "targetTypeId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "id": "3d108cee-4910-4d23-9fe5-8efd8a9d7e8e",
+    "sourceTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
+    "targetTypeId": "21fd36a5-33dc-47d0-920f-f465f1ef27c6",
     "role": "is remedied by",
     "coRole": "is remedy for",
     "description": "",
@@ -1147,16 +1147,16 @@
     "uniqueKey": "Data Sharing AgreementBusiness Dimensionis requested byrequests"
   },
   {
-    "id": "fde39a37-947a-416c-8bd6-b23ba6896b0d",
+    "id": "45eefd10-f0d4-4e0c-a948-5ef6d48baf32",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "is Requested by",
     "coRole": "Requests",
     "description": "",
     "uniqueKey": "Data Sharing AgreementPartyis Requested byRequests"
   },
   {
-    "id": "58882e53-a235-4468-b2b7-3c185663e6d6",
+    "id": "2c9c0422-2fea-4abb-9e02-c32a02bed113",
     "sourceTypeId": "00000000-0000-0000-0000-000000031002",
     "targetTypeId": "00000000-0000-0000-0000-000000031231",
     "role": "is required by",
@@ -1183,31 +1183,13 @@
     "uniqueKey": "Role TypeAssetis responsible foris responsibility of"
   },
   {
-    "id": "a4b5ae0a-edbe-467a-ba1a-3e8c38ff7166",
+    "id": "bdca00b4-71a0-4c0e-ac69-756a3c69f01c",
     "sourceTypeId": "00000000-0000-0000-0000-000000031110",
-    "targetTypeId": "0f5a9e61-5344-4af9-8111-6d00d60f03e8",
+    "targetTypeId": "11e1d3d4-e42a-46a3-aa25-c7b1e1826f28",
     "role": "is responsible for",
     "coRole": "is responsibility of",
     "description": "",
     "uniqueKey": "Line of BusinessRemediation Actionis responsible foris responsibility of"
-  },
-  {
-    "id": "00000000-0000-0000-0000-120000000013",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
-    "targetTypeId": "00000000-0000-0000-0000-090000000003",
-    "role": "is source for",
-    "coRole": "source",
-    "description": "",
-    "uniqueKey": "Data AssetBI Reportis source forsource"
-  },
-  {
-    "id": "00000000-0000-0000-0000-120000000011",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031008",
-    "targetTypeId": "00000000-0000-0000-0000-000000031005",
-    "role": "is source for",
-    "coRole": "is target of",
-    "description": "",
-    "uniqueKey": "ColumnData Attributeis source foris target of"
   },
   {
     "id": "00000000-0000-0000-0000-120000000008",
@@ -1219,7 +1201,25 @@
     "uniqueKey": "Report AttributeReport Attributeis source foris target of"
   },
   {
-    "id": "4a4331e4-608e-4c68-a6aa-7aac68d652fc",
+    "id": "00000000-0000-0000-0000-120000000011",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031008",
+    "targetTypeId": "00000000-0000-0000-0000-000000031005",
+    "role": "is source for",
+    "coRole": "is target of",
+    "description": "",
+    "uniqueKey": "ColumnData Attributeis source foris target of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000013",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeId": "00000000-0000-0000-0000-090000000003",
+    "role": "is source for",
+    "coRole": "source",
+    "description": "",
+    "uniqueKey": "Data AssetBI Reportis source forsource"
+  },
+  {
+    "id": "50ee6c7c-324b-42e9-8333-67d472417206",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031103",
     "role": "is succeeded by",
@@ -1228,18 +1228,18 @@
     "uniqueKey": "Business ProcessBusiness Processis succeeded byis preceded by"
   },
   {
-    "id": "1a46da3b-5cc2-4a59-8a09-1e19c4cbdfd0",
+    "id": "7aafd0fa-e916-436c-94c7-e76604577c17",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "joint controller",
     "coRole": "is joint controller of",
     "description": "",
     "uniqueKey": "Business ProcessPartyjoint controlleris joint controller of"
   },
   {
-    "id": "cda37cda-c9c2-4c52-84a1-dece78900baa",
+    "id": "8338a9f3-756c-43d1-a910-1ed720f420e5",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
-    "targetTypeId": "3d021a29-9745-44ea-8f83-72ad1526b7ef",
+    "targetTypeId": "b9bfabc0-c2f1-4937-8980-72fd2ed01b33",
     "role": "Location of processing",
     "coRole": "Is location of processing for data sharing agreement",
     "description": "",
@@ -1254,16 +1254,16 @@
     "uniqueKey": "Field MappingMapping Specificationmapping specificationundefined"
   },
   {
-    "id": "0e2a1675-8dde-4780-bb9a-2f326a031406",
-    "sourceTypeId": "2be51eb3-8701-48b5-8e65-1e4b738bbb40",
-    "targetTypeId": "89e3297e-4c6e-4bf4-be5a-76c7a2a22b0c",
+    "id": "3ab09274-e25a-436a-94fd-d583a911ad4b",
+    "sourceTypeId": "fb2f7713-b6a8-4d3e-ad74-1af87b333229",
+    "targetTypeId": "8ab18211-b6fc-44d9-bd24-5af17a65cf7a",
     "role": "mitigates",
     "coRole": "mitigated by",
     "description": "",
     "uniqueKey": "ControlRiskmitigatesmitigated by"
   },
   {
-    "id": "eb07f919-a92b-40ff-b4bf-141b75c02e1b",
+    "id": "12012adb-76e6-474b-b7da-099d9bdaac95",
     "sourceTypeId": "00000000-0000-0000-0001-000400000001",
     "targetTypeId": "00000000-0000-0000-0001-000400000001",
     "role": "Parent of",
@@ -1272,7 +1272,7 @@
     "uniqueKey": "Data SetData SetParent ofChild of"
   },
   {
-    "id": "196ddd74-79a3-4a65-95c6-b529f7068636",
+    "id": "73ecbd4e-0516-40ad-bc4e-41b4d61ec7ed",
     "sourceTypeId": "00000000-0000-0000-0000-000000031105",
     "targetTypeId": "00000000-0000-0000-0000-000000031103",
     "role": "performs",
@@ -1281,25 +1281,25 @@
     "uniqueKey": "Business DimensionBusiness Processperformsis performed by"
   },
   {
-    "id": "df01c4f9-3560-4749-b7d8-7afdc6955b80",
+    "id": "2e53e43c-3d1c-4492-9b0b-60c2a55b7c8b",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "76e8186a-bca8-4bd8-87c8-75775df0d4b1",
+    "targetTypeId": "2af2a0be-5fb8-4408-b77c-a7d255b52b09",
     "role": "processes information about",
     "coRole": "is processed by",
     "description": "",
     "uniqueKey": "Business ProcessData Subject Categoryprocesses information aboutis processed by"
   },
   {
-    "id": "2037dbb6-faf8-4b21-b6f3-7cff6d43bee7",
+    "id": "0f798460-c818-4c99-a942-eec24e61db7e",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "processor",
     "coRole": "is processor of",
     "description": "",
     "uniqueKey": "Business ProcessPartyprocessoris processor of"
   },
   {
-    "id": "652a560d-0aea-45a7-890d-bebe89ebe771",
+    "id": "e5cd7963-5e7c-4ddd-88b7-c46919f540a5",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031002",
     "role": "procures",
@@ -1308,7 +1308,7 @@
     "uniqueKey": "Business ProcessData Assetprocuresis procured by"
   },
   {
-    "id": "6886e65b-b3c5-4bcc-b057-bc331bba8cab",
+    "id": "c00e0f04-cb58-4d77-9275-f841350d8152",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031002",
     "role": "produces",
@@ -1326,8 +1326,8 @@
     "uniqueKey": "Business ProcessBusiness Assetproducesis produced by"
   },
   {
-    "id": "7c362645-63f8-459a-a5a7-5e4482614f7f",
-    "sourceTypeId": "b578cc28-3b29-4c72-9ecb-1ec4864c6aab",
+    "id": "2aca531d-41ef-4559-89e8-b029842208a5",
+    "sourceTypeId": "d1013d37-ff2c-4128-b247-420a778e2508",
     "targetTypeId": "00000000-0000-0000-0001-000400000001",
     "role": "produces",
     "coRole": "is produced by",
@@ -1335,18 +1335,18 @@
     "uniqueKey": "Analytics ModelData Setproducesis produced by"
   },
   {
-    "id": "3b96e7ff-1758-40d9-82de-1fe87f177e0f",
+    "id": "8554d2ea-704b-4a88-b143-cbecde69cada",
     "sourceTypeId": "00000000-0000-0000-0000-000000031002",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "purchased from",
     "coRole": "provided",
     "description": "",
     "uniqueKey": "Data AssetPartypurchased fromprovided"
   },
   {
-    "id": "ec752a09-7dd5-4bc2-8c75-f84d3b055756",
+    "id": "b4722d27-e0e4-4af1-8bac-9a13f7ed87ed",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
-    "targetTypeId": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
+    "targetTypeId": "ffbaa898-b9cc-4b0c-a676-cb36a7ecfa53",
     "role": "Purpose of processing",
     "coRole": "Is purpose of processing for data sharing agreement",
     "description": "",
@@ -1362,25 +1362,16 @@
     "uniqueKey": "Business QualifierAssetqualifiesis qualified by"
   },
   {
-    "id": "8b45a661-1a1a-48bb-ade0-ddb64c9fad93",
+    "id": "1979e41f-9088-41d6-9a72-a8dd88fa01b8",
     "sourceTypeId": "00000000-0000-0000-0000-000000031110",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "receives service/product by",
     "coRole": "provides service/product to",
     "description": "",
     "uniqueKey": "Line of BusinessPartyreceives service/product byprovides service/product to"
   },
   {
-    "id": "fd2a9351-7b58-48ea-9ae3-ee9a9763b04e",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
-    "role": "recipient",
-    "coRole": "is recipient of",
-    "description": "",
-    "uniqueKey": "Business ProcessPartyrecipientis recipient of"
-  },
-  {
-    "id": "6fbf449b-930c-46f3-83e6-0b9e6ae5bd90",
+    "id": "3768c36d-b7a8-4cb5-9ebd-1db55102e612",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031110",
     "role": "recipient",
@@ -1389,7 +1380,16 @@
     "uniqueKey": "Business ProcessLine of Businessrecipientis recipient of"
   },
   {
-    "id": "4aecd3e2-ce4d-4f04-a3f9-9395507d4d27",
+    "id": "4acf229b-4538-42be-825b-b7641bc02b30",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
+    "role": "recipient",
+    "coRole": "is recipient of",
+    "description": "",
+    "uniqueKey": "Business ProcessPartyrecipientis recipient of"
+  },
+  {
+    "id": "6fdcd216-f6a5-41b9-99d9-4a93dbf87bd3",
     "sourceTypeId": "00000000-0000-0000-0000-000000007504",
     "targetTypeId": "00000000-0000-0000-0000-000000031008",
     "role": "references",
@@ -1406,17 +1406,17 @@
     "uniqueKey": "Foreign Key MappingColumnreferencesundefined"
   },
   {
-    "id": "97e438c4-bae9-4b77-b64b-38444e172ff1",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "9afbf55b-58ee-452b-8b81-1bf2c5f6aec2",
+    "id": "3e2678fa-5a65-4f93-82d9-8c4351227f31",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "c52260c3-af18-4cfd-ac50-4536552145e9",
     "role": "refers to",
     "coRole": "refered to by",
     "description": "",
     "uniqueKey": "Security IssueDPIArefers torefered to by"
   },
   {
-    "id": "f519af96-e00b-4a48-82ee-e7f4fe7092d2",
-    "sourceTypeId": "4a9ac553-8b0f-4f67-a136-d5576c0070dd",
+    "id": "db35586a-bcb2-452f-b47b-e07e11afafb9",
+    "sourceTypeId": "64572247-25f5-4f6b-bfbb-84f525513878",
     "targetTypeId": "00000000-0000-0000-0000-000000031000",
     "role": "regulates",
     "coRole": "regulated by",
@@ -1424,40 +1424,22 @@
     "uniqueKey": "RegulationAssetregulatesregulated by"
   },
   {
-    "id": "9895e686-a990-42bf-8855-3c7887b25ab3",
-    "sourceTypeId": "9afbf55b-58ee-452b-8b81-1bf2c5f6aec2",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
-    "role": "related supervisor",
-    "coRole": "is supervisor related to",
-    "description": "",
-    "uniqueKey": "DPIAPartyrelated supervisoris supervisor related to"
-  },
-  {
-    "id": "8dce5ed5-7afc-410f-9caf-a9e5fcdb0bbf",
-    "sourceTypeId": "8fc8cafe-4f8b-4680-955f-ef22ed3572f9",
-    "targetTypeId": "55e13761-8445-45e3-a7d2-9aef7533e7b9",
+    "id": "4a2b7633-3ae6-4348-af42-540cb26151c3",
+    "sourceTypeId": "bcd74093-4b92-4891-89f0-0056390ce967",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
     "role": "related supervisor",
     "coRole": "is supervisor related to",
     "description": "",
     "uniqueKey": "Security IssuePartyrelated supervisoris supervisor related to"
   },
   {
-    "id": "00000000-0000-0000-0000-000000007015",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
-    "targetTypeId": "00000000-0000-0000-0000-000000031000",
-    "role": "related to",
-    "coRole": "impacted by",
+    "id": "5425e594-650d-4bb2-ba9f-548bcafb651a",
+    "sourceTypeId": "c52260c3-af18-4cfd-ac50-4536552145e9",
+    "targetTypeId": "e0bfc806-1c60-47cf-a42a-754bdfe4f2f9",
+    "role": "related supervisor",
+    "coRole": "is supervisor related to",
     "description": "",
-    "uniqueKey": "AssetAssetrelated toimpacted by"
-  },
-  {
-    "id": "00000000-0000-0000-0000-120000000006",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
-    "targetTypeId": "00000000-0000-0000-0000-000000031101",
-    "role": "related to",
-    "coRole": "is impacted by",
-    "description": "",
-    "uniqueKey": "ReportBusiness Assetrelated tois impacted by"
+    "uniqueKey": "DPIAPartyrelated supervisoris supervisor related to"
   },
   {
     "id": "00000000-0000-0000-0000-000000007064",
@@ -1469,31 +1451,22 @@
     "uniqueKey": "Data SetBusiness Assetrelated toimpacted by"
   },
   {
-    "id": "21da7535-5d55-47d8-ae30-eb83e58b26c8",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
-    "targetTypeId": "00000000-0000-0000-0000-000000031007",
-    "role": "represents",
-    "coRole": "is represented by",
+    "id": "00000000-0000-0000-0000-120000000006",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "role": "related to",
+    "coRole": "is impacted by",
     "description": "",
-    "uniqueKey": "Data AssetTablerepresentsis represented by"
+    "uniqueKey": "ReportBusiness Assetrelated tois impacted by"
   },
   {
-    "id": "e8345e20-4f72-4fb3-83dc-d4da3568027e",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
-    "targetTypeId": "00000000-0000-0000-0000-000000031007",
-    "role": "represents",
-    "coRole": "is represented by",
+    "id": "00000000-0000-0000-0000-000000007015",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "role": "related to",
+    "coRole": "impacted by",
     "description": "",
-    "uniqueKey": "Data EntityTablerepresentsis represented by"
-  },
-  {
-    "id": "00000000-0000-0000-0000-000000007038",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031101",
-    "targetTypeId": "00000000-0000-0000-0000-000000031002",
-    "role": "represents",
-    "coRole": "represented by",
-    "description": "",
-    "uniqueKey": "Business AssetData Assetrepresentsrepresented by"
+    "uniqueKey": "AssetAssetrelated toimpacted by"
   },
   {
     "id": "00000000-0000-0000-0000-000000007094",
@@ -1505,7 +1478,34 @@
     "uniqueKey": "Data AttributeColumnrepresentsrepresented by"
   },
   {
-    "id": "a1558bac-5c38-4828-888a-9fe9793ab65c",
+    "id": "00000000-0000-0000-0000-000000007038",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "role": "represents",
+    "coRole": "represented by",
+    "description": "",
+    "uniqueKey": "Business AssetData Assetrepresentsrepresented by"
+  },
+  {
+    "id": "c375108e-66a2-4c93-898c-bda1fff7f4a4",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "role": "represents",
+    "coRole": "is represented by",
+    "description": "",
+    "uniqueKey": "Data AssetTablerepresentsis represented by"
+  },
+  {
+    "id": "86cfaaa8-1d89-415e-8d6f-acdb820e2fc1",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "role": "represents",
+    "coRole": "is represented by",
+    "description": "",
+    "uniqueKey": "Data EntityTablerepresentsis represented by"
+  },
+  {
+    "id": "28d6dc11-3fd1-4a6b-a928-6836fae6ad9b",
     "sourceTypeId": "00000000-0000-0000-0000-000000031103",
     "targetTypeId": "00000000-0000-0000-0000-000000031201",
     "role": "required by",
@@ -1523,35 +1523,35 @@
     "uniqueKey": "Governance AssetIssueresolvesresolved by"
   },
   {
-    "id": "ffef0e15-5a81-4df0-9f97-09e43d080a98",
-    "sourceTypeId": "6d03ba57-249c-4688-b2e6-597b67384785",
-    "targetTypeId": "0f5a9e61-5344-4af9-8111-6d00d60f03e8",
+    "id": "30304ccd-85df-42ea-a02d-35597818616c",
+    "sourceTypeId": "e80e9d83-339c-4b26-98fb-98e1efde32e0",
+    "targetTypeId": "11e1d3d4-e42a-46a3-aa25-c7b1e1826f28",
     "role": "resulting remediation",
     "coRole": "remediates",
     "description": "",
     "uniqueKey": "AssessmentRemediation Actionresulting remediationremediates"
   },
   {
-    "id": "9914b581-ef0d-479c-aafe-ce63d9f35a2d",
-    "sourceTypeId": "6d03ba57-249c-4688-b2e6-597b67384785",
-    "targetTypeId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "id": "284f072b-032d-49f2-ac0d-cc693d2b4ef5",
+    "sourceTypeId": "e80e9d83-339c-4b26-98fb-98e1efde32e0",
+    "targetTypeId": "21fd36a5-33dc-47d0-920f-f465f1ef27c6",
     "role": "resulting remediations",
     "coRole": "remediates",
     "description": "",
     "uniqueKey": "AssessmentRemediation Planresulting remediationsremediates"
   },
   {
-    "id": "c85e6540-e99e-48db-94f6-6a3e42bbfaec",
-    "sourceTypeId": "20081082-ae3e-42db-8cde-f938a3e529d6",
-    "targetTypeId": "6d03ba57-249c-4688-b2e6-597b67384785",
+    "id": "d35b9f9a-c3a4-489a-851c-0f14e29ad417",
+    "sourceTypeId": "977e477a-664a-4a3a-bb10-1f34e18f2cf8",
+    "targetTypeId": "e80e9d83-339c-4b26-98fb-98e1efde32e0",
     "role": "results from",
     "coRole": "relevant safeguards",
     "description": "",
     "uniqueKey": "SafeguardAssessmentresults fromrelevant safeguards"
   },
   {
-    "id": "9b086bd0-abbc-42ba-b814-4fa5bd63e228",
-    "sourceTypeId": "67c5bc43-dc21-4bd2-84f6-f26c26a57925",
+    "id": "0f2e0bef-482f-45ab-8e4b-258a9973da1a",
+    "sourceTypeId": "80d7b465-c750-48f1-bd2a-f76819ca828e",
     "targetTypeId": "00000000-0000-0000-0000-000000021001",
     "role": "Revision frequency",
     "coRole": "Determines revision frequency for",
@@ -1559,22 +1559,21 @@
     "uniqueKey": "Time-based Review RuleCode ValueRevision frequencyDetermines revision frequency for"
   },
   {
-    "id": "3cbc92c2-5234-4803-bc7c-5c23a78c127a",
+    "id": "b217ce05-7cc5-426c-be38-980eeb2f4434",
     "sourceTypeId": "00000000-0000-0000-0000-000000031231",
-    "targetTypeId": "20081082-ae3e-42db-8cde-f938a3e529d6",
+    "targetTypeId": "977e477a-664a-4a3a-bb10-1f34e18f2cf8",
     "role": "Safeguards for processing outside the EEA",
     "coRole": "Ensures legal compliance of",
     "description": "",
     "uniqueKey": "Data Sharing AgreementSafeguardSafeguards for processing outside the EEAEnsures legal compliance of"
   },
   {
-    "id": "00000000-0000-0000-0000-120000000003",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
-    "targetTypeId": "00000000-0000-0000-0000-000000031302",
+    "id": "00000000-0000-0000-0000-000000007088",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007502",
+    "targetTypeId": "00000000-0000-0000-0000-000000031026",
     "role": "source",
-    "coRole": "is source of",
     "description": "",
-    "uniqueKey": "Business DimensionSystemsourceis source of"
+    "uniqueKey": "Field MappingData Elementsourceundefined"
   },
   {
     "id": "00000000-0000-0000-0000-000000007080",
@@ -1585,12 +1584,13 @@
     "uniqueKey": "Code MappingCode Valuesourceundefined"
   },
   {
-    "id": "00000000-0000-0000-0000-000000007088",
-    "sourceTypeId": "00000000-0000-0000-0000-000000007502",
-    "targetTypeId": "00000000-0000-0000-0000-000000031026",
+    "id": "00000000-0000-0000-0000-120000000003",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "targetTypeId": "00000000-0000-0000-0000-000000031302",
     "role": "source",
+    "coRole": "is source of",
     "description": "",
-    "uniqueKey": "Field MappingData Elementsourceundefined"
+    "uniqueKey": "Business DimensionSystemsourceis source of"
   },
   {
     "id": "00000000-0000-0000-0000-000000007026",
@@ -1611,6 +1611,15 @@
     "uniqueKey": "Data StructureMapping Specificationsource ofsource"
   },
   {
+    "id": "62ce2091-6273-481f-b7e9-05bcafd7ecfa",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "role": "source system for",
+    "coRole": "source system",
+    "description": "",
+    "uniqueKey": "Technology AssetBusiness Assetsource system forsource system"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000007050",
     "sourceTypeId": "00000000-0000-0000-0000-000000031301",
     "targetTypeId": "00000000-0000-0000-0000-000000031002",
@@ -1618,15 +1627,6 @@
     "coRole": "source system",
     "description": "",
     "uniqueKey": "Technology AssetData Assetsource system forsource system"
-  },
-  {
-    "id": "1096f49d-26d2-468d-b6f1-378463465b74",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
-    "targetTypeId": "00000000-0000-0000-0000-000000031101",
-    "role": "source system for",
-    "coRole": "source system",
-    "description": "",
-    "uniqueKey": "Technology AssetBusiness Assetsource system forsource system"
   },
   {
     "id": "00000000-0000-0000-0000-000000007036",
@@ -1656,22 +1656,31 @@
     "uniqueKey": "AssetAssetspecializesgeneralizes"
   },
   {
-    "id": "67607213-9f8e-42d7-a52d-4f03280ce882",
-    "sourceTypeId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
-    "targetTypeId": "5abc98a7-c8cc-472b-b14b-1ebb4793c971",
+    "id": "029515a5-a752-47bc-a6ea-2428ca5063b1",
+    "sourceTypeId": "21fd36a5-33dc-47d0-920f-f465f1ef27c6",
+    "targetTypeId": "21fd36a5-33dc-47d0-920f-f465f1ef27c6",
     "role": "succeeding actions/plans",
     "coRole": "preceding actions/plans",
     "description": "",
     "uniqueKey": "Remediation PlanRemediation Plansucceeding actions/planspreceding actions/plans"
   },
   {
-    "id": "fb90a958-9df1-4787-9806-a567dc51ee46",
+    "id": "71ffd70b-f29e-49ad-b0a5-1ead7ab9e489",
     "sourceTypeId": "00000000-0000-0000-0000-000000031105",
     "targetTypeId": "00000000-0000-0000-0000-000000031105",
     "role": "successor",
     "coRole": "predecessor",
     "description": "",
     "uniqueKey": "Business DimensionBusiness Dimensionsuccessorpredecessor"
+  },
+  {
+    "id": "7796d7cf-6dc5-44a7-b37c-c60e26e2c7f3",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031104",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "role": "synonym",
+    "coRole": "synonym for",
+    "description": "",
+    "uniqueKey": "MeasureBusiness Termsynonymsynonym for"
   },
   {
     "id": "00000000-0000-0000-0000-000000007001",
@@ -1681,15 +1690,6 @@
     "coRole": "synonym of",
     "description": "",
     "uniqueKey": "Business TermBusiness Termsynonymsynonym of"
-  },
-  {
-    "id": "29889fcd-f8dc-41b5-9037-251e1f07f53c",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031104",
-    "targetTypeId": "00000000-0000-0000-0000-000000011001",
-    "role": "synonym",
-    "coRole": "synonym for",
-    "description": "",
-    "uniqueKey": "MeasureBusiness Termsynonymsynonym for"
   },
   {
     "id": "00000000-0000-0000-0000-000000007048",
@@ -1710,15 +1710,6 @@
     "uniqueKey": "Technology AssetBusiness Termsystem of record forsystem of record"
   },
   {
-    "id": "00000000-0000-0000-0000-000000007035",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
-    "targetTypeId": "00000000-0000-0000-0000-000000011001",
-    "role": "system of use for",
-    "coRole": "system of use",
-    "description": "",
-    "uniqueKey": "Technology AssetBusiness Termsystem of use forsystem of use"
-  },
-  {
     "id": "00000000-0000-0000-0000-000000007049",
     "sourceTypeId": "00000000-0000-0000-0000-000000031301",
     "targetTypeId": "00000000-0000-0000-0000-000000031002",
@@ -1726,6 +1717,15 @@
     "coRole": "system of use",
     "description": "",
     "uniqueKey": "Technology AssetData Assetsystem of use forsystem of use"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007035",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "role": "system of use for",
+    "coRole": "system of use",
+    "description": "",
+    "uniqueKey": "Technology AssetBusiness Termsystem of use forsystem of use"
   },
   {
     "id": "00000000-0000-0000-0000-000000007087",
@@ -1770,7 +1770,7 @@
     "uniqueKey": "Data StructureMapping Specificationtarget oftarget"
   },
   {
-    "id": "557219db-f4f8-4832-bf38-a6b51022acea",
+    "id": "855953ff-e3c3-4ab6-92a1-ca17f1de9d16",
     "sourceTypeId": "00000000-0000-0000-0000-000000031301",
     "targetTypeId": "00000000-0000-0000-0000-000000031101",
     "role": "target system for",
@@ -1796,30 +1796,13 @@
     "uniqueKey": "Data UsageBusiness Assetused inundefined"
   },
   {
-    "id": "4d61a5dc-afba-4722-994b-c2c6b7903d78",
-    "sourceTypeId": "28533b74-039f-4ab8-b022-6abdb7a0f0d8",
-    "targetTypeId": "72f89291-d85e-460a-a7c8-5f1fc246dd06",
+    "id": "e46bb394-df81-4f8f-8e0d-719224f917e5",
+    "sourceTypeId": "63fd37c2-9791-4a80-bc04-1a329de2f459",
+    "targetTypeId": "ffbaa898-b9cc-4b0c-a676-cb36a7ecfa53",
     "role": "used in",
     "coRole": "applied",
     "description": "",
     "uniqueKey": "Ikea ChairPurposeused inapplied"
-  },
-  {
-    "id": "00000000-0000-0000-0000-120000000007",
-    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
-    "targetTypeId": "00000000-0000-0000-0000-000000031102",
-    "role": "uses",
-    "coRole": "used in",
-    "description": "",
-    "uniqueKey": "ReportReportusesused in"
-  },
-  {
-    "id": "00000000-0000-0000-0000-000000007083",
-    "sourceTypeId": "00000000-0000-0000-0000-000000007501",
-    "targetTypeId": "00000000-0000-0000-0000-000000031002",
-    "role": "uses",
-    "description": "",
-    "uniqueKey": "Data UsageData Assetusesundefined"
   },
   {
     "id": "00000000-0000-0000-0000-120000000012",
@@ -1831,6 +1814,15 @@
     "uniqueKey": "ReportReport Attributeusesused in"
   },
   {
+    "id": "00000000-0000-0000-0000-120000000007",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "targetTypeId": "00000000-0000-0000-0000-000000031102",
+    "role": "uses",
+    "coRole": "used in",
+    "description": "",
+    "uniqueKey": "ReportReportusesused in"
+  },
+  {
     "id": "00000000-0000-0000-0000-000000007004",
     "sourceTypeId": "00000000-0000-0000-0000-000000031000",
     "targetTypeId": "00000000-0000-0000-0000-000000031000",
@@ -1838,6 +1830,14 @@
     "coRole": "used in",
     "description": "",
     "uniqueKey": "AssetAssetusesused in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007083",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007501",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "role": "uses",
+    "description": "",
+    "uniqueKey": "Data UsageData Assetusesundefined"
   },
   {
     "id": "00000000-0000-0000-0000-120000000021",
@@ -1849,7 +1849,7 @@
     "uniqueKey": "ReportData Attributeusesused in"
   },
   {
-    "id": "2ce33b98-aeae-48c2-bf0c-d9aeb8f3ac0b",
+    "id": "86c275f2-269e-4798-938a-ea9c7c8f6daa",
     "sourceTypeId": "00000000-0000-0000-0000-000000031101",
     "targetTypeId": "00000000-0000-0000-0000-000000031301",
     "role": "utilizes",
