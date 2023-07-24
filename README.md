@@ -1,5 +1,5 @@
 # TheTransporter2
-Alpha - Kinda working
+Beta - Working GraphQL
 
 npm install
 
