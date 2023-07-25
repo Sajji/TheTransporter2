@@ -4,7 +4,7 @@ const lookupNewId = require('../../lookupUtils');
 
 async function createAllAttributesFiles() {
   const sourceDirectory = '../../sourceBackups/gqlData';
-  const targetDirectory = '../readyTopost/attributeFiles';
+  const targetDirectory = '../readyToPOST/attributeFiles';
   const mappingArrayFile = '../../operatingModelMappings/attributeTypeMappings.json';
 
   try {

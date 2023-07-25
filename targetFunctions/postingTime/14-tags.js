@@ -35,7 +35,7 @@ async function createallTagsFile() {
   
       const sourceArray = allTags;
   
-      const outputFile = '../readyTopost/post-allTags.json';
+      const outputFile = '../readyToPOST/post-allTags.json';
       await fs.promises.writeFile(outputFile, JSON.stringify(sourceArray, null, 2));
   
       console.log(`Created ${outputFile}`);

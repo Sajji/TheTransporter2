@@ -4,7 +4,7 @@ const lookupNewId = require('../../lookupUtils');
 
 async function createAllRelationsFile() {
   const sourceDirectory = '../../sourceBackups/gqlData';
-  const targetFile = '../readyTopost/post-allRelations.json';
+  const targetFile = '../readyToPOST/post-allRelations.json';
   const mappingArrayFile = '../../operatingModelMappings/relationTypeMappings.json';
 
   try {

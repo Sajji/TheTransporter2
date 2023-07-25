@@ -22,7 +22,7 @@ async function createAllRelationsFileNonGQL() {
     const mappingArrayFile = '../../operatingModelMappings/assetTypeMapping.json';
     const mappingArray = JSON.parse(fs.readFileSync(mappingArrayFile, 'utf8'));
     const updatedArray = await lookupNewId(sourceArray, 'typeId', mappingArray, 'targetId');
-    await fs.promises.writeFile('../readyTopost/allRelations.json', JSON.stringify(updatedArray, null, 2));
+    await fs.promises.writeFile('../readyToPOST/allRelations.json', JSON.stringify(updatedArray, null, 2));
 
     console.log('allRelations.json file created successfully.');
   } catch (error) {

@@ -39,7 +39,7 @@ async function createAllAssetsFile() {
     const mappingArray = JSON.parse(fs.readFileSync(mappingArrayFile, 'utf8'));
     const updatedArray = await lookupNewId(sourceArray, 'typeId', mappingArray, 'targetId');
 
-    const outputFile = '../readyTopost/post-allAssets.json';
+    const outputFile = '../readyToPOST/post-allAssets.json';
     await fs.promises.writeFile(outputFile, JSON.stringify(updatedArray, null, 2));
 
     console.log(`Created ${outputFile}`);

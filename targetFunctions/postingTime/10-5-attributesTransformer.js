@@ -27,7 +27,7 @@ async function updateAttributeTypeIds() {
     const mappingArray = JSON.parse(fs.readFileSync(mappingArrayFile, 'utf8'));
     const updatedArray = await lookupNewId(sourceArray, 'typeId', mappingArray, 'targetId');
 
-    await fs.promises.writeFile('../readyTopost/allAttributes.json', JSON.stringify(updatedArray, null, 2));
+    await fs.promises.writeFile('../readyToPOST/allAttributes.json', JSON.stringify(updatedArray, null, 2));
 
     console.log('allAttributes.json file created successfully.');
   } catch (error) {

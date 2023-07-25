@@ -29,7 +29,7 @@ async function createAllAttributeTypesFile() {
 
     const attributeTypes = Array.from(attributeTypesMap.values());
 
-    await fs.promises.writeFile('../readyTopost/allAttributeTypes.json', JSON.stringify(attributeTypes, null, 2));
+    await fs.promises.writeFile('../readyToPOST/allAttributeTypes.json', JSON.stringify(attributeTypes, null, 2));
 
     console.log('allAttributeTypes.json file created successfully.');
   } catch (error) {
