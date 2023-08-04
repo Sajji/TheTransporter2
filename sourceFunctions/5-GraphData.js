@@ -4,14 +4,14 @@ const axios = require('axios');
 const sourceSystem = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 const baseGraphql = sourceSystem.baseGraphql;
 
-async function fetchGraphQLData(domainName) {
+async function fetchGraphQLData(domainId) {
   const endpoint = sourceSystem.sourceSystem.baseGraphql;
   const username = sourceSystem.sourceSystem.username;
   const password = sourceSystem.sourceSystem.password;
 
   const query = `
   query {
-    assets(where: { domain: { name: { eq: "${domainName}" } } }, limit: -1) {
+    assets(where: { domain: { id: { eq: "${domainId}" } } }, limit: -1) {
       id
       name: fullName
       type {
@@ -105,10 +105,10 @@ async function getGraphQLData(folderName) {
   try {
     const domainList = require('../sourceBackups/domains.json');
 
-    for (const domainName of domainList) {
-      console.log(domainName.name);
+    for (const domain of domainList) {
+      console.log(domain.name);
       const allData = [];
-      const responseData = await fetchGraphQLData(domainName.name);
+      const responseData = await fetchGraphQLData(domain.id);
       if (!responseData) {
         continue; // Skip to the next domain if no response data
       }
@@ -165,7 +165,7 @@ async function getGraphQLData(folderName) {
       });
 
       // Write the data to separate files for each domain
-      const domainDataPath = `./${folderName}/assets_${domainName.name}.json`;
+      const domainDataPath = `./${folderName}/assets_${domain.name}.json`;
       const allDataOutput = JSON.stringify(allData, null, 2);
 
       fs.writeFileSync(domainDataPath, allDataOutput);
