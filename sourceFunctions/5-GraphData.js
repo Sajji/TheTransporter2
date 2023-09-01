@@ -11,7 +11,10 @@ async function fetchGraphQLData(domainId) {
 
   const query = `
   query {
-    assets(where: { domain: { id: { eq: "${domainId}" } } }, limit: -1) {
+    assets(
+      where: { domain: { id: { eq: "${domainId}" } } }
+      limit: -1
+    ) {
       id
       name: fullName
       type {
@@ -26,29 +29,47 @@ async function fetchGraphQLData(domainId) {
           name
         }
       }
-  
-      attributes(limit: -1) {
+      stringAttributes(limit: -1) {
         id
         type {
           id
           name
         }
-        ... on StringAttribute {
-          stringValue
-        }
-        ... on BooleanAttribute {
-          booleanValue
-        }
-        ... on NumericAttribute {
-          numericValue
-        }
-        ... on DateAttribute {
-          dateValue
-        }
-        ... on MultiValueAttribute {
-          stringValues
-        }
+        stringValue
       }
+      numericAttributes(limit: -1) {
+        id
+        type {
+          id
+          name
+        }
+        numericValue
+      }
+      multiValueAttributes(limit: -1) {
+        id
+        type {
+          id
+          name
+        }
+        stringValues
+      }
+      dateAttributes(limit: -1) {
+        id
+        type {
+          id
+          name
+        }
+        dateValue
+      }
+      booleanAttributes(limit: -1) {
+        id
+        type {
+          id
+          name
+        }
+        booleanValue
+      }
+  
       outgoingRelations(limit: -1) {
         id
         type {
@@ -83,6 +104,7 @@ async function fetchGraphQLData(domainId) {
       }
     }
   }
+  
   `;
 
   try {
@@ -123,27 +145,25 @@ async function getGraphQLData(folderName) {
           typeName: asset.type.name
         };
 
-        const attributes = asset.attributes?.map(attribute => {
+        const processAttributes = (attributes, valueType) => {
+          return attributes.map(attribute => {
+            return {
+              assetId: asset.id,
+              id: attribute.id,
+              typeId: attribute.type.id,
+              name: attribute.type.name,
+              [valueType]: attribute[valueType]
+            };
+          });
+        };
 
-          const attributeType = {
-            id: attribute.type.id,
-            name: attribute.type.name,
-
-          };
-
-
-          return {
-            assetId: asset.id,
-            id: attribute.id,
-            typeId: attributeType.id,
-            name: attributeType.name,
-            booleanValue: attribute.booleanValue,
-            stringValue: attribute.stringValue,
-            numericValue: attribute.numericValue,
-            dateValue: attribute.dateValue,
-            stringValues: attribute.stringValues
-          };
-        });
+        const attributes = [
+          ...processAttributes(asset.stringAttributes, 'stringValue'),
+          ...processAttributes(asset.numericAttributes, 'numericValue'),
+          ...processAttributes(asset.multiValueAttributes, 'stringValues'),
+          ...processAttributes(asset.dateAttributes, 'dateValue'),
+          ...processAttributes(asset.booleanAttributes, 'booleanValue')
+        ];
   
         const relations = [
           ...asset.outgoingRelations,
