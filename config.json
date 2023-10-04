@@ -1,18 +1,18 @@
 {
     "sourceSystem": {
-      "baseURL": "https://fedworld.collibra.com/rest/2.0/",
+      "baseURL": "https://SOURCE/rest/2.0/",
       "username": "SysAdmin",
-      "password": "gomer",
+      "password": "********",
       "communities": [
         "1.Data"
       ],
       "useGraphQl": true,
-      "baseGraphql": "https://fedworld.collibra.com/graphql/knowledgeGraph/v1"
+      "baseGraphql": "https://SOURCE/graphql/knowledgeGraph/v1"
     },
     "targetSystem": {
-      "baseURL": "https://federal.collibra.com/rest/2.0/",
+      "baseURL": "https://TARGET/rest/2.0/",
       "username": "admin",
-      "password": "admin",
+      "password": "********",
       "endpoints": [
         "communities",
         "domains",
